@@ -50,8 +50,8 @@ The code itself has been created with the name_availablity.plist inside the SF S
 ```swift
 public enum SFSymbol:String  // this enum will be generated
 {
-    @available(iOS 13.0,macOS 10.15,tvOS 13.0,watchOS 6.0,*) case `_0_circle`
-    @available(iOS 13.0,macOS 10.15,tvOS 13.0,watchOS 6.0,*) case `_0_circle_fill`
+    @available(iOS 13.0,macOS 10.15,tvOS 13.0,watchOS 6.0,*) case `_0_circle` = "0.circle"
+    @available(iOS 13.0,macOS 10.15,tvOS 13.0,watchOS 6.0,*) case `_0_circle_fill` = "0.circle.fill"
 ...
 }
 
