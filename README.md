@@ -8,6 +8,20 @@ Image(systemImage:.person)
 Label("Text",systemImage:.zl_rectangle_roundedtop_fill)
 ```
 
+Or to see a list of all available symbols
+```swift
+struct SwiftUIView: View {
+    var body: some View {
+        VStack {
+            List(SFSymbol.allCases,id:\.name) { symbol in
+                Label(symbol.name,systemImage:symbol)
+            }
+        }
+    }
+}
+```
+<img src="Images/Example.png" width="300" style="max-width: 50%; display: block; margin-left: auto; margin-right: auto;" /> 
+
 ## Advantages
 
 - Compiler warning when you mistype a SFSymbol name
