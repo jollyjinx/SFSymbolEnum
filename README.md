@@ -28,11 +28,11 @@ struct SwiftUIView: View {
 - Autocompletion and suggestion for all SFSymbols
 - Images are *available* depening on os and version like this:
 
-<img src="Images/Example.availableError.png" /> 
+<img src="Images/Example.availableError.png" width="500" style="max-width: 100%; display: block; margin-left: auto; margin-right: auto;" /> 
 
 ## Installation
 
-- Add the package to your project.
+- Add the package to your project: Xcode->Add Package Dependency add this url: https://github.com/jollyjinx/SFSymbolEnum
 - Import in files like this:
 ```swift 
      import SFSymbolEnum
