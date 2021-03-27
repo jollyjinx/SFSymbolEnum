@@ -20,13 +20,15 @@ struct SwiftUIView: View {
     }
 }
 ```
-<img src="Images/Example.png" width="300" style="max-width: 50%; display: block; margin-left: auto; margin-right: auto;" /> 
+<img src="Images/Example.allCases.png" width="300" style="max-width: 50%; display: block; margin-left: auto; margin-right: auto;" /> 
 
 ## Advantages
 
 - Compiler warning when you mistype a SFSymbol name
 - Autocompletion and suggestion for all SFSymbols
-- Images are *available* depening on os and version
+- Images are *available* depening on os and version like this:
+
+<img src="Images/Example.availableError.png" /> 
 
 ## Installation
 
