@@ -24,8 +24,12 @@ struct SwiftUIView: View {
 
 ## Advantages
 
-- Compiler warning when you mistype a SFSymbol name
-- Autocompletion and suggestion for all SFSymbols
+- Compiler error when you mistype a SFSymbol name
+- Autocompletion and suggestion for all SFSymbols:
+
+<img src="Images/Example.completion.png" width="500" style="max-width: 100%; display: block; margin-left: auto; margin-right: auto;" /> 
+
+
 - Images are *available* depening on os and version like this:
 
 <img src="Images/Example.availableError.png" width="500" style="max-width: 100%; display: block; margin-left: auto; margin-right: auto;" /> 
