@@ -12,28 +12,27 @@ my $year_to_release = $$sfSymbols{year_to_release};
 my $symbols = $$sfSymbols{symbols};
 
 printHeader();
-printSymbols();
+printCases();
 printFooter();
 
 printCaseIterableExtension();
 
 exit;
 
-sub printSymbols
+sub symbolsSortedByYearAndName
 {
+    my @symbolnames;
+
     for my $availableyear (sort keys %{$year_to_release})
     {
         for my $symbol (sort keys %{$symbols})
         {
             next if $availableyear ne $$symbols{$symbol};
 
-            my $replacementname = $symbol;
-            $replacementname =~ s/\./_/g;
-            $replacementname =~ s/^(\d)/_\1/;
-            $replacementname = '`'.$replacementname.'`';
-            print '    @available'.availabilityString($availableyear).' case '.$replacementname.' = "'.$symbol.'"'."\n";
+            push(@symbolnames,\[$symbol,availabilityString($availableyear),replacementSymbolName($symbol)]);
         }
     }
+    return @symbolnames;
 }
 
 sub availabilityString
@@ -42,6 +41,28 @@ sub availabilityString
 
     my $available = $$year_to_release{$availableyear};
     return '('. join(',',(map { $_.' '.$$available{$_} } sort keys %{$available})) .',*)';
+}
+
+sub replacementSymbolName
+{
+    my($symbolname) = @_;
+
+    my  $replacementname = $symbolname;
+        $replacementname =~ s/^(\d)/number$1/;
+        $replacementname =~ s{\.(\w)}{ uc($1) }gex;
+        $replacementname = '`'.$replacementname.'`' if $replacementname =~ m/^(?:return|repeat|case|if)$/;
+    return $replacementname;
+}
+
+
+sub printCases
+{
+    for my $sortedsymbol (symbolsSortedByYearAndName())
+    {
+        my($symbolname,$availability,$replacement) = @{$$sortedsymbol};
+
+        print '    @available'.$availability.' case '.$replacement.' = "'.$symbolname.'"'."\n";
+    }
 }
 
 sub printHeader
@@ -75,18 +96,12 @@ extension SFSymbol:CaseIterable
                 var allCases:[SFSymbol] = []
 EOF
 
-    for my $availableyear (sort keys %{$year_to_release})
+    for my $sortedsymbol (symbolsSortedByYearAndName())
     {
-        for my $symbol (sort keys %{$symbols})
-        {
-            next if $availableyear ne $$symbols{$symbol};
+        my($symbolname,$availability,$replacement) = @{$$sortedsymbol};
 
-            my $replacementname = $symbol;
-            $replacementname =~ s/\./_/g;
-            $replacementname =~ s/^(\d)/_\1/;
-            $replacementname = '`'.$replacementname.'`';
-            print '    if #available'.availabilityString($availableyear).'{ allCases.append(SFSymbol.'.$replacementname.') }'."\n";
-        }
+        print '        if #available'.$availability.'{ allCases.append(SFSymbol.'.$replacement.') }'."\n";
     }
-    print "    return allCases\n\t}\n}\n";
+
+    print "    return allCases\n    }\n}\n";
 }
