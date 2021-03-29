@@ -14,6 +14,13 @@ public func Image(systemName symbol:SFSymbol) -> Image
     return Image(systemName:symbol.name)
 }
 
+@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, *)
+public func Image(symbol:SFSymbol) -> Image
+{
+    return Image(systemName:symbol.name)
+}
+
+
 @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
 public func Label(_ title:String, systemImage symbol:SFSymbol) -> Label<Text, Image>
 {
