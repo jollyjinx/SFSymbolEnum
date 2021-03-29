@@ -1,9 +1,8 @@
 // this file has been generated
-// you can recreate it using generateSFSymbolEnum.perl script
-//
+// you can recreate it using generateSFSymbolEnum.swift script
 import SwiftUI
 
-public enum SFSymbol:String  // this enum will be generated
+public enum SFSymbol:String
 {
     @available(iOS 13.0,macOS 10.15,tvOS 13.0,watchOS 6.0,*) case number0Circle = "0.circle"
     @available(iOS 13.0,macOS 10.15,tvOS 13.0,watchOS 6.0,*) case number0CircleFill = "0.circle.fill"
