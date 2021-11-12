@@ -3747,6 +3747,19 @@ public enum SFSymbol:String
     @available(iOS 15.0,macOS 12.0,tvOS 15.0,watchOS 8.0,*) case wifiSquareFill = "wifi.square.fill"
     @available(iOS 15.0,macOS 12.0,tvOS 15.0,watchOS 8.0,*) case xmarkApp = "xmark.app"
     @available(iOS 15.0,macOS 12.0,tvOS 15.0,watchOS 8.0,*) case xmarkAppFill = "xmark.app.fill"
+    @available(iOS 15.1,macOS 12.0,tvOS 15.1,watchOS 8.1,*) case boltRingClosed = "bolt.ring.closed"
+    @available(iOS 15.1,macOS 12.0,tvOS 15.1,watchOS 8.1,*) case platterFilledBottomAndArrowDownIphone = "platter.filled.bottom.and.arrow.down.iphone"
+    @available(iOS 15.1,macOS 12.0,tvOS 15.1,watchOS 8.1,*) case platterFilledBottomIphone = "platter.filled.bottom.iphone"
+    @available(iOS 15.1,macOS 12.0,tvOS 15.1,watchOS 8.1,*) case platterFilledTopAndArrowUpIphone = "platter.filled.top.and.arrow.up.iphone"
+    @available(iOS 15.1,macOS 12.0,tvOS 15.1,watchOS 8.1,*) case platterFilledTopIphone = "platter.filled.top.iphone"
+    @available(iOS 15.1,macOS 12.0,tvOS 15.1,watchOS 8.1,*) case square3Layers3dDownBackward = "square.3.layers.3d.down.backward"
+    @available(iOS 15.1,macOS 12.0,tvOS 15.1,watchOS 8.1,*) case square3Layers3dDownForward = "square.3.layers.3d.down.forward"
+    @available(iOS 15.1,macOS 12.0,tvOS 15.1,watchOS 8.1,*) case square3Layers3dDownLeft = "square.3.layers.3d.down.left"
+    @available(iOS 15.1,macOS 12.0,tvOS 15.1,watchOS 8.1,*) case square3Layers3dDownRight = "square.3.layers.3d.down.right"
+    @available(iOS 15.1,macOS 12.0,tvOS 15.1,watchOS 8.1,*) case textJustifyLeading = "text.justify.leading"
+    @available(iOS 15.1,macOS 12.0,tvOS 15.1,watchOS 8.1,*) case textJustifyLeft = "text.justify.left"
+    @available(iOS 15.1,macOS 12.0,tvOS 15.1,watchOS 8.1,*) case textJustifyRight = "text.justify.right"
+    @available(iOS 15.1,macOS 12.0,tvOS 15.1,watchOS 8.1,*) case textJustifyTrailing = "text.justify.trailing"
 }
 extension SFSymbol:CaseIterable
 {
@@ -7495,6 +7508,19 @@ extension SFSymbol:CaseIterable
         if #available(iOS 15.0,macOS 12.0,tvOS 15.0,watchOS 8.0,*){ allCases.append(SFSymbol.wifiSquareFill) }
         if #available(iOS 15.0,macOS 12.0,tvOS 15.0,watchOS 8.0,*){ allCases.append(SFSymbol.xmarkApp) }
         if #available(iOS 15.0,macOS 12.0,tvOS 15.0,watchOS 8.0,*){ allCases.append(SFSymbol.xmarkAppFill) }
+        if #available(iOS 15.1,macOS 12.0,tvOS 15.1,watchOS 8.1,*){ allCases.append(SFSymbol.boltRingClosed) }
+        if #available(iOS 15.1,macOS 12.0,tvOS 15.1,watchOS 8.1,*){ allCases.append(SFSymbol.platterFilledBottomAndArrowDownIphone) }
+        if #available(iOS 15.1,macOS 12.0,tvOS 15.1,watchOS 8.1,*){ allCases.append(SFSymbol.platterFilledBottomIphone) }
+        if #available(iOS 15.1,macOS 12.0,tvOS 15.1,watchOS 8.1,*){ allCases.append(SFSymbol.platterFilledTopAndArrowUpIphone) }
+        if #available(iOS 15.1,macOS 12.0,tvOS 15.1,watchOS 8.1,*){ allCases.append(SFSymbol.platterFilledTopIphone) }
+        if #available(iOS 15.1,macOS 12.0,tvOS 15.1,watchOS 8.1,*){ allCases.append(SFSymbol.square3Layers3dDownBackward) }
+        if #available(iOS 15.1,macOS 12.0,tvOS 15.1,watchOS 8.1,*){ allCases.append(SFSymbol.square3Layers3dDownForward) }
+        if #available(iOS 15.1,macOS 12.0,tvOS 15.1,watchOS 8.1,*){ allCases.append(SFSymbol.square3Layers3dDownLeft) }
+        if #available(iOS 15.1,macOS 12.0,tvOS 15.1,watchOS 8.1,*){ allCases.append(SFSymbol.square3Layers3dDownRight) }
+        if #available(iOS 15.1,macOS 12.0,tvOS 15.1,watchOS 8.1,*){ allCases.append(SFSymbol.textJustifyLeading) }
+        if #available(iOS 15.1,macOS 12.0,tvOS 15.1,watchOS 8.1,*){ allCases.append(SFSymbol.textJustifyLeft) }
+        if #available(iOS 15.1,macOS 12.0,tvOS 15.1,watchOS 8.1,*){ allCases.append(SFSymbol.textJustifyRight) }
+        if #available(iOS 15.1,macOS 12.0,tvOS 15.1,watchOS 8.1,*){ allCases.append(SFSymbol.textJustifyTrailing) }
     return allCases
     }
 }
