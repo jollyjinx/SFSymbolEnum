@@ -26,7 +26,7 @@ extension Symbol {
 }
 
 
-let (sortedSymbolTuple,releaseYears) = readSymbolsAndYears(from:URL(fileURLWithPath:"/Applications/SF Symbols.app/Contents/Resources/name_availability.plist"))
+let (sortedSymbolTuple,releaseYears) = readSymbolsAndYears(from:URL(fileURLWithPath:"/Applications/SF Symbols.app/Contents/Resources/Metadata-Public/name_availability.plist"))
 
 print("""
 // this file has been generated
