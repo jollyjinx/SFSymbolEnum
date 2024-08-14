@@ -23,7 +23,7 @@ public extension Image {
 }
 
 @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
-extension Label {
+public extension Label {
     init(_ title: LocalizedStringKey, systemImage symbol: SFSymbol) where Title == Text, Icon == Image
     {
          self = Label(title, systemImage:symbol.name)
@@ -35,7 +35,7 @@ extension Label {
     }
 }
 
-extension Button {
+public extension Button {
     @available(iOS 14.0, macOS 11.0, tvOS 14.0, watchOS 7.0, *)
     init(_ titleKey: LocalizedStringKey, symbol: SFSymbol, action: @escaping () -> Void) where Label == SwiftUI.Label<Text,Image> {
         self = Button(action: action, label: {
