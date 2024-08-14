@@ -57,7 +57,7 @@ print("""
 }
 extension SFSymbol:CaseIterable
 {
-    public static var allCases:[SFSymbol] {
+    public static let allCases:[SFSymbol] = {
                 var allCases:[SFSymbol] = []
 """)
 for symbolTuple in sortedSymbolTuple
@@ -66,7 +66,7 @@ for symbolTuple in sortedSymbolTuple
 }
 print("""
     return allCases
-    }
+    }()
 }
 """)
 
