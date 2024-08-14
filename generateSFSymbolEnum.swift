@@ -26,7 +26,19 @@ extension Symbol {
 }
 
 
-let (sortedSymbolTuple,releaseYears) = readSymbolsAndYears(from:URL(fileURLWithPath:"/Applications/SF Symbols.app/Contents/Resources/Metadata-Public/name_availability.plist"))
+let plistURL: URL = {
+    let betaURL = URL(fileURLWithPath: "/Applications/SF Symbols beta.app/Contents/Resources/Metadata/name_availability.plist")
+    let oldURL = URL(fileURLWithPath:"/Applications/SF Symbols.app/Contents/Resources/Metadata-Public/name_availability.plist")
+    let newURL = URL(fileURLWithPath:"/Applications/SF Symbols.app/Contents/Resources/Metadata/name_availability.plist")
+    if FileManager.default.fileExists(atPath: betaURL.path) {
+        return betaURL
+    } else if FileManager.default.fileExists(atPath: oldURL.path) {
+        return oldURL
+    } else {
+        return newURL
+    }
+}()
+let (sortedSymbolTuple,releaseYears) = readSymbolsAndYears(from:plistURL)
 
 print("""
 // this file has been generated
@@ -45,7 +57,7 @@ print("""
 }
 extension SFSymbol:CaseIterable
 {
-    public static var allCases:[SFSymbol] {
+    public static let allCases:[SFSymbol] = {
                 var allCases:[SFSymbol] = []
 """)
 for symbolTuple in sortedSymbolTuple
@@ -54,7 +66,7 @@ for symbolTuple in sortedSymbolTuple
 }
 print("""
     return allCases
-    }
+    }()
 }
 """)
 
