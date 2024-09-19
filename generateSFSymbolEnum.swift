@@ -43,7 +43,7 @@ let (sortedSymbolTuple,releaseYears) = readSymbolsAndYears(from:plistURL)
 print("""
 // this file has been generated
 // you can recreate it using generateSFSymbolEnum.swift script
-import SwiftUI
+import Foundation
 
 public enum SFSymbol:String
 {
@@ -60,11 +60,32 @@ extension SFSymbol:CaseIterable
     public static let allCases:[SFSymbol] = {
                 var allCases:[SFSymbol] = []
 """)
+
+var lastavailablity = ""
 for symbolTuple in sortedSymbolTuple
 {
-    print("        if #" + releaseYears[symbolTuple.released]!.availabilty + "{ allCases.append(SFSymbol." + symbolTuple.symbol.replacementName + ") }")
+    if symbolTuple.released != lastavailablity
+    {
+        if lastavailablity != ""
+        {
+            print("\n            ])\n        }\n")
+        }
+        lastavailablity = symbolTuple.released
+        print("        if #" + releaseYears[symbolTuple.released]!.availabilty + "{")
+        print("            allCases.append(contentsOf: [")
+        print("                SFSymbol." + symbolTuple.symbol.replacementName , terminator:"")
+    }
+    else
+    {
+        print(",\n                SFSymbol." + symbolTuple.symbol.replacementName, terminator:"")
+    }
 }
+
 print("""
+
+        ])
+    }
+    
     return allCases
     }()
 }
