@@ -6581,6 +6581,13 @@ public enum SFSymbol:String
     @available(iOS 17.4,macOS 14.4,tvOS 17.4,visionOS 1.1,watchOS 10.4,*) case medalStarFill = "medal.star.fill"
     @available(iOS 17.4,macOS 14.4,tvOS 17.4,visionOS 1.1,watchOS 10.4,*) case plusCircleDashed = "plus.circle.dashed"
     @available(iOS 17.4,macOS 14.4,tvOS 17.4,visionOS 1.1,watchOS 10.4,*) case translate = "translate"
+    @available(iOS 17.6,macOS 14.6,tvOS 17.6,visionOS 1.3,watchOS 10.6,*) case beatsPill = "beats.pill"
+    @available(iOS 17.6,macOS 14.6,tvOS 17.6,visionOS 1.3,watchOS 10.6,*) case beatsPillFill = "beats.pill.fill"
+    @available(iOS 17.6,macOS 14.6,tvOS 17.6,visionOS 1.3,watchOS 10.6,*) case beatsSolobuds = "beats.solobuds"
+    @available(iOS 17.6,macOS 14.6,tvOS 17.6,visionOS 1.3,watchOS 10.6,*) case beatsSolobudsChargingcase = "beats.solobuds.chargingcase"
+    @available(iOS 17.6,macOS 14.6,tvOS 17.6,visionOS 1.3,watchOS 10.6,*) case beatsSolobudsChargingcaseFill = "beats.solobuds.chargingcase.fill"
+    @available(iOS 17.6,macOS 14.6,tvOS 17.6,visionOS 1.3,watchOS 10.6,*) case beatsSolobudsLeft = "beats.solobuds.left"
+    @available(iOS 17.6,macOS 14.6,tvOS 17.6,visionOS 1.3,watchOS 10.6,*) case beatsSolobudsRight = "beats.solobuds.right"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case number10ArrowTriangleheadClockwise = "10.arrow.trianglehead.clockwise"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case number10ArrowTriangleheadClockwiseAr = "10.arrow.trianglehead.clockwise.ar"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case number10ArrowTriangleheadClockwiseHi = "10.arrow.trianglehead.clockwise.hi"
@@ -6629,6 +6636,14 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case number90ArrowTriangleheadCounterclockwise = "90.arrow.trianglehead.counterclockwise"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case number90ArrowTriangleheadCounterclockwiseAr = "90.arrow.trianglehead.counterclockwise.ar"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case number90ArrowTriangleheadCounterclockwiseHi = "90.arrow.trianglehead.counterclockwise.hi"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case airCarSide = "air.car.side"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case airCarSideFill = "air.car.side.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case airConvertibleSide = "air.convertible.side"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case airConvertibleSideFill = "air.convertible.side.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case airPickupSide = "air.pickup.side"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case airPickupSideFill = "air.pickup.side.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case airSuvSide = "air.suv.side"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case airSuvSideFill = "air.suv.side.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case airplayAudio = "airplay.audio"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case airplayAudioBadgeExclamationmark = "airplay.audio.badge.exclamationmark"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case airplayAudioCircle = "airplay.audio.circle"
@@ -6664,8 +6679,14 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case appleHapticsAndExclamationmarkTriangle = "apple.haptics.and.exclamationmark.triangle"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case appleHapticsAndMusicNote = "apple.haptics.and.music.note"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case appleHapticsAndMusicNoteSlash = "apple.haptics.and.music.note.slash"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case appleImagePlayground = "apple.image.playground"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case appleImagePlaygroundFill = "apple.image.playground.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case appleIntelligence = "apple.intelligence"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case appleMeditateCircle = "apple.meditate.circle"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case appleMeditateCircleFill = "apple.meditate.circle.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case applepencilDoubletap = "applepencil.doubletap"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case applepencilHover = "applepencil.hover"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case applepencilSqueeze = "applepencil.squeeze"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case applewatchCaseSizes = "applewatch.case.sizes"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case arcadeStickAndArrowLeftAndArrowRightOutward = "arcade.stick.and.arrow.left.and.arrow.right.outward"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case arrowBackwardCircleDotted = "arrow.backward.circle.dotted"
@@ -6747,16 +6768,23 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case australiandollarsignBankBuildingFill = "australiandollarsign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case australiandollarsignGaugeChartLefthalfRighthalf = "australiandollarsign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case australiandollarsignGaugeChartLeftthirdTopthirdRightthird = "australiandollarsign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case australiandollarsignRing = "australiandollarsign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case australiandollarsignRingDashed = "australiandollarsign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case australsignArrowTriangleheadCounterclockwiseRotate90 = "australsign.arrow.trianglehead.counterclockwise.rotate.90"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case australsignBankBuilding = "australsign.bank.building"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case australsignBankBuildingFill = "australsign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case australsignGaugeChartLefthalfRighthalf = "australsign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case australsignGaugeChartLeftthirdTopthirdRightthird = "australsign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case australsignRing = "australsign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case australsignRingDashed = "australsign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case bahtsignArrowTriangleheadCounterclockwiseRotate90 = "bahtsign.arrow.trianglehead.counterclockwise.rotate.90"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case bahtsignBankBuilding = "bahtsign.bank.building"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case bahtsignBankBuildingFill = "bahtsign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case bahtsignGaugeChartLefthalfRighthalf = "bahtsign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case bahtsignGaugeChartLeftthirdTopthirdRightthird = "bahtsign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case bahtsignRing = "bahtsign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case bahtsignRingDashed = "bahtsign.ring.dashed"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case baseUnit = "base.unit"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case baseballDiamondBasesOutsIndicator = "baseball.diamond.bases.outs.indicator"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case batteryblockStack = "batteryblock.stack"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case batteryblockStackBadgeSnowflake = "batteryblock.stack.badge.snowflake"
@@ -6776,16 +6804,21 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case beatsStudiobudsPlusLeft = "beats.studiobuds.plus.left"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case beatsStudiobudsPlusRight = "beats.studiobuds.plus.right"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case beatsStudiobudsRight = "beats.studiobuds.right"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case beziercurve = "beziercurve"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case bitcoinsignArrowTriangleheadCounterclockwiseRotate90 = "bitcoinsign.arrow.trianglehead.counterclockwise.rotate.90"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case bitcoinsignBankBuilding = "bitcoinsign.bank.building"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case bitcoinsignBankBuildingFill = "bitcoinsign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case bitcoinsignGaugeChartLefthalfRighthalf = "bitcoinsign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case bitcoinsignGaugeChartLeftthirdTopthirdRightthird = "bitcoinsign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case bitcoinsignRing = "bitcoinsign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case bitcoinsignRingDashed = "bitcoinsign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case brazilianrealsignArrowTriangleheadCounterclockwiseRotate90 = "brazilianrealsign.arrow.trianglehead.counterclockwise.rotate.90"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case brazilianrealsignBankBuilding = "brazilianrealsign.bank.building"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case brazilianrealsignBankBuildingFill = "brazilianrealsign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case brazilianrealsignGaugeChartLefthalfRighthalf = "brazilianrealsign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case brazilianrealsignGaugeChartLeftthirdTopthirdRightthird = "brazilianrealsign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case brazilianrealsignRing = "brazilianrealsign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case brazilianrealsignRingDashed = "brazilianrealsign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case bubbleAndPencil = "bubble.and.pencil"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case bubbleAndPencilRtl = "bubble.and.pencil.rtl"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case calendarAndPerson = "calendar.and.person"
@@ -6800,16 +6833,37 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carBadgeGearshapeFill = "car.badge.gearshape.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carFrontWavesLeftAndRightAndUp = "car.front.waves.left.and.right.and.up"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carFrontWavesLeftAndRightAndUpFill = "car.front.waves.left.and.right.and.up.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carRearAndTireMarksOff = "car.rear.and.tire.marks.off"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carRearHazardsign = "car.rear.hazardsign"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carRearHazardsignFill = "car.rear.hazardsign.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carRearRoadLaneDistance1 = "car.rear.road.lane.distance.1"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carRearRoadLaneDistance1AndGaugeOpenWithLinesNeedle67percentAndArrowtriangle = "car.rear.road.lane.distance.1.and.gauge.open.with.lines.needle.67percent.and.arrowtriangle"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carRearRoadLaneDistance2 = "car.rear.road.lane.distance.2"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carRearRoadLaneDistance2AndGaugeOpenWithLinesNeedle67percentAndArrowtriangle = "car.rear.road.lane.distance.2.and.gauge.open.with.lines.needle.67percent.and.arrowtriangle"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carRearRoadLaneDistance3 = "car.rear.road.lane.distance.3"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carRearRoadLaneDistance3AndGaugeOpenWithLinesNeedle67percentAndArrowtriangle = "car.rear.road.lane.distance.3.and.gauge.open.with.lines.needle.67percent.and.arrowtriangle"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carRearRoadLaneDistance4 = "car.rear.road.lane.distance.4"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carRearRoadLaneDistance4AndGaugeOpenWithLinesNeedle67percentAndArrowtriangle = "car.rear.road.lane.distance.4.and.gauge.open.with.lines.needle.67percent.and.arrowtriangle"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carRearRoadLaneDistance5 = "car.rear.road.lane.distance.5"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carRearRoadLaneDistance5AndGaugeOpenWithLinesNeedle67percentAndArrowtriangle = "car.rear.road.lane.distance.5.and.gauge.open.with.lines.needle.67percent.and.arrowtriangle"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carRearRoadLaneOff = "car.rear.road.lane.off"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carRearRoadLaneWaveUp = "car.rear.road.lane.wave.up"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carRearTiltRoadLanesCurvedRight = "car.rear.tilt.road.lanes.curved.right"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carSideFrontOpenCrop = "car.side.front.open.crop"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carSideFrontOpenCropFill = "car.side.front.open.crop.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carSideHillDescentControl = "car.side.hill.descent.control"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carSideHillDescentControlFill = "car.side.hill.descent.control.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carSideRearAndExclamationmarkAndCarSideFrontOff = "car.side.rear.and.exclamationmark.and.car.side.front.off"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carSideRearCropTrunkPartition = "car.side.rear.crop.trunk.partition"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carSideRearCropTrunkPartitionFill = "car.side.rear.crop.trunk.partition.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carSideRearOpenCrop = "car.side.rear.open.crop"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carSideRearOpenCropFill = "car.side.rear.open.crop.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carSideRearTowHitch = "car.side.rear.tow.hitch"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carSideRearTowHitchFill = "car.side.rear.tow.hitch.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carSideRoofCargoCarrier = "car.side.roof.cargo.carrier"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carSideRoofCargoCarrierFill = "car.side.roof.cargo.carrier.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carSideRoofCargoCarrierSlash = "car.side.roof.cargo.carrier.slash"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carSideRoofCargoCarrierSlashFill = "car.side.roof.cargo.carrier.slash.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carTopArrowtriangleFrontLeft = "car.top.arrowtriangle.front.left"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carTopArrowtriangleFrontLeftFill = "car.top.arrowtriangle.front.left.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carTopArrowtriangleFrontRight = "car.top.arrowtriangle.front.right"
@@ -6826,16 +6880,29 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carTopRadiowavesRearRightCarTopFrontFill = "car.top.radiowaves.rear.right.car.top.front.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carTopRearRadiowavesRearLeftAndRearAndRearRight = "car.top.rear.radiowaves.rear.left.and.rear.and.rear.right"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carTopRearRadiowavesRearLeftAndRearAndRearRightFill = "car.top.rear.radiowaves.rear.left.and.rear.and.rear.right.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carTopVideoRearLeft = "car.top.video.rear.left"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carTopVideoRearLeftFill = "car.top.video.rear.left.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carTopVideoRearRight = "car.top.video.rear.right"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case carTopVideoRearRightFill = "car.top.video.rear.right.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case cartBadgeClock = "cart.badge.clock"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case cartBadgeClockFill = "cart.badge.clock.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case cartBadgeClockFillRtl = "cart.badge.clock.fill.rtl"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case cartBadgeClockRtl = "cart.badge.clock.rtl"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case cedisignArrowTriangleheadCounterclockwiseRotate90 = "cedisign.arrow.trianglehead.counterclockwise.rotate.90"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case cedisignBankBuilding = "cedisign.bank.building"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case cedisignBankBuildingFill = "cedisign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case cedisignGaugeChartLefthalfRighthalf = "cedisign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case cedisignGaugeChartLeftthirdTopthirdRightthird = "cedisign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case cedisignRing = "cedisign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case cedisignRingDashed = "cedisign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case centsignArrowTriangleheadCounterclockwiseRotate90 = "centsign.arrow.trianglehead.counterclockwise.rotate.90"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case centsignBankBuilding = "centsign.bank.building"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case centsignBankBuildingFill = "centsign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case centsignGaugeChartLefthalfRighthalf = "centsign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case centsignGaugeChartLeftthirdTopthirdRightthird = "centsign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case centsignRing = "centsign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case centsignRingDashed = "centsign.ring.dashed"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case characterBn = "character.bn"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case characterCircle = "character.circle"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case characterCircleAr = "character.circle.ar"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case characterCircleFill = "character.circle.fill"
@@ -6852,6 +6919,15 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case characterCircleKo = "character.circle.ko"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case characterCircleTh = "character.circle.th"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case characterCircleZh = "character.circle.zh"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case characterGu = "character.gu"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case characterKn = "character.kn"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case characterMl = "character.ml"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case characterMni = "character.mni"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case characterMr = "character.mr"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case characterOr = "character.or"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case characterPa = "character.pa"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case characterSat = "character.sat"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case characterSi = "character.si"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case characterSquare = "character.square"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case characterSquareAr = "character.square.ar"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case characterSquareFill = "character.square.fill"
@@ -6868,6 +6944,8 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case characterSquareKo = "character.square.ko"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case characterSquareTh = "character.square.th"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case characterSquareZh = "character.square.zh"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case characterTa = "character.ta"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case characterTe = "character.te"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case charactersLowercase = "characters.lowercase"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case charactersLowercaseEl = "characters.lowercase.el"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case charactersLowercaseRu = "characters.lowercase.ru"
@@ -6876,7 +6954,14 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case charactersUppercaseRu = "characters.uppercase.ru"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case chartBarHorizontalPage = "chart.bar.horizontal.page"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case chartBarHorizontalPageFill = "chart.bar.horizontal.page.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case chartBarYaxis = "chart.bar.yaxis"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case chartLineTextClipboard = "chart.line.text.clipboard"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case chartLineTextClipboardFill = "chart.line.text.clipboard.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case checkmarkArrowTriangleheadCounterclockwise = "checkmark.arrow.trianglehead.counterclockwise"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case checkmarkSealTextPage = "checkmark.seal.text.page"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case checkmarkSealTextPageFill = "checkmark.seal.text.page.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case checkmarkSealTextPageFillRtl = "checkmark.seal.text.page.fill.rtl"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case checkmarkSealTextPageRtl = "checkmark.seal.text.page.rtl"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case chevronBackwardChevronBackwardDotted = "chevron.backward.chevron.backward.dotted"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case chevronCompactLeftChevronCompactRight = "chevron.compact.left.chevron.compact.right"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case chevronCompactUpChevronCompactDown = "chevron.compact.up.chevron.compact.down"
@@ -6905,6 +6990,8 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case chineseyuanrenminbisignBankBuildingFill = "chineseyuanrenminbisign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case chineseyuanrenminbisignGaugeChartLefthalfRighthalf = "chineseyuanrenminbisign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case chineseyuanrenminbisignGaugeChartLeftthirdTopthirdRightthird = "chineseyuanrenminbisign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case chineseyuanrenminbisignRing = "chineseyuanrenminbisign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case chineseyuanrenminbisignRingDashed = "chineseyuanrenminbisign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case circleBottomrighthalfPatternCheckered = "circle.bottomrighthalf.pattern.checkered"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case clockArrowTrianglehead2CounterclockwiseRotate90 = "clock.arrow.trianglehead.2.counterclockwise.rotate.90"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case clockArrowTriangleheadCounterclockwiseRotate90 = "clock.arrow.trianglehead.counterclockwise.rotate.90"
@@ -6917,6 +7004,8 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case coloncurrencysignBankBuildingFill = "coloncurrencysign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case coloncurrencysignGaugeChartLefthalfRighthalf = "coloncurrencysign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case coloncurrencysignGaugeChartLeftthirdTopthirdRightthird = "coloncurrencysign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case coloncurrencysignRing = "coloncurrencysign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case coloncurrencysignRingDashed = "coloncurrencysign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case convertibleSide = "convertible.side"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case convertibleSideAirCirculate = "convertible.side.air.circulate"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case convertibleSideAirCirculateFill = "convertible.side.air.circulate.fill"
@@ -6941,6 +7030,8 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case convertibleSideFrontOpenCrop = "convertible.side.front.open.crop"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case convertibleSideFrontOpenCropFill = "convertible.side.front.open.crop.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case convertibleSideFrontOpenFill = "convertible.side.front.open.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case convertibleSideHillDescentControl = "convertible.side.hill.descent.control"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case convertibleSideHillDescentControlFill = "convertible.side.hill.descent.control.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case convertibleSideHillDown = "convertible.side.hill.down"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case convertibleSideHillDownFill = "convertible.side.hill.down.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case convertibleSideHillUp = "convertible.side.hill.up"
@@ -6954,13 +7045,19 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case cruzeirosignBankBuildingFill = "cruzeirosign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case cruzeirosignGaugeChartLefthalfRighthalf = "cruzeirosign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case cruzeirosignGaugeChartLeftthirdTopthirdRightthird = "cruzeirosign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case cruzeirosignRing = "cruzeirosign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case cruzeirosignRingDashed = "cruzeirosign.ring.dashed"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case cupAndHeatWaves = "cup.and.heat.waves"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case cupAndHeatWavesFill = "cup.and.heat.waves.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case danishkronesignArrowTriangleheadCounterclockwiseRotate90 = "danishkronesign.arrow.trianglehead.counterclockwise.rotate.90"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case danishkronesignBankBuilding = "danishkronesign.bank.building"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case danishkronesignBankBuildingFill = "danishkronesign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case danishkronesignGaugeChartLefthalfRighthalf = "danishkronesign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case danishkronesignGaugeChartLeftthirdTopthirdRightthird = "danishkronesign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case danishkronesignRing = "danishkronesign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case danishkronesignRingDashed = "danishkronesign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case degreesignCelsius = "degreesign.celsius"
-    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case degreesignFarenheit = "degreesign.farenheit"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case degreesignFahrenheit = "degreesign.fahrenheit"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case desktopcomputerAndMacbook = "desktopcomputer.and.macbook"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case distributeHorizontal = "distribute.horizontal"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case distributeHorizontalFill = "distribute.horizontal.fill"
@@ -6991,11 +7088,15 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case dollarsignBankBuildingFill = "dollarsign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case dollarsignGaugeChartLefthalfRighthalf = "dollarsign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case dollarsignGaugeChartLeftthirdTopthirdRightthird = "dollarsign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case dollarsignRing = "dollarsign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case dollarsignRingDashed = "dollarsign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case dongsignArrowTriangleheadCounterclockwiseRotate90 = "dongsign.arrow.trianglehead.counterclockwise.rotate.90"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case dongsignBankBuilding = "dongsign.bank.building"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case dongsignBankBuildingFill = "dongsign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case dongsignGaugeChartLefthalfRighthalf = "dongsign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case dongsignGaugeChartLeftthirdTopthirdRightthird = "dongsign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case dongsignRing = "dongsign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case dongsignRingDashed = "dongsign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case drone = "drone"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case droneFill = "drone.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case duffleBag = "duffle.bag"
@@ -7004,6 +7105,8 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case ecgTextPageFill = "ecg.text.page.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case ecgTextPageFillRtl = "ecg.text.page.fill.rtl"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case ecgTextPageRtl = "ecg.text.page.rtl"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case engineEmissionAndExclamationmark = "engine.emission.and.exclamationmark"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case engineEmissionAndFilter = "engine.emission.and.filter"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case envelopeAndArrowTriangleheadBranch = "envelope.and.arrow.trianglehead.branch"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case envelopeAndArrowTriangleheadBranchFill = "envelope.and.arrow.trianglehead.branch.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case envelopeFront = "envelope.front"
@@ -7015,11 +7118,15 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case eurosignBankBuildingFill = "eurosign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case eurosignGaugeChartLefthalfRighthalf = "eurosign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case eurosignGaugeChartLeftthirdTopthirdRightthird = "eurosign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case eurosignRing = "eurosign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case eurosignRingDashed = "eurosign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case eurozonesignArrowTriangleheadCounterclockwiseRotate90 = "eurozonesign.arrow.trianglehead.counterclockwise.rotate.90"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case eurozonesignBankBuilding = "eurozonesign.bank.building"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case eurozonesignBankBuildingFill = "eurozonesign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case eurozonesignGaugeChartLefthalfRighthalf = "eurozonesign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case eurozonesignGaugeChartLeftthirdTopthirdRightthird = "eurozonesign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case eurozonesignRing = "eurozonesign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case eurozonesignRingDashed = "eurozonesign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case exclamationmarkArrowTrianglehead2ClockwiseRotate90 = "exclamationmark.arrow.trianglehead.2.clockwise.rotate.90"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case exclamationmarkArrowTriangleheadCounterclockwiseRotate90 = "exclamationmark.arrow.trianglehead.counterclockwise.rotate.90"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case figure2LeftHoldinghands = "figure.2.left.holdinghands"
@@ -7283,7 +7390,10 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case florinsignBankBuildingFill = "florinsign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case florinsignGaugeChartLefthalfRighthalf = "florinsign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case florinsignGaugeChartLeftthirdTopthirdRightthird = "florinsign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case florinsignRing = "florinsign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case florinsignRingDashed = "florinsign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case fluidBatteryblock = "fluid.batteryblock"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case fluidCoolant = "fluid.coolant"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case formfittingGamecontroller = "formfitting.gamecontroller"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case formfittingGamecontrollerFill = "formfitting.gamecontroller.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case francsignArrowTriangleheadCounterclockwiseRotate90 = "francsign.arrow.trianglehead.counterclockwise.rotate.90"
@@ -7291,6 +7401,8 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case francsignBankBuildingFill = "francsign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case francsignGaugeChartLefthalfRighthalf = "francsign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case francsignGaugeChartLeftthirdTopthirdRightthird = "francsign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case francsignRing = "francsign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case francsignRingDashed = "francsign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case fuelpumpAndFilter = "fuelpump.and.filter"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case gamecontrollerCircle = "gamecontroller.circle"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case gamecontrollerCircleFill = "gamecontroller.circle.fill"
@@ -7306,6 +7418,8 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case guaranisignBankBuildingFill = "guaranisign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case guaranisignGaugeChartLefthalfRighthalf = "guaranisign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case guaranisignGaugeChartLeftthirdTopthirdRightthird = "guaranisign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case guaranisignRing = "guaranisign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case guaranisignRingDashed = "guaranisign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case handDrawBadgeEllipsis = "hand.draw.badge.ellipsis"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case handDrawBadgeEllipsisFill = "hand.draw.badge.ellipsis.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case handPalmFacing = "hand.palm.facing"
@@ -7316,6 +7430,8 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case handPointUpBrailleBadgeEllipsisFill = "hand.point.up.braille.badge.ellipsis.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case handRaisedPalmFacing = "hand.raised.palm.facing"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case handRaisedPalmFacingFill = "hand.raised.palm.facing.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case handRays = "hand.rays"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case handRaysFill = "hand.rays.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case hatCap = "hat.cap"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case hatCapFill = "hat.cap.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case hatWidebrim = "hat.widebrim"
@@ -7392,11 +7508,15 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case hryvniasignBankBuildingFill = "hryvniasign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case hryvniasignGaugeChartLefthalfRighthalf = "hryvniasign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case hryvniasignGaugeChartLeftthirdTopthirdRightthird = "hryvniasign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case hryvniasignRing = "hryvniasign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case hryvniasignRingDashed = "hryvniasign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case indianrupeesignArrowTriangleheadCounterclockwiseRotate90 = "indianrupeesign.arrow.trianglehead.counterclockwise.rotate.90"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case indianrupeesignBankBuilding = "indianrupeesign.bank.building"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case indianrupeesignBankBuildingFill = "indianrupeesign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case indianrupeesignGaugeChartLefthalfRighthalf = "indianrupeesign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case indianrupeesignGaugeChartLeftthirdTopthirdRightthird = "indianrupeesign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case indianrupeesignRing = "indianrupeesign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case indianrupeesignRingDashed = "indianrupeesign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case inhaler = "inhaler"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case inhalerFill = "inhaler.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case insetFilledApplewatchCase = "inset.filled.applewatch.case"
@@ -7486,8 +7606,12 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case ipadBadgeLocation = "ipad.badge.location"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case ipadGen1BadgeLocation = "ipad.gen1.badge.location"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case ipadGen1LandscapeBadgeLocation = "ipad.gen1.landscape.badge.location"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case ipadGen1LandscapeSlash = "ipad.gen1.landscape.slash"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case ipadGen1Slash = "ipad.gen1.slash"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case ipadGen2BadgeLocation = "ipad.gen2.badge.location"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case ipadGen2LandscapeBadgeLocation = "ipad.gen2.landscape.badge.location"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case ipadGen2LandscapeSlash = "ipad.gen2.landscape.slash"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case ipadGen2Slash = "ipad.gen2.slash"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case ipadLandscapeAndIphone = "ipad.landscape.and.iphone"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case ipadLandscapeAndIphoneSlash = "ipad.landscape.and.iphone.slash"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case ipadLandscapeBadgeLocation = "ipad.landscape.badge.location"
@@ -7503,14 +7627,17 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case iphoneGen1AndArrowLeft = "iphone.gen1.and.arrow.left"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case iphoneGen1BadgeLocation = "iphone.gen1.badge.location"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case iphoneGen1CropCircle = "iphone.gen1.crop.circle"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case iphoneGen1LandscapeSlash = "iphone.gen1.landscape.slash"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case iphoneGen1Motion = "iphone.gen1.motion"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case iphoneGen2AndArrowLeftAndArrowRightInward = "iphone.gen2.and.arrow.left.and.arrow.right.inward"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case iphoneGen2BadgeLocation = "iphone.gen2.badge.location"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case iphoneGen2CropCircle = "iphone.gen2.crop.circle"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case iphoneGen2LandscapeSlash = "iphone.gen2.landscape.slash"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case iphoneGen2Motion = "iphone.gen2.motion"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case iphoneGen3AndArrowLeftAndArrowRightInward = "iphone.gen3.and.arrow.left.and.arrow.right.inward"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case iphoneGen3BadgeLocation = "iphone.gen3.badge.location"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case iphoneGen3CropCircle = "iphone.gen3.crop.circle"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case iphoneGen3LandscapeSlash = "iphone.gen3.landscape.slash"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case iphoneGen3Motion = "iphone.gen3.motion"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case iphoneMotion = "iphone.motion"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case ipodShuffleGen1 = "ipod.shuffle.gen1"
@@ -7524,11 +7651,19 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case jacketFill = "jacket.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case key2OnRing = "key.2.on.ring"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case key2OnRingFill = "key.2.on.ring.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case keyCarRadiowavesForward = "key.car.radiowaves.forward"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case keyCarRadiowavesForwardFill = "key.car.radiowaves.forward.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case keyCarRadiowavesForwardFillRtl = "key.car.radiowaves.forward.fill.rtl"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case keyCarRadiowavesForwardRtl = "key.car.radiowaves.forward.rtl"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case keyCard = "key.card"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case keyCardFill = "key.card.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case kipsignArrowTriangleheadCounterclockwiseRotate90 = "kipsign.arrow.trianglehead.counterclockwise.rotate.90"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case kipsignBankBuilding = "kipsign.bank.building"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case kipsignBankBuildingFill = "kipsign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case kipsignGaugeChartLefthalfRighthalf = "kipsign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case kipsignGaugeChartLeftthirdTopthirdRightthird = "kipsign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case kipsignRing = "kipsign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case kipsignRingDashed = "kipsign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case ladybugSlash = "ladybug.slash"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case ladybugSlashCircle = "ladybug.slash.circle"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case ladybugSlashCircleFill = "ladybug.slash.circle.fill"
@@ -7538,6 +7673,8 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case larisignBankBuildingFill = "larisign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case larisignGaugeChartLefthalfRighthalf = "larisign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case larisignGaugeChartLeftthirdTopthirdRightthird = "larisign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case larisignRing = "larisign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case larisignRingDashed = "larisign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case leafArrowTriangleheadClockwise = "leaf.arrow.trianglehead.clockwise"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case lessthanorequalto = "lessthanorequalto"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case lessthanorequaltoCircle = "lessthanorequalto.circle"
@@ -7549,12 +7686,16 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case lirasignBankBuildingFill = "lirasign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case lirasignGaugeChartLefthalfRighthalf = "lirasign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case lirasignGaugeChartLeftthirdTopthirdRightthird = "lirasign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case lirasignRing = "lirasign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case lirasignRingDashed = "lirasign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case locationApp = "location.app"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case locationAppFill = "location.app.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case lockDocument = "lock.document"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case lockDocumentFill = "lock.document.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case lockRectangleOnRectangleDashed = "lock.rectangle.on.rectangle.dashed"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case macbookAndApplewatch = "macbook.and.applewatch"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case macbookAndVisionPro = "macbook.and.vision.pro"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case macbookSlash = "macbook.slash"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case malaysianringgitsign = "malaysianringgitsign"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case malaysianringgitsignArrowTriangleheadCounterclockwiseRotate90 = "malaysianringgitsign.arrow.trianglehead.counterclockwise.rotate.90"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case malaysianringgitsignBankBuilding = "malaysianringgitsign.bank.building"
@@ -7563,6 +7704,8 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case malaysianringgitsignCircleFill = "malaysianringgitsign.circle.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case malaysianringgitsignGaugeChartLefthalfRighthalf = "malaysianringgitsign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case malaysianringgitsignGaugeChartLeftthirdTopthirdRightthird = "malaysianringgitsign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case malaysianringgitsignRing = "malaysianringgitsign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case malaysianringgitsignRingDashed = "malaysianringgitsign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case malaysianringgitsignSquare = "malaysianringgitsign.square"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case malaysianringgitsignSquareFill = "malaysianringgitsign.square.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case manatsignArrowTriangleheadCounterclockwiseRotate90 = "manatsign.arrow.trianglehead.counterclockwise.rotate.90"
@@ -7570,6 +7713,10 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case manatsignBankBuildingFill = "manatsign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case manatsignGaugeChartLefthalfRighthalf = "manatsign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case manatsignGaugeChartLeftthirdTopthirdRightthird = "manatsign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case manatsignRing = "manatsign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case manatsignRingDashed = "manatsign.ring.dashed"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case matterLogo = "matter.logo"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case mecca = "mecca"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case microphone = "microphone"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case microphoneAndSignalMeter = "microphone.and.signal.meter"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case microphoneAndSignalMeterFill = "microphone.and.signal.meter.fill"
@@ -7593,6 +7740,8 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case millsignBankBuildingFill = "millsign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case millsignGaugeChartLefthalfRighthalf = "millsign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case millsignGaugeChartLeftthirdTopthirdRightthird = "millsign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case millsignRing = "millsign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case millsignRingDashed = "millsign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case minusArrowTriangleheadCounterclockwise = "minus.arrow.trianglehead.counterclockwise"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case moonRoadLanes = "moon.road.lanes"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case moped = "moped"
@@ -7607,11 +7756,15 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case nairasignBankBuildingFill = "nairasign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case nairasignGaugeChartLefthalfRighthalf = "nairasign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case nairasignGaugeChartLeftthirdTopthirdRightthird = "nairasign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case nairasignRing = "nairasign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case nairasignRingDashed = "nairasign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case norwegiankronesignArrowTriangleheadCounterclockwiseRotate90 = "norwegiankronesign.arrow.trianglehead.counterclockwise.rotate.90"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case norwegiankronesignBankBuilding = "norwegiankronesign.bank.building"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case norwegiankronesignBankBuildingFill = "norwegiankronesign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case norwegiankronesignGaugeChartLefthalfRighthalf = "norwegiankronesign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case norwegiankronesignGaugeChartLeftthirdTopthirdRightthird = "norwegiankronesign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case norwegiankronesignRing = "norwegiankronesign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case norwegiankronesignRingDashed = "norwegiankronesign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case notequal = "notequal"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case notequalCircle = "notequal.circle"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case notequalCircleFill = "notequal.circle.fill"
@@ -7630,6 +7783,7 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case oar2CrossedCircleFill = "oar.2.crossed.circle.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case oilcanAndThermometer = "oilcan.and.thermometer"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case oilcanAndThermometerFill = "oilcan.and.thermometer.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case parkingsignRadiowavesDownRightOff = "parkingsign.radiowaves.down.right.off"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case parkingsignRadiowavesLeftAndRightSlash = "parkingsign.radiowaves.left.and.right.slash"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case parkingsignSquare = "parkingsign.square"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case parkingsignSquareFill = "parkingsign.square.fill"
@@ -7646,6 +7800,7 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case personCropSquareOnSquareAngled = "person.crop.square.on.square.angled"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case personCropSquareOnSquareAngledFill = "person.crop.square.on.square.angled.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case personFillAndArrowLeftAndArrowRightOutward = "person.fill.and.arrow.left.and.arrow.right.outward"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case personalhotspotSlash = "personalhotspot.slash"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case peruviansolessign = "peruviansolessign"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case peruviansolessignArrowTriangleheadCounterclockwiseRotate90 = "peruviansolessign.arrow.trianglehead.counterclockwise.rotate.90"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case peruviansolessignBankBuilding = "peruviansolessign.bank.building"
@@ -7654,6 +7809,8 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case peruviansolessignCircleFill = "peruviansolessign.circle.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case peruviansolessignGaugeChartLefthalfRighthalf = "peruviansolessign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case peruviansolessignGaugeChartLeftthirdTopthirdRightthird = "peruviansolessign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case peruviansolessignRing = "peruviansolessign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case peruviansolessignRingDashed = "peruviansolessign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case peruviansolessignSquare = "peruviansolessign.square"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case peruviansolessignSquareFill = "peruviansolessign.square.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case pesetasignArrowTriangleheadCounterclockwiseRotate90 = "pesetasign.arrow.trianglehead.counterclockwise.rotate.90"
@@ -7661,11 +7818,15 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case pesetasignBankBuildingFill = "pesetasign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case pesetasignGaugeChartLefthalfRighthalf = "pesetasign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case pesetasignGaugeChartLeftthirdTopthirdRightthird = "pesetasign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case pesetasignRing = "pesetasign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case pesetasignRingDashed = "pesetasign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case pesosignArrowTriangleheadCounterclockwiseRotate90 = "pesosign.arrow.trianglehead.counterclockwise.rotate.90"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case pesosignBankBuilding = "pesosign.bank.building"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case pesosignBankBuildingFill = "pesosign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case pesosignGaugeChartLefthalfRighthalf = "pesosign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case pesosignGaugeChartLeftthirdTopthirdRightthird = "pesosign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case pesosignRing = "pesosign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case pesosignRingDashed = "pesosign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case phoneBadgeClock = "phone.badge.clock"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case phoneBadgeClockFill = "phone.badge.clock.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case photoBadgeExclamationmark = "photo.badge.exclamationmark"
@@ -7685,6 +7846,8 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case polishzlotysignBankBuildingFill = "polishzlotysign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case polishzlotysignGaugeChartLefthalfRighthalf = "polishzlotysign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case polishzlotysignGaugeChartLeftthirdTopthirdRightthird = "polishzlotysign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case polishzlotysignRing = "polishzlotysign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case polishzlotysignRingDashed = "polishzlotysign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case powermeter = "powermeter"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case powerplugPortrait = "powerplug.portrait"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case powerplugPortraitFill = "powerplug.portrait.fill"
@@ -7701,6 +7864,7 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case questionmarkTextPageFillAr = "questionmark.text.page.fill.ar"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case questionmarkTextPageFillRtl = "questionmark.text.page.fill.rtl"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case questionmarkTextPageRtl = "questionmark.text.page.rtl"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case rectangleExpandDiagonal = "rectangle.expand.diagonal"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case rectangleGrid3x3 = "rectangle.grid.3x3"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case rectangleGrid3x3Fill = "rectangle.grid.3x3.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case rectangleOnRectangleDashed = "rectangle.on.rectangle.dashed"
@@ -7728,6 +7892,8 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case rublesignBankBuildingFill = "rublesign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case rublesignGaugeChartLefthalfRighthalf = "rublesign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case rublesignGaugeChartLeftthirdTopthirdRightthird = "rublesign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case rublesignRing = "rublesign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case rublesignRingDashed = "rublesign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case rugbyball = "rugbyball"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case rugbyballCircle = "rugbyball.circle"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case rugbyballCircleFill = "rugbyball.circle.fill"
@@ -7737,15 +7903,19 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case rupeesignBankBuildingFill = "rupeesign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case rupeesignGaugeChartLefthalfRighthalf = "rupeesign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case rupeesignGaugeChartLeftthirdTopthirdRightthird = "rupeesign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case rupeesignRing = "rupeesign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case rupeesignRingDashed = "rupeesign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case sharedwithyou = "sharedwithyou"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case sharedwithyouCircle = "sharedwithyou.circle"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case sharedwithyouCircleFill = "sharedwithyou.circle.fill"
-    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case sharedwithyouCircleSlash = "sharedwithyou.circle.slash"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case sharedwithyouSlash = "sharedwithyou.slash"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case shekelsignArrowTriangleheadCounterclockwiseRotate90 = "shekelsign.arrow.trianglehead.counterclockwise.rotate.90"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case shekelsignBankBuilding = "shekelsign.bank.building"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case shekelsignBankBuildingFill = "shekelsign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case shekelsignGaugeChartLefthalfRighthalf = "shekelsign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case shekelsignGaugeChartLeftthirdTopthirdRightthird = "shekelsign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case shekelsignRing = "shekelsign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case shekelsignRingDashed = "shekelsign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case shieldPatternCheckered = "shield.pattern.checkered"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case singaporedollarsign = "singaporedollarsign"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case singaporedollarsignArrowTriangleheadCounterclockwiseRotate90 = "singaporedollarsign.arrow.trianglehead.counterclockwise.rotate.90"
@@ -7755,13 +7925,18 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case singaporedollarsignCircleFill = "singaporedollarsign.circle.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case singaporedollarsignGaugeChartLefthalfRighthalf = "singaporedollarsign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case singaporedollarsignGaugeChartLeftthirdTopthirdRightthird = "singaporedollarsign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case singaporedollarsignRing = "singaporedollarsign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case singaporedollarsignRingDashed = "singaporedollarsign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case singaporedollarsignSquare = "singaporedollarsign.square"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case singaporedollarsignSquareFill = "singaporedollarsign.square.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case sliderHorizontal2ArrowTriangleheadCounterclockwise = "slider.horizontal.2.arrow.trianglehead.counterclockwise"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case sliderHorizontal2RectangleAndArrowTrianglehead2ClockwiseRotate90 = "slider.horizontal.2.rectangle.and.arrow.trianglehead.2.clockwise.rotate.90"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case speakerWave1ArrowtrianglesUpRightDownLeft = "speaker.wave.1.arrowtriangles.up.right.down.left"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case squareAndArrowDownBadgeClock = "square.and.arrow.down.badge.clock"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case squareAndArrowDownBadgeClockFill = "square.and.arrow.down.badge.clock.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case squareAndArrowUpTrianglebadgeExclamationmarkFill = "square.and.arrow.up.trianglebadge.exclamationmark.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case squareGrid3x3SquareBadgeEllipsis = "square.grid.3x3.square.badge.ellipsis"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case squareroot = "squareroot"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case steeringwheelAndHands = "steeringwheel.and.hands"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case steeringwheelArrowTriangleheadCounterclockwiseAndClockwise = "steeringwheel.arrow.trianglehead.counterclockwise.and.clockwise"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case sterlingsignArrowTriangleheadCounterclockwiseRotate90 = "sterlingsign.arrow.trianglehead.counterclockwise.rotate.90"
@@ -7769,26 +7944,50 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case sterlingsignBankBuildingFill = "sterlingsign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case sterlingsignGaugeChartLefthalfRighthalf = "sterlingsign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case sterlingsignGaugeChartLeftthirdTopthirdRightthird = "sterlingsign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case sterlingsignRing = "sterlingsign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case sterlingsignRingDashed = "sterlingsign.ring.dashed"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case sunLefthalfFilled = "sun.lefthalf.filled"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case sunRighthalfFilled = "sun.righthalf.filled"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case suspensionShock = "suspension.shock"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case suvSideFrontOpenCrop = "suv.side.front.open.crop"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case suvSideFrontOpenCropFill = "suv.side.front.open.crop.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case suvSideHillDescentControl = "suv.side.hill.descent.control"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case suvSideHillDescentControlFill = "suv.side.hill.descent.control.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case suvSideRearOpenCrop = "suv.side.rear.open.crop"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case suvSideRearOpenCropFill = "suv.side.rear.open.crop.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case suvSideRoofCargoCarrier = "suv.side.roof.cargo.carrier"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case suvSideRoofCargoCarrierFill = "suv.side.roof.cargo.carrier.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case suvSideRoofCargoCarrierSlash = "suv.side.roof.cargo.carrier.slash"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case suvSideRoofCargoCarrierSlashFill = "suv.side.roof.cargo.carrier.slash.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case swedishkronasignArrowTriangleheadCounterclockwiseRotate90 = "swedishkronasign.arrow.trianglehead.counterclockwise.rotate.90"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case swedishkronasignBankBuilding = "swedishkronasign.bank.building"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case swedishkronasignBankBuildingFill = "swedishkronasign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case swedishkronasignGaugeChartLefthalfRighthalf = "swedishkronasign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case swedishkronasignGaugeChartLeftthirdTopthirdRightthird = "swedishkronasign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case swedishkronasignRing = "swedishkronasign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case swedishkronasignRingDashed = "swedishkronasign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case tachometer = "tachometer"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case tengesignArrowTriangleheadCounterclockwiseRotate90 = "tengesign.arrow.trianglehead.counterclockwise.rotate.90"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case tengesignBankBuilding = "tengesign.bank.building"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case tengesignBankBuildingFill = "tengesign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case tengesignGaugeChartLefthalfRighthalf = "tengesign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case tengesignGaugeChartLeftthirdTopthirdRightthird = "tengesign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case tengesignRing = "tengesign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case tengesignRingDashed = "tengesign.ring.dashed"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textBubbleBadgeClock = "text.bubble.badge.clock"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textBubbleBadgeClockFill = "text.bubble.badge.clock.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textBubbleBadgeClockFillRtl = "text.bubble.badge.clock.fill.rtl"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textBubbleBadgeClockRtl = "text.bubble.badge.clock.rtl"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textDocument = "text.document"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textDocumentFill = "text.document.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textLineMagnify = "text.line.magnify"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textPage = "text.page"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textPageBadgeMagnifyingglass = "text.page.badge.magnifyingglass"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textPageFill = "text.page.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textPageSlash = "text.page.slash"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textPageSlashFill = "text.page.slash.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textPageSlashFillRtl = "text.page.slash.fill.rtl"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textPageSlashRtl = "text.page.slash.rtl"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textRectanglePage = "text.rectangle.page"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textRectanglePageFill = "text.rectangle.page.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatAltAr = "textformat.alt.ar"
@@ -7849,6 +8048,42 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatNumbersPa = "textformat.numbers.pa"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatNumbersSat = "textformat.numbers.sat"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatNumbersTe = "textformat.numbers.te"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeBn = "textformat.size.bn"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeGu = "textformat.size.gu"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeKn = "textformat.size.kn"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeLargerBn = "textformat.size.larger.bn"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeLargerGu = "textformat.size.larger.gu"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeLargerKn = "textformat.size.larger.kn"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeLargerMl = "textformat.size.larger.ml"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeLargerMni = "textformat.size.larger.mni"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeLargerMr = "textformat.size.larger.mr"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeLargerOr = "textformat.size.larger.or"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeLargerPa = "textformat.size.larger.pa"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeLargerSat = "textformat.size.larger.sat"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeLargerSi = "textformat.size.larger.si"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeLargerTa = "textformat.size.larger.ta"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeLargerTe = "textformat.size.larger.te"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeMl = "textformat.size.ml"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeMni = "textformat.size.mni"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeMr = "textformat.size.mr"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeOr = "textformat.size.or"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizePa = "textformat.size.pa"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeSat = "textformat.size.sat"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeSi = "textformat.size.si"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeSmallerBn = "textformat.size.smaller.bn"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeSmallerGu = "textformat.size.smaller.gu"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeSmallerKn = "textformat.size.smaller.kn"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeSmallerMl = "textformat.size.smaller.ml"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeSmallerMni = "textformat.size.smaller.mni"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeSmallerMr = "textformat.size.smaller.mr"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeSmallerOr = "textformat.size.smaller.or"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeSmallerPa = "textformat.size.smaller.pa"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeSmallerSat = "textformat.size.smaller.sat"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeSmallerSi = "textformat.size.smaller.si"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeSmallerTa = "textformat.size.smaller.ta"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeSmallerTe = "textformat.size.smaller.te"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeTa = "textformat.size.ta"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatSizeTe = "textformat.size.te"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatTh = "textformat.th"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case textformatZh = "textformat.zh"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case thermometerAndLiquidWavesSnowflake = "thermometer.and.liquid.waves.snowflake"
@@ -7856,18 +8091,36 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case thermometerVariable = "thermometer.variable"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case tire = "tire"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case tireBadgeSnowflake = "tire.badge.snowflake"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case towHitch = "tow.hitch"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case towHitchExclamationmark = "tow.hitch.exclamationmark"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case towHitchExclamationmarkFill = "tow.hitch.exclamationmark.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case towHitchFill = "tow.hitch.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case truckPickupSideFrontOpenCrop = "truck.pickup.side.front.open.crop"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case truckPickupSideFrontOpenCropFill = "truck.pickup.side.front.open.crop.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case truckSideHillDescentControl = "truck.side.hill.descent.control"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case truckSideHillDescentControlFill = "truck.side.hill.descent.control.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case truckSideRoofCargoCarrier = "truck.side.roof.cargo.carrier"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case truckSideRoofCargoCarrierFill = "truck.side.roof.cargo.carrier.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case truckSideRoofCargoCarrierSlash = "truck.side.roof.cargo.carrier.slash"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case truckSideRoofCargoCarrierSlashFill = "truck.side.roof.cargo.carrier.slash.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case tsa = "tsa"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case tsaCircle = "tsa.circle"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case tsaCircleFill = "tsa.circle.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case tsaSlash = "tsa.slash"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case tugriksignArrowTriangleheadCounterclockwiseRotate90 = "tugriksign.arrow.trianglehead.counterclockwise.rotate.90"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case tugriksignBankBuilding = "tugriksign.bank.building"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case tugriksignBankBuildingFill = "tugriksign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case tugriksignGaugeChartLefthalfRighthalf = "tugriksign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case tugriksignGaugeChartLeftthirdTopthirdRightthird = "tugriksign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case tugriksignRing = "tugriksign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case tugriksignRingDashed = "tugriksign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case turkishlirasignArrowTriangleheadCounterclockwiseRotate90 = "turkishlirasign.arrow.trianglehead.counterclockwise.rotate.90"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case turkishlirasignBankBuilding = "turkishlirasign.bank.building"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case turkishlirasignBankBuildingFill = "turkishlirasign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case turkishlirasignGaugeChartLefthalfRighthalf = "turkishlirasign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case turkishlirasignGaugeChartLeftthirdTopthirdRightthird = "turkishlirasign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case turkishlirasignRing = "turkishlirasign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case turkishlirasignRingDashed = "turkishlirasign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case visionPro = "vision.pro"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case visionProAndArrowForward = "vision.pro.and.arrow.forward"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case visionProAndArrowForwardFill = "vision.pro.and.arrow.forward.fill"
@@ -7892,8 +8145,16 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case waterWavesAndArrowTriangleheadDownTrianglebadgeExclamationmark = "water.waves.and.arrow.trianglehead.down.trianglebadge.exclamationmark"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case waterWavesAndArrowTriangleheadUp = "water.waves.and.arrow.trianglehead.up"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case wave3Down = "wave.3.down"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case wave3DownCarSide = "wave.3.down.car.side"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case wave3DownCarSideFill = "wave.3.down.car.side.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case wave3DownCircle = "wave.3.down.circle"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case wave3DownCircleFill = "wave.3.down.circle.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case wave3DownConvertibleSide = "wave.3.down.convertible.side"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case wave3DownConvertibleSideFill = "wave.3.down.convertible.side.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case wave3DownPickupSide = "wave.3.down.pickup.side"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case wave3DownPickupSideFill = "wave.3.down.pickup.side.fill"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case wave3DownSuvSide = "wave.3.down.suv.side"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case wave3DownSuvSideFill = "wave.3.down.suv.side.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case wave3Up = "wave.3.up"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case wave3UpCircle = "wave.3.up.circle"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case wave3UpCircleFill = "wave.3.up.circle.fill"
@@ -7912,12 +8173,957 @@ public enum SFSymbol:String
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case wonsignBankBuildingFill = "wonsign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case wonsignGaugeChartLefthalfRighthalf = "wonsign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case wonsignGaugeChartLeftthirdTopthirdRightthird = "wonsign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case wonsignRing = "wonsign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case wonsignRingDashed = "wonsign.ring.dashed"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case xmarkTriangleCircleSquare = "xmark.triangle.circle.square"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case xmarkTriangleCircleSquareFill = "xmark.triangle.circle.square.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case yensignArrowTriangleheadCounterclockwiseRotate90 = "yensign.arrow.trianglehead.counterclockwise.rotate.90"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case yensignBankBuilding = "yensign.bank.building"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case yensignBankBuildingFill = "yensign.bank.building.fill"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case yensignGaugeChartLefthalfRighthalf = "yensign.gauge.chart.lefthalf.righthalf"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case yensignGaugeChartLeftthirdTopthirdRightthird = "yensign.gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case yensignRing = "yensign.ring"
+    @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case yensignRingDashed = "yensign.ring.dashed"
     @available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*) case zipperPage = "zipper.page"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case boltHouse = "bolt.house"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case boltHouseFill = "bolt.house.fill"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case cableConnectorVideo = "cable.connector.video"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case carTopRadiowaves2FrontLeftFrontFrontRight = "car.top.radiowaves.2.front.left.front.front.right"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case carTopRadiowaves2FrontLeftFrontFrontRightFill = "car.top.radiowaves.2.front.left.front.front.right.fill"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case carTopRadiowaves2RearLeftRearRearRight = "car.top.radiowaves.2.rear.left.rear.rear.right"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case carTopRadiowaves2RearLeftRearRearRightFill = "car.top.radiowaves.2.rear.left.rear.rear.right.fill"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterCircleBn = "character.circle.bn"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterCircleFillBn = "character.circle.fill.bn"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterCircleFillGu = "character.circle.fill.gu"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterCircleFillKn = "character.circle.fill.kn"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterCircleFillMl = "character.circle.fill.ml"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterCircleFillMni = "character.circle.fill.mni"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterCircleFillMr = "character.circle.fill.mr"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterCircleFillOr = "character.circle.fill.or"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterCircleFillPa = "character.circle.fill.pa"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterCircleFillSat = "character.circle.fill.sat"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterCircleFillSi = "character.circle.fill.si"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterCircleFillTa = "character.circle.fill.ta"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterCircleFillTe = "character.circle.fill.te"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterCircleGu = "character.circle.gu"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterCircleKn = "character.circle.kn"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterCircleMl = "character.circle.ml"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterCircleMni = "character.circle.mni"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterCircleMr = "character.circle.mr"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterCircleOr = "character.circle.or"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterCirclePa = "character.circle.pa"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterCircleSat = "character.circle.sat"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterCircleSi = "character.circle.si"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterCircleTa = "character.circle.ta"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterCircleTe = "character.circle.te"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterSquareBn = "character.square.bn"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterSquareFillBn = "character.square.fill.bn"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterSquareFillGu = "character.square.fill.gu"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterSquareFillKn = "character.square.fill.kn"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterSquareFillMl = "character.square.fill.ml"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterSquareFillMni = "character.square.fill.mni"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterSquareFillMr = "character.square.fill.mr"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterSquareFillOr = "character.square.fill.or"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterSquareFillPa = "character.square.fill.pa"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterSquareFillSat = "character.square.fill.sat"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterSquareFillSi = "character.square.fill.si"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterSquareFillTa = "character.square.fill.ta"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterSquareFillTe = "character.square.fill.te"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterSquareGu = "character.square.gu"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterSquareKn = "character.square.kn"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterSquareMl = "character.square.ml"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterSquareMni = "character.square.mni"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterSquareMr = "character.square.mr"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterSquareOr = "character.square.or"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterSquarePa = "character.square.pa"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterSquareSat = "character.square.sat"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterSquareSi = "character.square.si"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterSquareTa = "character.square.ta"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case characterSquareTe = "character.square.te"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case dotCarTopRadiowaves2RearLeftRearRearRight = "dot.car.top.radiowaves.2.rear.left.rear.rear.right"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case dotCarTopRadiowaves2RearLeftRearRearRightFill = "dot.car.top.radiowaves.2.rear.left.rear.rear.right.fill"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case envelopeStack = "envelope.stack"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case envelopeStackFill = "envelope.stack.fill"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case exclamationmarkMessage = "exclamationmark.message"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case exclamationmarkMessageFill = "exclamationmark.message.fill"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case handThumbsdownSlash = "hand.thumbsdown.slash"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case handThumbsdownSlashFill = "hand.thumbsdown.slash.fill"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case handThumbsupSlash = "hand.thumbsup.slash"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case handThumbsupSlashFill = "hand.thumbsup.slash.fill"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case laurelLeadingLaurelTrailing = "laurel.leading.laurel.trailing"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case memoriesBadgeCheckmark = "memories.badge.checkmark"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case memoriesBadgeXmark = "memories.badge.xmark"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case photoBadgeMagnifyingglass = "photo.badge.magnifyingglass"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case photoBadgeMagnifyingglassFill = "photo.badge.magnifyingglass.fill"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case questionmarkMessage = "questionmark.message"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case questionmarkMessageFill = "questionmark.message.fill"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case rectangleGrid3x1 = "rectangle.grid.3x1"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case rectangleGrid3x1Fill = "rectangle.grid.3x1.fill"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case squareAndArrowDownBadgeCheckmark = "square.and.arrow.down.badge.checkmark"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case squareAndArrowDownBadgeCheckmarkFill = "square.and.arrow.down.badge.checkmark.fill"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case squareAndArrowDownBadgeXmark = "square.and.arrow.down.badge.xmark"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case squareAndArrowDownBadgeXmarkFill = "square.and.arrow.down.badge.xmark.fill"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case waveformBadgeCheckmark = "waveform.badge.checkmark"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case waveformBadgeXmark = "waveform.badge.xmark"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case waveformPathEcgMagnifyingglass = "waveform.path.ecg.magnifyingglass"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case waveformPathEcgText = "waveform.path.ecg.text"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case waveformPathEcgTextClipboard = "waveform.path.ecg.text.clipboard"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case waveformPathEcgTextClipboardFill = "waveform.path.ecg.text.clipboard.fill"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case waveformPathEcgTextClipboardFillRtl = "waveform.path.ecg.text.clipboard.fill.rtl"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case waveformPathEcgTextClipboardRtl = "waveform.path.ecg.text.clipboard.rtl"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case waveformPathEcgTextPage = "waveform.path.ecg.text.page"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case waveformPathEcgTextPageFill = "waveform.path.ecg.text.page.fill"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case waveformPathEcgTextPageFillRtl = "waveform.path.ecg.text.page.fill.rtl"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case waveformPathEcgTextPageRtl = "waveform.path.ecg.text.page.rtl"
+    @available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*) case waveformPathEcgTextRtl = "waveform.path.ecg.text.rtl"
+    @available(iOS 18.2,macOS 15.2,tvOS 18.2,visionOS 2.2,watchOS 11.2,*) case airpodsGen4 = "airpods.gen4"
+    @available(iOS 18.2,macOS 15.2,tvOS 18.2,visionOS 2.2,watchOS 11.2,*) case airpodsGen4ChargingcaseWireless = "airpods.gen4.chargingcase.wireless"
+    @available(iOS 18.2,macOS 15.2,tvOS 18.2,visionOS 2.2,watchOS 11.2,*) case airpodsGen4ChargingcaseWirelessFill = "airpods.gen4.chargingcase.wireless.fill"
+    @available(iOS 18.2,macOS 15.2,tvOS 18.2,visionOS 2.2,watchOS 11.2,*) case airpodsGen4Left = "airpods.gen4.left"
+    @available(iOS 18.2,macOS 15.2,tvOS 18.2,visionOS 2.2,watchOS 11.2,*) case airpodsGen4Right = "airpods.gen4.right"
+    @available(iOS 18.2,macOS 15.2,tvOS 18.2,visionOS 2.2,watchOS 11.2,*) case appleWritingTools = "apple.writing.tools"
+    @available(iOS 18.2,macOS 15.2,tvOS 18.2,visionOS 2.2,watchOS 11.2,*) case exclamationmarkTriangleTextPage = "exclamationmark.triangle.text.page"
+    @available(iOS 18.2,macOS 15.2,tvOS 18.2,visionOS 2.2,watchOS 11.2,*) case exclamationmarkTriangleTextPageFill = "exclamationmark.triangle.text.page.fill"
+    @available(iOS 18.2,macOS 15.2,tvOS 18.2,visionOS 2.2,watchOS 11.2,*) case exclamationmarkTriangleTextPageFillRtl = "exclamationmark.triangle.text.page.fill.rtl"
+    @available(iOS 18.2,macOS 15.2,tvOS 18.2,visionOS 2.2,watchOS 11.2,*) case exclamationmarkTriangleTextPageRtl = "exclamationmark.triangle.text.page.rtl"
+    @available(iOS 18.2,macOS 15.2,tvOS 18.2,visionOS 2.2,watchOS 11.2,*) case figureSeatedSideLeftAirDistributionUpperAndMiddleAndLower = "figure.seated.side.left.air.distribution.upper.and.middle.and.lower"
+    @available(iOS 18.2,macOS 15.2,tvOS 18.2,visionOS 2.2,watchOS 11.2,*) case figureSeatedSideRightAirDistributionUpperAndMiddleAndLower = "figure.seated.side.right.air.distribution.upper.and.middle.and.lower"
+    @available(iOS 18.2,macOS 15.2,tvOS 18.2,visionOS 2.2,watchOS 11.2,*) case headphonesDots = "headphones.dots"
+    @available(iOS 18.2,macOS 15.2,tvOS 18.2,visionOS 2.2,watchOS 11.2,*) case infoTriangle = "info.triangle"
+    @available(iOS 18.2,macOS 15.2,tvOS 18.2,visionOS 2.2,watchOS 11.2,*) case infoTriangleFill = "info.triangle.fill"
+    @available(iOS 18.2,macOS 15.2,tvOS 18.2,visionOS 2.2,watchOS 11.2,*) case insetFilledRectangleAndPersonFilledCircle = "inset.filled.rectangle.and.person.filled.circle"
+    @available(iOS 18.2,macOS 15.2,tvOS 18.2,visionOS 2.2,watchOS 11.2,*) case insetFilledRectangleAndPersonFilledCircleFill = "inset.filled.rectangle.and.person.filled.circle.fill"
+    @available(iOS 18.2,macOS 15.2,tvOS 18.2,visionOS 2.2,watchOS 11.2,*) case questionmarkMessageAr = "questionmark.message.ar"
+    @available(iOS 18.2,macOS 15.2,tvOS 18.2,visionOS 2.2,watchOS 11.2,*) case questionmarkMessageFillAr = "questionmark.message.fill.ar"
+    @available(iOS 18.2,macOS 15.2,tvOS 18.2,visionOS 2.2,watchOS 11.2,*) case receipt = "receipt"
+    @available(iOS 18.2,macOS 15.2,tvOS 18.2,visionOS 2.2,watchOS 11.2,*) case receiptFill = "receipt.fill"
+    @available(iOS 18.2,macOS 15.2,tvOS 18.2,visionOS 2.2,watchOS 11.2,*) case wandAndOutline = "wand.and.outline"
+    @available(iOS 18.2,macOS 15.2,tvOS 18.2,visionOS 2.2,watchOS 11.2,*) case wandAndOutlineInverse = "wand.and.outline.inverse"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case arrowBackwardToLineCompact = "arrow.backward.to.line.compact"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case arrowForwardToLineCompact = "arrow.forward.to.line.compact"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case carSideArrowLeftAndRight = "car.side.arrow.left.and.right"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case carSideArrowLeftAndRightFill = "car.side.arrow.left.and.right.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case carSideHillDownAndGaugeOpenWithLinesNeedle25percentAndArrowtriangle = "car.side.hill.down.and.gauge.open.with.lines.needle.25percent.and.arrowtriangle"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case carSideHillDownAndGaugeOpenWithLinesNeedle25percentAndArrowtriangleFill = "car.side.hill.down.and.gauge.open.with.lines.needle.25percent.and.arrowtriangle.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case carSideRearAndCollisionAndCarSideFrontAndArrowForward = "car.side.rear.and.collision.and.car.side.front.and.arrow.forward"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case carSideRearAndCollisionAndCarSideFrontAndSteeringwheel = "car.side.rear.and.collision.and.car.side.front.and.steeringwheel"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case carTopLaneDashedDepartureLeftSlash = "car.top.lane.dashed.departure.left.slash"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case carTopLaneDashedDepartureLeftSlashFill = "car.top.lane.dashed.departure.left.slash.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case carTopLaneDashedDepartureRightSlash = "car.top.lane.dashed.departure.right.slash"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case carTopLaneDashedDepartureRightSlashFill = "car.top.lane.dashed.departure.right.slash.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterCursorIbeamBn = "character.cursor.ibeam.bn"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterCursorIbeamGu = "character.cursor.ibeam.gu"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterCursorIbeamKn = "character.cursor.ibeam.kn"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterCursorIbeamMl = "character.cursor.ibeam.ml"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterCursorIbeamMni = "character.cursor.ibeam.mni"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterCursorIbeamMr = "character.cursor.ibeam.mr"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterCursorIbeamOr = "character.cursor.ibeam.or"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterCursorIbeamPa = "character.cursor.ibeam.pa"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterCursorIbeamSat = "character.cursor.ibeam.sat"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterCursorIbeamSi = "character.cursor.ibeam.si"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterCursorIbeamTa = "character.cursor.ibeam.ta"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterCursorIbeamTe = "character.cursor.ibeam.te"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterMagnifyBn = "character.magnify.bn"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterMagnifyGu = "character.magnify.gu"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterMagnifyKn = "character.magnify.kn"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterMagnifyMl = "character.magnify.ml"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterMagnifyMni = "character.magnify.mni"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterMagnifyMr = "character.magnify.mr"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterMagnifyOr = "character.magnify.or"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterMagnifyPa = "character.magnify.pa"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterMagnifySat = "character.magnify.sat"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterMagnifySi = "character.magnify.si"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterMagnifyTa = "character.magnify.ta"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterMagnifyTe = "character.magnify.te"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterTextboxBadgeSparkles = "character.textbox.badge.sparkles"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterTextboxBadgeSparklesAr = "character.textbox.badge.sparkles.ar"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterTextboxBadgeSparklesBn = "character.textbox.badge.sparkles.bn"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterTextboxBadgeSparklesGu = "character.textbox.badge.sparkles.gu"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterTextboxBadgeSparklesHe = "character.textbox.badge.sparkles.he"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterTextboxBadgeSparklesHi = "character.textbox.badge.sparkles.hi"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterTextboxBadgeSparklesJa = "character.textbox.badge.sparkles.ja"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterTextboxBadgeSparklesKn = "character.textbox.badge.sparkles.kn"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterTextboxBadgeSparklesKo = "character.textbox.badge.sparkles.ko"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterTextboxBadgeSparklesMl = "character.textbox.badge.sparkles.ml"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterTextboxBadgeSparklesMni = "character.textbox.badge.sparkles.mni"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterTextboxBadgeSparklesMr = "character.textbox.badge.sparkles.mr"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterTextboxBadgeSparklesOr = "character.textbox.badge.sparkles.or"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterTextboxBadgeSparklesPa = "character.textbox.badge.sparkles.pa"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterTextboxBadgeSparklesSat = "character.textbox.badge.sparkles.sat"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterTextboxBadgeSparklesSi = "character.textbox.badge.sparkles.si"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterTextboxBadgeSparklesTa = "character.textbox.badge.sparkles.ta"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterTextboxBadgeSparklesTe = "character.textbox.badge.sparkles.te"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterTextboxBadgeSparklesTh = "character.textbox.badge.sparkles.th"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterTextboxBadgeSparklesZh = "character.textbox.badge.sparkles.zh"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterTextboxBn = "character.textbox.bn"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterTextboxGu = "character.textbox.gu"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterTextboxKn = "character.textbox.kn"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterTextboxMl = "character.textbox.ml"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterTextboxMni = "character.textbox.mni"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterTextboxMr = "character.textbox.mr"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterTextboxOr = "character.textbox.or"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterTextboxPa = "character.textbox.pa"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterTextboxSat = "character.textbox.sat"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterTextboxSi = "character.textbox.si"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterTextboxTa = "character.textbox.ta"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case characterTextboxTe = "character.textbox.te"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case convertibleSideArrowLeftAndRight = "convertible.side.arrow.left.and.right"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case convertibleSideArrowLeftAndRightFill = "convertible.side.arrow.left.and.right.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case convertibleSideHillDownAndGaugeOpenWithLinesNeedle25percentAndArrowtriangle = "convertible.side.hill.down.and.gauge.open.with.lines.needle.25percent.and.arrowtriangle"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case convertibleSideHillDownAndGaugeOpenWithLinesNeedle25percentAndArrowtriangleFill = "convertible.side.hill.down.and.gauge.open.with.lines.needle.25percent.and.arrowtriangle.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case cursorarrowResizeNorthEastSouthEast = "cursorarrow.resize.north.east.south.east"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case electronicTollCollection = "electronic.toll.collection"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case electronicTollCollectionRectangle = "electronic.toll.collection.rectangle"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case electronicTollCollectionRectangleFill = "electronic.toll.collection.rectangle.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case electronicTollCollectionRectangleSlash = "electronic.toll.collection.rectangle.slash"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case electronicTollCollectionRectangleSlashFill = "electronic.toll.collection.rectangle.slash.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case electronicTollCollectionRectangleTrianglebadgeExclamationmark = "electronic.toll.collection.rectangle.trianglebadge.exclamationmark"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case electronicTollCollectionRectangleTrianglebadgeExclamationmarkFill = "electronic.toll.collection.rectangle.trianglebadge.exclamationmark.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case engineEmissionAndDrop2WaterWaveBelow = "engine.emission.and.drop.2.water.wave.below"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case envelopeAndArrow3Down = "envelope.and.arrow.3.down"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case envelopeAndArrow3DownFill = "envelope.and.arrow.3.down.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case flagPatternCheckeredLc = "flag.pattern.checkered.lc"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case fuelFilterWater = "fuel.filter.water"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case functionAr = "function.ar"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case hydrogen = "hydrogen"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case hydrogenCircle = "hydrogen.circle"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case hydrogenCircleFill = "hydrogen.circle.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case hydrogenSquare = "hydrogen.square"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case hydrogenSquareFill = "hydrogen.square.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case infoCircleTextPage = "info.circle.text.page"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case infoCircleTextPageFill = "info.circle.text.page.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case infoCircleTextPageFillRtl = "info.circle.text.page.fill.rtl"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case infoCircleTextPageRtl = "info.circle.text.page.rtl"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case keyCarSide = "key.car.side"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case keyCarSideFill = "key.car.side.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case keyConvertibleSide = "key.convertible.side"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case keyConvertibleSideFill = "key.convertible.side.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case keySuvSide = "key.suv.side"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case keySuvSideFill = "key.suv.side.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case keyTruckPickupSide = "key.truck.pickup.side"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case keyTruckPickupSideFill = "key.truck.pickup.side.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case longTextPageAndPencil = "long.text.page.and.pencil"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case longTextPageAndPencilFill = "long.text.page.and.pencil.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case macminiGen2 = "macmini.gen2"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case macminiGen2Fill = "macmini.gen2.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case macminiGen3 = "macmini.gen3"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case macminiGen3Fill = "macmini.gen3.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case memoriesSlash = "memories.slash"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case minusPlusBatteryblockStackArrowtriangleLeft = "minus.plus.batteryblock.stack.arrowtriangle.left"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case minusPlusBatteryblockStackArrowtriangleLeftFill = "minus.plus.batteryblock.stack.arrowtriangle.left.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case minusPlusBatteryblockStackArrowtriangleRight = "minus.plus.batteryblock.stack.arrowtriangle.right"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case minusPlusBatteryblockStackArrowtriangleRightAndArrowtriangleLeft = "minus.plus.batteryblock.stack.arrowtriangle.right.and.arrowtriangle.left"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case minusPlusBatteryblockStackArrowtriangleRightAndArrowtriangleLeftFill = "minus.plus.batteryblock.stack.arrowtriangle.right.and.arrowtriangle.left.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case minusPlusBatteryblockStackArrowtriangleRightFill = "minus.plus.batteryblock.stack.arrowtriangle.right.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case nosignBadgeClock = "nosign.badge.clock"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case personCheckmarkAndXmark = "person.checkmark.and.xmark"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case personCheckmarkAndXmarkRtl = "person.checkmark.and.xmark.rtl"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case personFillCheckmarkAndXmark = "person.fill.checkmark.and.xmark"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case personFillCheckmarkAndXmarkRtl = "person.fill.checkmark.and.xmark.rtl"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case photoBadgeShieldExclamationmark = "photo.badge.shield.exclamationmark"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case photoBadgeShieldExclamationmarkFill = "photo.badge.shield.exclamationmark.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case photoTrianglebadgeExclamationmark = "photo.trianglebadge.exclamationmark"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case photoTrianglebadgeExclamationmarkFill = "photo.trianglebadge.exclamationmark.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case pi = "pi"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case piCircle = "pi.circle"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case piCircleFill = "pi.circle.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case piSquare = "pi.square"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case piSquareFill = "pi.square.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case plusMinusCapsule = "plus.minus.capsule"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case plusMinusCapsuleFill = "plus.minus.capsule.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case repeatBadgeXmarkCircleFill = "repeat.badge.xmark.circle.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case roadLaneArrowtriangle2Outward = "road.lane.arrowtriangle.2.outward"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case roboticVacuumAndArrowtriangleUp = "robotic.vacuum.and.arrowtriangle.up"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case roboticVacuumAndArrowtriangleUpFill = "robotic.vacuum.and.arrowtriangle.up.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case roboticVacuumAndEllipsis = "robotic.vacuum.and.ellipsis"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case roboticVacuumAndEllipsisFill = "robotic.vacuum.and.ellipsis.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case spoonServing = "spoon.serving"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case squareAndArrowUpBadgeCheckmark = "square.and.arrow.up.badge.checkmark"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case squareAndArrowUpBadgeCheckmarkFill = "square.and.arrow.up.badge.checkmark.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case squareshapeSplit2x2DottedInside = "squareshape.split.2x2.dotted.inside"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case squareshapeSplit2x2DottedInsideAndOutside = "squareshape.split.2x2.dotted.inside.and.outside"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case squareshapeSplit2x2DottedOutside = "squareshape.split.2x2.dotted.outside"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case starHexagon = "star.hexagon"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case starHexagonFill = "star.hexagon.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case suvSideArrowLeftAndRight = "suv.side.arrow.left.and.right"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case suvSideArrowLeftAndRightFill = "suv.side.arrow.left.and.right.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case suvSideHillDownAndGaugeOpenWithLinesNeedle25percentAndArrowtriangle = "suv.side.hill.down.and.gauge.open.with.lines.needle.25percent.and.arrowtriangle"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case suvSideHillDownAndGaugeOpenWithLinesNeedle25percentAndArrowtriangleFill = "suv.side.hill.down.and.gauge.open.with.lines.needle.25percent.and.arrowtriangle.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatAltBn = "textformat.alt.bn"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatAltGu = "textformat.alt.gu"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatAltKn = "textformat.alt.kn"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatAltMl = "textformat.alt.ml"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatAltMni = "textformat.alt.mni"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatAltMr = "textformat.alt.mr"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatAltOr = "textformat.alt.or"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatAltPa = "textformat.alt.pa"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatAltSat = "textformat.alt.sat"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatAltSi = "textformat.alt.si"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatAltTa = "textformat.alt.ta"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatAltTe = "textformat.alt.te"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatBn = "textformat.bn"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersArrowLeftAndRightBn = "textformat.characters.arrow.left.and.right.bn"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersArrowLeftAndRightGu = "textformat.characters.arrow.left.and.right.gu"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersArrowLeftAndRightKn = "textformat.characters.arrow.left.and.right.kn"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersArrowLeftAndRightMl = "textformat.characters.arrow.left.and.right.ml"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersArrowLeftAndRightMni = "textformat.characters.arrow.left.and.right.mni"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersArrowLeftAndRightMr = "textformat.characters.arrow.left.and.right.mr"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersArrowLeftAndRightOr = "textformat.characters.arrow.left.and.right.or"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersArrowLeftAndRightPa = "textformat.characters.arrow.left.and.right.pa"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersArrowLeftAndRightSat = "textformat.characters.arrow.left.and.right.sat"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersArrowLeftAndRightSi = "textformat.characters.arrow.left.and.right.si"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersArrowLeftAndRightTa = "textformat.characters.arrow.left.and.right.ta"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersArrowLeftAndRightTe = "textformat.characters.arrow.left.and.right.te"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersBn = "textformat.characters.bn"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersDottedunderlineBn = "textformat.characters.dottedunderline.bn"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersDottedunderlineGu = "textformat.characters.dottedunderline.gu"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersDottedunderlineKn = "textformat.characters.dottedunderline.kn"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersDottedunderlineMl = "textformat.characters.dottedunderline.ml"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersDottedunderlineMni = "textformat.characters.dottedunderline.mni"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersDottedunderlineMr = "textformat.characters.dottedunderline.mr"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersDottedunderlineOr = "textformat.characters.dottedunderline.or"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersDottedunderlinePa = "textformat.characters.dottedunderline.pa"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersDottedunderlineSat = "textformat.characters.dottedunderline.sat"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersDottedunderlineSi = "textformat.characters.dottedunderline.si"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersDottedunderlineTa = "textformat.characters.dottedunderline.ta"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersDottedunderlineTe = "textformat.characters.dottedunderline.te"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersGu = "textformat.characters.gu"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersKn = "textformat.characters.kn"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersMl = "textformat.characters.ml"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersMni = "textformat.characters.mni"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersMr = "textformat.characters.mr"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersOr = "textformat.characters.or"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersPa = "textformat.characters.pa"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersSat = "textformat.characters.sat"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersSi = "textformat.characters.si"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersTa = "textformat.characters.ta"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatCharactersTe = "textformat.characters.te"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatGu = "textformat.gu"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatKn = "textformat.kn"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatMl = "textformat.ml"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatMni = "textformat.mni"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatMr = "textformat.mr"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatOr = "textformat.or"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatPa = "textformat.pa"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatSat = "textformat.sat"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatSi = "textformat.si"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatSubscriptBn = "textformat.subscript.bn"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatSubscriptGu = "textformat.subscript.gu"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatSubscriptKn = "textformat.subscript.kn"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatSubscriptMl = "textformat.subscript.ml"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatSubscriptMni = "textformat.subscript.mni"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatSubscriptMr = "textformat.subscript.mr"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatSubscriptOr = "textformat.subscript.or"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatSubscriptPa = "textformat.subscript.pa"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatSubscriptSat = "textformat.subscript.sat"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatSubscriptSi = "textformat.subscript.si"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatSubscriptTa = "textformat.subscript.ta"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatSubscriptTe = "textformat.subscript.te"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatSuperscriptBn = "textformat.superscript.bn"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatSuperscriptGu = "textformat.superscript.gu"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatSuperscriptKn = "textformat.superscript.kn"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatSuperscriptMl = "textformat.superscript.ml"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatSuperscriptMni = "textformat.superscript.mni"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatSuperscriptMr = "textformat.superscript.mr"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatSuperscriptOr = "textformat.superscript.or"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatSuperscriptPa = "textformat.superscript.pa"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatSuperscriptSat = "textformat.superscript.sat"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatSuperscriptSi = "textformat.superscript.si"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatSuperscriptTa = "textformat.superscript.ta"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatSuperscriptTe = "textformat.superscript.te"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatTa = "textformat.ta"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case textformatTe = "textformat.te"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case truckPickupSideArrowLeftAndRight = "truck.pickup.side.arrow.left.and.right"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case truckPickupSideArrowLeftAndRightFill = "truck.pickup.side.arrow.left.and.right.fill"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case truckPickupSideHillDownAndGaugeOpenWithLinesNeedle25percentAndArrowtriangle = "truck.pickup.side.hill.down.and.gauge.open.with.lines.needle.25percent.and.arrowtriangle"
+    @available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*) case truckPickupSideHillDownAndGaugeOpenWithLinesNeedle25percentAndArrowtriangleFill = "truck.pickup.side.hill.down.and.gauge.open.with.lines.needle.25percent.and.arrowtriangle.fill"
+    @available(iOS 18.5,macOS 15.5,tvOS 18.5,visionOS 2.5,watchOS 11.5,*) case appleIntelligenceBadgeXmark = "apple.intelligence.badge.xmark"
+    @available(iOS 18.5,macOS 15.5,tvOS 18.5,visionOS 2.5,watchOS 11.5,*) case beatsPowerbeatsPro2 = "beats.powerbeats.pro.2"
+    @available(iOS 18.5,macOS 15.5,tvOS 18.5,visionOS 2.5,watchOS 11.5,*) case beatsPowerbeatsPro2Chargingcase = "beats.powerbeats.pro.2.chargingcase"
+    @available(iOS 18.5,macOS 15.5,tvOS 18.5,visionOS 2.5,watchOS 11.5,*) case beatsPowerbeatsPro2ChargingcaseFill = "beats.powerbeats.pro.2.chargingcase.fill"
+    @available(iOS 18.5,macOS 15.5,tvOS 18.5,visionOS 2.5,watchOS 11.5,*) case beatsPowerbeatsPro2Left = "beats.powerbeats.pro.2.left"
+    @available(iOS 18.5,macOS 15.5,tvOS 18.5,visionOS 2.5,watchOS 11.5,*) case beatsPowerbeatsPro2Right = "beats.powerbeats.pro.2.right"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number1Calendar = "1.calendar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number1CalendarAr = "1.calendar.ar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number1CalendarHi = "1.calendar.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number10Calendar = "10.calendar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number10CalendarAr = "10.calendar.ar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number10CalendarHi = "10.calendar.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number11Calendar = "11.calendar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number11CalendarAr = "11.calendar.ar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number11CalendarHi = "11.calendar.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number12Calendar = "12.calendar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number12CalendarAr = "12.calendar.ar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number12CalendarHi = "12.calendar.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number13Calendar = "13.calendar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number13CalendarAr = "13.calendar.ar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number13CalendarHi = "13.calendar.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number14Calendar = "14.calendar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number14CalendarAr = "14.calendar.ar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number14CalendarHi = "14.calendar.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number15Calendar = "15.calendar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number15CalendarAr = "15.calendar.ar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number15CalendarHi = "15.calendar.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number16Calendar = "16.calendar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number16CalendarAr = "16.calendar.ar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number16CalendarHi = "16.calendar.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number17Calendar = "17.calendar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number17CalendarAr = "17.calendar.ar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number17CalendarHi = "17.calendar.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number18Calendar = "18.calendar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number18CalendarAr = "18.calendar.ar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number18CalendarHi = "18.calendar.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number19Calendar = "19.calendar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number19CalendarAr = "19.calendar.ar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number19CalendarHi = "19.calendar.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number2Calendar = "2.calendar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number2CalendarAr = "2.calendar.ar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number2CalendarHi = "2.calendar.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number20Calendar = "20.calendar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number20CalendarAr = "20.calendar.ar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number20CalendarHi = "20.calendar.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number21Calendar = "21.calendar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number21CalendarAr = "21.calendar.ar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number21CalendarHi = "21.calendar.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number22Calendar = "22.calendar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number22CalendarAr = "22.calendar.ar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number22CalendarHi = "22.calendar.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number23Calendar = "23.calendar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number23CalendarAr = "23.calendar.ar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number23CalendarHi = "23.calendar.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number24Calendar = "24.calendar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number24CalendarAr = "24.calendar.ar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number24CalendarHi = "24.calendar.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number25Calendar = "25.calendar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number25CalendarAr = "25.calendar.ar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number25CalendarHi = "25.calendar.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number26Calendar = "26.calendar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number26CalendarAr = "26.calendar.ar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number26CalendarHi = "26.calendar.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number27Calendar = "27.calendar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number27CalendarAr = "27.calendar.ar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number27CalendarHi = "27.calendar.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number28Calendar = "28.calendar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number28CalendarAr = "28.calendar.ar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number28CalendarHi = "28.calendar.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number29Calendar = "29.calendar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number29CalendarAr = "29.calendar.ar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number29CalendarHi = "29.calendar.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number3Calendar = "3.calendar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number3CalendarAr = "3.calendar.ar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number3CalendarHi = "3.calendar.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number30Calendar = "30.calendar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number30CalendarAr = "30.calendar.ar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number30CalendarHi = "30.calendar.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number31Calendar = "31.calendar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number31CalendarAr = "31.calendar.ar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number31CalendarHi = "31.calendar.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number4Calendar = "4.calendar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number4CalendarAr = "4.calendar.ar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number4CalendarHi = "4.calendar.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number5Calendar = "5.calendar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number5CalendarAr = "5.calendar.ar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number5CalendarHi = "5.calendar.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number6Calendar = "6.calendar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number6CalendarAr = "6.calendar.ar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number6CalendarHi = "6.calendar.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number7Calendar = "7.calendar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number7CalendarAr = "7.calendar.ar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number7CalendarHi = "7.calendar.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number8Calendar = "8.calendar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number8CalendarAr = "8.calendar.ar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number8CalendarHi = "8.calendar.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number9Calendar = "9.calendar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number9CalendarAr = "9.calendar.ar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case number9CalendarHi = "9.calendar.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case airplaneCloud = "airplane.cloud"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case airplaneLanded = "airplane.landed"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case airplanePathDotted = "airplane.path.dotted"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case airplaneTicket = "airplane.ticket"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case airplaneTicketFill = "airplane.ticket.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case airplaneUpForward = "airplane.up.forward"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case airplaneUpForwardApp = "airplane.up.forward.app"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case airplaneUpForwardAppFill = "airplane.up.forward.app.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case airplaneUpRight = "airplane.up.right"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case airplaneUpRightApp = "airplane.up.right.app"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case airplaneUpRightAppFill = "airplane.up.right.app.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case airplaneseat = "airplaneseat"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case appBackgroundDotted = "app.background.dotted"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case appGrid = "app.grid"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case appShadow = "app.shadow"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case appSpecular = "app.specular"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case appTranslucent = "app.translucent"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case appleBooksPages = "apple.books.pages"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case appleBooksPagesFill = "apple.books.pages.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case appleClassicalPages = "apple.classical.pages"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case appleClassicalPagesFill = "apple.classical.pages.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case applePodcastsPages = "apple.podcasts.pages"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case applePodcastsPagesFill = "apple.podcasts.pages.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case appletvBadgeCheckmark = "appletv.badge.checkmark"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case appletvBadgeCheckmarkFill = "appletv.badge.checkmark.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case appletvBadgeExclamationmark = "appletv.badge.exclamationmark"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case appletvBadgeExclamationmarkFill = "appletv.badge.exclamationmark.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case applewatchBadgeCheckmark = "applewatch.badge.checkmark"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case appsIpadBadgeCheckmark = "apps.ipad.badge.checkmark"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case appsIpadBadgeCheckmarkRtl = "apps.ipad.badge.checkmark.rtl"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case appsIpadBadgePlus = "apps.ipad.badge.plus"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case appsIpadOnRectanglePortraitDashed = "apps.ipad.on.rectangle.portrait.dashed"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case appsIpadOnRectanglePortraitDashedRtl = "apps.ipad.on.rectangle.portrait.dashed.rtl"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case appsIphoneBadgeCheckmark = "apps.iphone.badge.checkmark"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case appsIphoneBadgeCheckmarkRtl = "apps.iphone.badge.checkmark.rtl"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case aqiMediumGaugeOpen = "aqi.medium.gauge.open"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case arrowDownCircleBadgePause = "arrow.down.circle.badge.pause"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case arrowDownCircleBadgePauseFill = "arrow.down.circle.badge.pause.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case arrowDownCircleBadgeXmark = "arrow.down.circle.badge.xmark"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case arrowDownCircleBadgeXmarkFill = "arrow.down.circle.badge.xmark.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case arrowForwardFolder = "arrow.forward.folder"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case arrowForwardFolderFill = "arrow.forward.folder.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case arrowForwardFolderFillRtl = "arrow.forward.folder.fill.rtl"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case arrowForwardFolderRtl = "arrow.forward.folder.rtl"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case arrowTriangleheadTurnUpRight = "arrow.trianglehead.turn.up.right"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case arrowUpFolder = "arrow.up.folder"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case arrowUpFolderFill = "arrow.up.folder.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case backpackSensorTagRadiowavesLeftAndRight = "backpack.sensor.tag.radiowaves.left.and.right"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case backpackSensorTagRadiowavesLeftAndRightFill = "backpack.sensor.tag.radiowaves.left.and.right.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case bedDoubleBadgeCheckmark = "bed.double.badge.checkmark"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case bedDoubleBadgeCheckmarkFill = "bed.double.badge.checkmark.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case bellBadgeWaveformSlash = "bell.badge.waveform.slash"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case bellBadgeWaveformSlashFill = "bell.badge.waveform.slash.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case bicycleSensorTagRadiowavesLeftAndRight = "bicycle.sensor.tag.radiowaves.left.and.right"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case bicycleSensorTagRadiowavesLeftAndRightFill = "bicycle.sensor.tag.radiowaves.left.and.right.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case bloodPressureCuff = "blood.pressure.cuff"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case bloodPressureCuffBadgeGaugeWithNeedle = "blood.pressure.cuff.badge.gauge.with.needle"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case bloodPressureCuffBadgeGaugeWithNeedleFill = "blood.pressure.cuff.badge.gauge.with.needle.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case bloodPressureCuffFill = "blood.pressure.cuff.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case bookBadgePlus = "book.badge.plus"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case bookBadgePlusFill = "book.badge.plus.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case briefcaseSensorTagRadiowavesLeftAndRight = "briefcase.sensor.tag.radiowaves.left.and.right"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case briefcaseSensorTagRadiowavesLeftAndRightFill = "briefcase.sensor.tag.radiowaves.left.and.right.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case calendarBadge = "calendar.badge"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case calendarBadgeLock = "calendar.badge.lock"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case calendarDayTimelineLeadingCircle = "calendar.day.timeline.leading.circle"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case calendarDayTimelineLeadingCircleFill = "calendar.day.timeline.leading.circle.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case calendarDayTimelineLeftCircle = "calendar.day.timeline.left.circle"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case calendarDayTimelineLeftCircleFill = "calendar.day.timeline.left.circle.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case calendarDayTimelineRightCircle = "calendar.day.timeline.right.circle"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case calendarDayTimelineRightCircleFill = "calendar.day.timeline.right.circle.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case calendarDayTimelineTrailingCircle = "calendar.day.timeline.trailing.circle"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case calendarDayTimelineTrailingCircleFill = "calendar.day.timeline.trailing.circle.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case cameraSensorTagRadiowavesLeftAndRight = "camera.sensor.tag.radiowaves.left.and.right"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case cameraSensorTagRadiowavesLeftAndRightFill = "camera.sensor.tag.radiowaves.left.and.right.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case cellularbarsCircle = "cellularbars.circle"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case cellularbarsCircleFill = "cellularbars.circle.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBookClosedBn = "character.book.closed.bn"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBookClosedFillBn = "character.book.closed.fill.bn"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBookClosedFillGu = "character.book.closed.fill.gu"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBookClosedFillKn = "character.book.closed.fill.kn"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBookClosedFillMl = "character.book.closed.fill.ml"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBookClosedFillMni = "character.book.closed.fill.mni"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBookClosedFillMr = "character.book.closed.fill.mr"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBookClosedFillOr = "character.book.closed.fill.or"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBookClosedFillPa = "character.book.closed.fill.pa"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBookClosedFillSat = "character.book.closed.fill.sat"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBookClosedFillSi = "character.book.closed.fill.si"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBookClosedFillTa = "character.book.closed.fill.ta"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBookClosedFillTe = "character.book.closed.fill.te"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBookClosedGu = "character.book.closed.gu"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBookClosedKn = "character.book.closed.kn"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBookClosedMl = "character.book.closed.ml"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBookClosedMni = "character.book.closed.mni"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBookClosedMr = "character.book.closed.mr"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBookClosedOr = "character.book.closed.or"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBookClosedPa = "character.book.closed.pa"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBookClosedSat = "character.book.closed.sat"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBookClosedSi = "character.book.closed.si"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBookClosedTa = "character.book.closed.ta"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBookClosedTe = "character.book.closed.te"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBubbleBn = "character.bubble.bn"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBubbleFillBn = "character.bubble.fill.bn"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBubbleFillGu = "character.bubble.fill.gu"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBubbleFillKn = "character.bubble.fill.kn"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBubbleFillMl = "character.bubble.fill.ml"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBubbleFillMni = "character.bubble.fill.mni"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBubbleFillMr = "character.bubble.fill.mr"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBubbleFillOr = "character.bubble.fill.or"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBubbleFillPa = "character.bubble.fill.pa"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBubbleFillSat = "character.bubble.fill.sat"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBubbleFillSi = "character.bubble.fill.si"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBubbleFillTa = "character.bubble.fill.ta"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBubbleFillTe = "character.bubble.fill.te"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBubbleGu = "character.bubble.gu"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBubbleKn = "character.bubble.kn"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBubbleMl = "character.bubble.ml"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBubbleMni = "character.bubble.mni"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBubbleMr = "character.bubble.mr"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBubbleOr = "character.bubble.or"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBubblePa = "character.bubble.pa"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBubbleSat = "character.bubble.sat"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBubbleSi = "character.bubble.si"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBubbleTa = "character.bubble.ta"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterBubbleTe = "character.bubble.te"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterTextJustify = "character.text.justify"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterTextJustifyAr = "character.text.justify.ar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterTextJustifyBn = "character.text.justify.bn"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterTextJustifyGu = "character.text.justify.gu"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterTextJustifyHe = "character.text.justify.he"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterTextJustifyHi = "character.text.justify.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterTextJustifyJa = "character.text.justify.ja"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterTextJustifyKn = "character.text.justify.kn"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterTextJustifyKo = "character.text.justify.ko"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterTextJustifyMl = "character.text.justify.ml"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterTextJustifyMni = "character.text.justify.mni"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterTextJustifyMr = "character.text.justify.mr"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterTextJustifyOr = "character.text.justify.or"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterTextJustifyPa = "character.text.justify.pa"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterTextJustifySat = "character.text.justify.sat"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterTextJustifySi = "character.text.justify.si"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterTextJustifyTa = "character.text.justify.ta"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterTextJustifyTe = "character.text.justify.te"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterTextJustifyTh = "character.text.justify.th"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case characterTextJustifyZh = "character.text.justify.zh"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case chartBarXaxisDescending = "chart.bar.xaxis.descending"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case checkmarkApp = "checkmark.app"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case checkmarkAppFill = "checkmark.app.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case checkmarkArrowTriangleheadClockwise = "checkmark.arrow.trianglehead.clockwise"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case checkmarkCircleBadgeAirplane = "checkmark.circle.badge.airplane"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case checkmarkCircleBadgeAirplaneFill = "checkmark.circle.badge.airplane.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case checkmarkCircleBadgePlus = "checkmark.circle.badge.plus"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case checkmarkCircleBadgePlusFill = "checkmark.circle.badge.plus.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case checkmarkCircleDotted = "checkmark.circle.dotted"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case checkmarkCircleTrianglebadgeExclamationmarkFill = "checkmark.circle.trianglebadge.exclamationmark.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case circleGrid2x2TopleftCheckmarkFilled = "circle.grid.2x2.topleft.checkmark.filled"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case circleOnSquare = "circle.on.square"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case circleOnSquareIntersectionDotted = "circle.on.square.intersection.dotted"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case circleOnSquareMerge = "circle.on.square.merge"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case clockArrowTriangleheadClockwiseRotate90PathDotted = "clock.arrow.trianglehead.clockwise.rotate.90.path.dotted"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case clockBadgeAirplane = "clock.badge.airplane"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case clockBadgeAirplaneFill = "clock.badge.airplane.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case coatCircle = "coat.circle"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case coatCircleFill = "coat.circle.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case contextualmenuAndPointerArrow = "contextualmenu.and.pointer.arrow"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case creditcardAndNumbers = "creditcard.and.numbers"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case creditcardRewards = "creditcard.rewards"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case creditcardRewardsFill = "creditcard.rewards.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case cubeCircle = "cube.circle"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case cubeCircleFill = "cube.circle.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case desktopcomputerBadgeCheckmark = "desktopcomputer.badge.checkmark"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case desktopcomputerBadgeShieldCheckmark = "desktopcomputer.badge.shield.checkmark"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case displayAndScrewdriver = "display.and.screwdriver"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case documentOnTrash = "document.on.trash"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case documentOnTrashFill = "document.on.trash.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case dotCircleAndPointerArrow = "dot.circle.and.pointer.arrow"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case dotCrosshair = "dot.crosshair"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case dotsAndLineVerticalAndPointerArrowRectangle = "dots.and.line.vertical.and.pointer.arrow.rectangle"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case earbudLeft = "earbud.left"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case earbudRight = "earbud.right"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case earbudsBoneConduction = "earbuds.bone.conduction"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case earbudsBoneConductionLeft = "earbuds.bone.conduction.left"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case earbudsBoneConductionRight = "earbuds.bone.conduction.right"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case earbudsInEar = "earbuds.in.ear"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case earbudsInEarLeft = "earbuds.in.ear.left"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case earbudsInEarRight = "earbuds.in.ear.right"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case earbudsStemless = "earbuds.stemless"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case earbudsStemlessLeft = "earbuds.stemless.left"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case earbudsStemlessRight = "earbuds.stemless.right"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case ellipsisCalendar = "ellipsis.calendar"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case ellipsisCircleBadge = "ellipsis.circle.badge"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case ellipsisCircleBadgeFill = "ellipsis.circle.badge.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case envelopeAndHandRaised = "envelope.and.hand.raised"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case envelopeAndHandRaisedFill = "envelope.and.hand.raised.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case envelopeBadgeMinus = "envelope.badge.minus"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case envelopeBadgeMinusFill = "envelope.badge.minus.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case envelopeBadgePlus = "envelope.badge.plus"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case envelopeBadgePlusFill = "envelope.badge.plus.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case envelopeOpenBadgeClockFill = "envelope.open.badge.clock.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case environments = "environments"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case environmentsCircle = "environments.circle"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case environmentsCircleFill = "environments.circle.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case environmentsFill = "environments.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case environmentsSlash = "environments.slash"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case environmentsSlashCircle = "environments.slash.circle"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case environmentsSlashCircleFill = "environments.slash.circle.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case environmentsSlashFill = "environments.slash.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case eraserBadgeXmark = "eraser.badge.xmark"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case eraserBadgeXmarkFill = "eraser.badge.xmark.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case eraserSlash = "eraser.slash"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case eraserSlashFill = "eraser.slash.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case eraserTrianglebadgeExclamationmark = "eraser.trianglebadge.exclamationmark"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case eraserTrianglebadgeExclamationmarkFill = "eraser.trianglebadge.exclamationmark.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case eyeHalfClosed = "eye.half.closed"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case eyeHalfClosedFill = "eye.half.closed.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case fCursiveSlash = "f.cursive.slash"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case fanBadgeArrowUpAndDownAndArrowLeftAndRight = "fan.badge.arrow.up.and.down.and.arrow.left.and.right"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case fanBadgeArrowUpAndDownAndArrowLeftAndRightFill = "fan.badge.arrow.up.and.down.and.arrow.left.and.right.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case fanCircle = "fan.circle"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case fanCircleFill = "fan.circle.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case fanGaugeOpen = "fan.gauge.open"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case figureSeatedSideLeftAirDistributionIndirect = "figure.seated.side.left.air.distribution.indirect"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case figureSeatedSideLeftAirDistributionLowerAngledAndUpperAngled = "figure.seated.side.left.air.distribution.lower.angled.and.upper.angled"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case figureSeatedSideLeftAirDistributionUpperAngledAndDottedlineAndLowerAngled = "figure.seated.side.left.air.distribution.upper.angled.and.dottedline.and.lower.angled"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case figureSeatedSideRightAirDistributionIndirect = "figure.seated.side.right.air.distribution.indirect"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case figureSeatedSideRightAirDistributionLowerAngledAndUpperAngled = "figure.seated.side.right.air.distribution.lower.angled.and.upper.angled"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case figureSeatedSideRightAirDistributionUpperAngledAndDottedlineAndLowerAngled = "figure.seated.side.right.air.distribution.upper.angled.and.dottedline.and.lower.angled"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case figureSeatedSideRightChildLap = "figure.seated.side.right.child.lap"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case figureWalkSuitcaseRolling = "figure.walk.suitcase.rolling"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case figureWalkSuitcaseRollingCircle = "figure.walk.suitcase.rolling.circle"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case figureWalkSuitcaseRollingCircleFill = "figure.walk.suitcase.rolling.circle.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case filemenuAndPointerArrow = "filemenu.and.pointer.arrow"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case filemenuAndPointerArrowRtl = "filemenu.and.pointer.arrow.rtl"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case finder = "finder"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case flameGaugeOpen = "flame.gauge.open"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case fuelpumpThermometer = "fuelpump.thermometer"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case fuelpumpThermometerFill = "fuelpump.thermometer.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case gaugeChartLefthalfRighthalf = "gauge.chart.lefthalf.righthalf"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case gaugeChartLeftthirdTopthirdRightthird = "gauge.chart.leftthird.topthird.rightthird"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case gaugeOpen = "gauge.open"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case gaugeOpenRighthalfDottedWithNeedleAndArrowTriangleheadBackward = "gauge.open.righthalf.dotted.with.needle.and.arrow.trianglehead.backward"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case globeBadgeClock = "globe.badge.clock"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case globeBadgeClockFill = "globe.badge.clock.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case globeFill = "globe.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case graph2d = "graph.2d"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case graph3d = "graph.3d"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case guidepointHorizontal = "guidepoint.horizontal"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case guidepointVerticalArrowtriangleForward = "guidepoint.vertical.arrowtriangle.forward"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case guidepointVerticalNumbers = "guidepoint.vertical.numbers"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case handThumbsdownFilledHandThumbsup = "hand.thumbsdown.filled.hand.thumbsup"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case handThumbsdownHandThumbsup = "hand.thumbsdown.hand.thumbsup"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case handThumbsdownHandThumbsupFill = "hand.thumbsdown.hand.thumbsup.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case handThumbsdownHandThumbsupFilled = "hand.thumbsdown.hand.thumbsup.filled"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case handbagSensorTagRadiowavesLeftAndRight = "handbag.sensor.tag.radiowaves.left.and.right"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case handbagSensorTagRadiowavesLeftAndRightFill = "handbag.sensor.tag.radiowaves.left.and.right.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case headphonesOverEar = "headphones.over.ear"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case headphonesSensorTagRadiowavesLeftAndRight = "headphones.sensor.tag.radiowaves.left.and.right"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case headphonesSensorTagRadiowavesLeftAndRightFill = "headphones.sensor.tag.radiowaves.left.and.right.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case heartBadgeBolt = "heart.badge.bolt"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case heartBadgeBoltFill = "heart.badge.bolt.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case heartBadgeBoltSlash = "heart.badge.bolt.slash"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case heartBadgeBoltSlashFill = "heart.badge.bolt.slash.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case heartGaugeOpen = "heart.gauge.open"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case heatWavesCircle = "heat.waves.circle"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case heatWavesCircleFill = "heat.waves.circle.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case heatWavesGaugeOpen = "heat.waves.gauge.open"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case highlighterBadgeEllipsis = "highlighter.badge.ellipsis"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case homepodBadgeCheckmark = "homepod.badge.checkmark"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case homepodBadgeCheckmarkFill = "homepod.badge.checkmark.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case homepodBadgeCheckmarkFillRtl = "homepod.badge.checkmark.fill.rtl"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case homepodBadgeCheckmarkRtl = "homepod.badge.checkmark.rtl"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case homepodMiniAndAppletv = "homepod.mini.and.appletv"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case homepodMiniAndAppletvFill = "homepod.mini.and.appletv.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case homepodMiniAndAppletvFillRtl = "homepod.mini.and.appletv.fill.rtl"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case homepodMiniAndAppletvRtl = "homepod.mini.and.appletv.rtl"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case homepodMiniBadgeCheckmark = "homepod.mini.badge.checkmark"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case homepodMiniBadgeCheckmarkFill = "homepod.mini.badge.checkmark.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case homepodMiniBadgeCheckmarkFillRtl = "homepod.mini.badge.checkmark.fill.rtl"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case homepodMiniBadgeCheckmarkRtl = "homepod.mini.badge.checkmark.rtl"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case hourglassBadgeLock = "hourglass.badge.lock"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case humidifierAndEllipsis = "humidifier.and.ellipsis"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case humidifierAndEllipsisFill = "humidifier.and.ellipsis.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case icloudDashed = "icloud.dashed"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case insetFilledBottomleadingBottomtrailingRectangle = "inset.filled.bottomleading.bottomtrailing.rectangle"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case insetFilledBottomleftBottomrightRectangle = "inset.filled.bottomleft.bottomright.rectangle"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case insetFilledCircleSlash = "inset.filled.circle.slash"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case insetFilledLeftthirdMiddlethirdRightthirdRectangle = "inset.filled.leftthird.middlethird.rightthird.rectangle"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case insetFilledPano = "inset.filled.pano"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case insetFilledRectangleAndPointerArrow = "inset.filled.rectangle.and.pointer.arrow"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case insetFilledTopthirdMiddlethirdBottomthirdRectangle = "inset.filled.topthird.middlethird.bottomthird.rectangle"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case ipadBadgeCheckmark = "ipad.badge.checkmark"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case ipadGen1CropHomebuttonCircle = "ipad.gen1.crop.homebutton.circle"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case ipadGen1Sizes = "ipad.gen1.sizes"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case ipadGen2Sizes = "ipad.gen2.sizes"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case ipadLandscapeAndApplewatch = "ipad.landscape.and.applewatch"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case ipadLandscapeAndIpod = "ipad.landscape.and.ipod"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case iphoneAndIpod = "iphone.and.ipod"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case iphoneAndVisionPro = "iphone.and.vision.pro"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case iphoneBadgeCheckmark = "iphone.badge.checkmark"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case iphoneGen1CropHomebuttonCircle = "iphone.gen1.crop.homebutton.circle"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case iphoneGen1Sizes = "iphone.gen1.sizes"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case iphoneGen2Sizes = "iphone.gen2.sizes"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case iphoneGen3Sizes = "iphone.gen3.sizes"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case iphonePatternDiagonalline = "iphone.pattern.diagonalline"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case iphonePatternDiagonallineOnRectanglePortraitDashed = "iphone.pattern.diagonalline.on.rectangle.portrait.dashed"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case ipodAndApplewatch = "ipod.and.applewatch"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case ipodAndVisionPro = "ipod.and.vision.pro"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case jacketCircle = "jacket.circle"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case jacketCircleFill = "jacket.circle.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case jacketSensorTagRadiowavesLeftAndRight = "jacket.sensor.tag.radiowaves.left.and.right"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case jacketSensorTagRadiowavesLeftAndRightFill = "jacket.sensor.tag.radiowaves.left.and.right.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case keyCircle = "key.circle"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case keyCircleFill = "key.circle.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case keySensorTagRadiowavesLeftAndRight = "key.sensor.tag.radiowaves.left.and.right"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case keySensorTagRadiowavesLeftAndRightFill = "key.sensor.tag.radiowaves.left.and.right.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case keyShield = "key.shield"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case keyShieldFill = "key.shield.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case laptopcomputerBadgeCheckmark = "laptopcomputer.badge.checkmark"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case lineDiagonalTriangleheadUpRight = "line.diagonal.trianglehead.up.right"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case lineDiagonalTriangleheadUpRightLeftDown = "line.diagonal.trianglehead.up.right.left.down"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case linesMeasurementHorizontalAlignedBottom = "lines.measurement.horizontal.aligned.bottom"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case listBulletBadgeEllipsis = "list.bullet.badge.ellipsis"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case listDashBadgeEllipsis = "list.dash.badge.ellipsis"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case listDashHeaderRectangleFill = "list.dash.header.rectangle.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case listNumberBadgeEllipsis = "list.number.badge.ellipsis"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case listNumberBadgeEllipsisHi = "list.number.badge.ellipsis.hi"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case listNumberBadgeEllipsisRtl = "list.number.badge.ellipsis.rtl"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case lockBadgeCheckmark = "lock.badge.checkmark"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case lockBadgeCheckmarkFill = "lock.badge.checkmark.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case lockBadgeXmark = "lock.badge.xmark"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case lockBadgeXmarkFill = "lock.badge.xmark.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case lockHeart = "lock.heart"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case lockHeartFill = "lock.heart.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case lockRectangleDashed = "lock.rectangle.dashed"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case macbookAndIpod = "macbook.and.ipod"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case macbookBadgeCheckmark = "macbook.badge.checkmark"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case macbookBadgeShieldCheckmark = "macbook.badge.shield.checkmark"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case macbookGen1Sizes = "macbook.gen1.sizes"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case macbookGen2Sizes = "macbook.gen2.sizes"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case macbookSizes = "macbook.sizes"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case macbookTrianglebadgeExclamationmark = "macbook.trianglebadge.exclamationmark"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case macminiBadgeCheckmark = "macmini.badge.checkmark"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case macminiBadgeCheckmarkFill = "macmini.badge.checkmark.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case macproGen3BadgeCkeckmark = "macpro.gen3.badge.ckeckmark"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case macproGen3BadgeCkeckmarkFill = "macpro.gen3.badge.ckeckmark.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case macstudioBadgeCheckmark = "macstudio.badge.checkmark"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case macstudioBadgeCheckmarkFill = "macstudio.badge.checkmark.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case macwindowAndPointerArrow = "macwindow.and.pointer.arrow"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case macwindowAndPointerArrowRtl = "macwindow.and.pointer.arrow.rtl"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case macwindowStack = "macwindow.stack"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case minusArrowTriangleheadClockwise = "minus.arrow.trianglehead.clockwise"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case minusPlusLinesMeasurementHorizontalAlignedBottom = "minus.plus.lines.measurement.horizontal.aligned.bottom"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case musicNoteArrowTriangleheadClockwise = "music.note.arrow.trianglehead.clockwise"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case musicNoteSlash = "music.note.slash"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case musicNoteSquareStack = "music.note.square.stack"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case musicNoteSquareStackFill = "music.note.square.stack.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case musicPages = "music.pages"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case musicPagesFill = "music.pages.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case numbersBn = "numbers.bn"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case numbersGu = "numbers.gu"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case numbersKm = "numbers.km"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case numbersKn = "numbers.kn"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case numbersMl = "numbers.ml"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case numbersMni = "numbers.mni"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case numbersMr = "numbers.mr"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case numbersMy = "numbers.my"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case numbersOr = "numbers.or"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case numbersPa = "numbers.pa"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case numbersSat = "numbers.sat"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case numbersTe = "numbers.te"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case padHeader = "pad.header"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case paintBucketClassic = "paint.bucket.classic"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case person2Badge = "person.2.badge"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case person2BadgeFill = "person.2.badge.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case person2Shield = "person.2.shield"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case person2ShieldFill = "person.2.shield.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case personCropCircleBadgeEllipsis = "person.crop.circle.badge.ellipsis"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case personCropCircleBadgeEllipsisFill = "person.crop.circle.badge.ellipsis.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case personSpatialaudio3dFill = "person.spatialaudio.3d.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case personSpatialaudioFill = "person.spatialaudio.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case personSpatialaudioStereo3dFill = "person.spatialaudio.stereo.3d.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case personSpatialaudioStereoFill = "person.spatialaudio.stereo.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case personTextRectangleTrianglebadgeExclamationmark = "person.text.rectangle.trianglebadge.exclamationmark"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case personTextRectangleTrianglebadgeExclamationmarkFill = "person.text.rectangle.trianglebadge.exclamationmark.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case petCarrier = "pet.carrier"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case petCarrierCircle = "pet.carrier.circle"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case petCarrierCircleFill = "pet.carrier.circle.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case petCarrierFill = "pet.carrier.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case phonePause = "phone.pause"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case phonePauseCircle = "phone.pause.circle"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case phonePauseCircleFill = "phone.pause.circle.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case phonePauseFill = "phone.pause.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case playDiamond = "play.diamond"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case playDiamondFill = "play.diamond.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case plusArrowTriangleheadCounterclockwise = "plus.arrow.trianglehead.counterclockwise"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case plusCapsule = "plus.capsule"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case plusCapsuleFill = "plus.capsule.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case pointerArrow = "pointer.arrow"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case pointerArrowAndSquareOnSquareDashed = "pointer.arrow.and.square.on.square.dashed"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case pointerArrowClick = "pointer.arrow.click"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case pointerArrowClick2 = "pointer.arrow.click.2"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case pointerArrowClickBadgeClock = "pointer.arrow.click.badge.clock"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case pointerArrowMotionlines = "pointer.arrow.motionlines"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case pointerArrowMotionlinesClick = "pointer.arrow.motionlines.click"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case pointerArrowRays = "pointer.arrow.rays"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case pointerArrowSlash = "pointer.arrow.slash"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case pointerArrowSlashSquare = "pointer.arrow.slash.square"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case pointerArrowSlashSquareFill = "pointer.arrow.slash.square.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case pointerArrowSquare = "pointer.arrow.square"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case pointerArrowSquareFill = "pointer.arrow.square.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case rectangle3GroupDashed = "rectangle.3.group.dashed"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case rectangleGrid1x3 = "rectangle.grid.1x3"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case rectangleGrid1x3Fill = "rectangle.grid.1x3.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case rectangleStackSlash = "rectangle.stack.slash"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case rectangleStackSlashFill = "rectangle.stack.slash.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case repeatBadgeXmark = "repeat.badge.xmark"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case ring = "ring"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case ringDashed = "ring.dashed"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case sensorRadiowavesLeftAndRight = "sensor.radiowaves.left.and.right"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case sensorRadiowavesLeftAndRightFill = "sensor.radiowaves.left.and.right.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case serviceDog = "service.dog"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case serviceDogFill = "service.dog.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case siri = "siri"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case sliderHorizontalBelowCircleLefthalfFilled = "slider.horizontal.below.circle.lefthalf.filled"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case sliderHorizontalBelowCircleLefthalfFilledInverse = "slider.horizontal.below.circle.lefthalf.filled.inverse"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case sliderHorizontalBelowCircleRighthalfFilled = "slider.horizontal.below.circle.righthalf.filled"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case sliderHorizontalBelowCircleRighthalfFilledInverse = "slider.horizontal.below.circle.righthalf.filled.inverse"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case sparkleTextClipboard = "sparkle.text.clipboard"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case sparkleTextClipboardFill = "sparkle.text.clipboard.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case sparkles2 = "sparkles.2"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case spatialCapture = "spatial.capture"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case spatialCaptureFill = "spatial.capture.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case spatialCaptureOnHexagon = "spatial.capture.on.hexagon"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case spatialCaptureOnHexagonFill = "spatial.capture.on.hexagon.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case spatialCaptureSlash = "spatial.capture.slash"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case spatialCaptureSlashFill = "spatial.capture.slash.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case speakerTrianglebadgeExclamationmark = "speaker.trianglebadge.exclamationmark"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case speakerTrianglebadgeExclamationmarkFill = "speaker.trianglebadge.exclamationmark.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case steeringwheelBadgeLock = "steeringwheel.badge.lock"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case strikethroughDouble = "strikethrough.double"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case strokeLineDiagonal = "stroke.line.diagonal"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case strokeLineDiagonalSlash = "stroke.line.diagonal.slash"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case suitcaseCircle = "suitcase.circle"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case suitcaseCircleFill = "suitcase.circle.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case suitcaseRollingAndFilm = "suitcase.rolling.and.film"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case suitcaseRollingAndFilmCircle = "suitcase.rolling.and.film.circle"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case suitcaseRollingAndFilmCircleFill = "suitcase.rolling.and.film.circle.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case suitcaseRollingAndFilmFill = "suitcase.rolling.and.film.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case suitcaseRollingAndSuitcase = "suitcase.rolling.and.suitcase"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case suitcaseRollingAndSuitcaseCircle = "suitcase.rolling.and.suitcase.circle"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case suitcaseRollingAndSuitcaseCircleFill = "suitcase.rolling.and.suitcase.circle.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case suitcaseRollingAndSuitcaseFill = "suitcase.rolling.and.suitcase.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case suitcaseRollingCircle = "suitcase.rolling.circle"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case suitcaseRollingCircleFill = "suitcase.rolling.circle.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case textBelowFolder = "text.below.folder"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case textBelowFolderFill = "text.below.folder.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case textPadHeader = "text.pad.header"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case textPadHeaderBadgeClock = "text.pad.header.badge.clock"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case textPadHeaderBadgeClockRtl = "text.pad.header.badge.clock.rtl"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case textPadHeaderBadgePlus = "text.pad.header.badge.plus"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case textRectangle = "text.rectangle"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case textRectangleFill = "text.rectangle.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case textSquareFilled = "text.square.filled"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case textformatNumbersMr = "textformat.numbers.mr"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case thermometerAndEllipsis = "thermometer.and.ellipsis"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case thermometerGaugeOpen = "thermometer.gauge.open"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case thermometerTirepressure = "thermometer.tirepressure"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case thermometerVariableBadgeClock = "thermometer.variable.badge.clock"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case thermometerVariableBadgePlay = "thermometer.variable.badge.play"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case tramCard = "tram.card"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case tramCardFill = "tram.card.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case trayBadge = "tray.badge"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case trayBadgeFill = "tray.badge.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case umbrellaCircle = "umbrella.circle"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case umbrellaCircleFill = "umbrella.circle.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case umbrellaGaugeOpen = "umbrella.gauge.open"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case umbrellaSensorTagRadiowavesLeftAndRight = "umbrella.sensor.tag.radiowaves.left.and.right"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case umbrellaSensorTagRadiowavesLeftAndRightFill = "umbrella.sensor.tag.radiowaves.left.and.right.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case underlineDouble = "underline.double"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case ventHeatWavesUpward = "vent.heat.waves.upward"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case visionProBadgeCheckmark = "vision.pro.badge.checkmark"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case visionProBadgeCheckmarkFill = "vision.pro.badge.checkmark.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case walletSensorTagRadiowavesLeftAndRight = "wallet.sensor.tag.radiowaves.left.and.right"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case walletSensorTagRadiowavesLeftAndRightFill = "wallet.sensor.tag.radiowaves.left.and.right.fill"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case waveformLow = "waveform.low"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case waveformMid = "waveform.mid"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case xmarkCircleBadgeAirplane = "xmark.circle.badge.airplane"
+    @available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*) case xmarkCircleBadgeAirplaneFill = "xmark.circle.badge.airplane.fill"
 }
 extension SFSymbol:CaseIterable
 {
@@ -14580,6 +15786,18 @@ extension SFSymbol:CaseIterable
             ])
         }
 
+        if #available(iOS 17.6,macOS 14.6,tvOS 17.6,visionOS 1.3,watchOS 10.6,*){
+            allCases.append(contentsOf: [
+                SFSymbol.beatsPill,
+                SFSymbol.beatsPillFill,
+                SFSymbol.beatsSolobuds,
+                SFSymbol.beatsSolobudsChargingcase,
+                SFSymbol.beatsSolobudsChargingcaseFill,
+                SFSymbol.beatsSolobudsLeft,
+                SFSymbol.beatsSolobudsRight
+            ])
+        }
+
         if #available(iOS 18.0,macOS 15.0,tvOS 18.0,visionOS 2.0,watchOS 11.0,*){
             allCases.append(contentsOf: [
                 SFSymbol.number10ArrowTriangleheadClockwise,
@@ -14630,6 +15848,14 @@ extension SFSymbol:CaseIterable
                 SFSymbol.number90ArrowTriangleheadCounterclockwise,
                 SFSymbol.number90ArrowTriangleheadCounterclockwiseAr,
                 SFSymbol.number90ArrowTriangleheadCounterclockwiseHi,
+                SFSymbol.airCarSide,
+                SFSymbol.airCarSideFill,
+                SFSymbol.airConvertibleSide,
+                SFSymbol.airConvertibleSideFill,
+                SFSymbol.airPickupSide,
+                SFSymbol.airPickupSideFill,
+                SFSymbol.airSuvSide,
+                SFSymbol.airSuvSideFill,
                 SFSymbol.airplayAudio,
                 SFSymbol.airplayAudioBadgeExclamationmark,
                 SFSymbol.airplayAudioCircle,
@@ -14665,8 +15891,14 @@ extension SFSymbol:CaseIterable
                 SFSymbol.appleHapticsAndExclamationmarkTriangle,
                 SFSymbol.appleHapticsAndMusicNote,
                 SFSymbol.appleHapticsAndMusicNoteSlash,
+                SFSymbol.appleImagePlayground,
+                SFSymbol.appleImagePlaygroundFill,
+                SFSymbol.appleIntelligence,
                 SFSymbol.appleMeditateCircle,
                 SFSymbol.appleMeditateCircleFill,
+                SFSymbol.applepencilDoubletap,
+                SFSymbol.applepencilHover,
+                SFSymbol.applepencilSqueeze,
                 SFSymbol.applewatchCaseSizes,
                 SFSymbol.arcadeStickAndArrowLeftAndArrowRightOutward,
                 SFSymbol.arrowBackwardCircleDotted,
@@ -14748,16 +15980,23 @@ extension SFSymbol:CaseIterable
                 SFSymbol.australiandollarsignBankBuildingFill,
                 SFSymbol.australiandollarsignGaugeChartLefthalfRighthalf,
                 SFSymbol.australiandollarsignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.australiandollarsignRing,
+                SFSymbol.australiandollarsignRingDashed,
                 SFSymbol.australsignArrowTriangleheadCounterclockwiseRotate90,
                 SFSymbol.australsignBankBuilding,
                 SFSymbol.australsignBankBuildingFill,
                 SFSymbol.australsignGaugeChartLefthalfRighthalf,
                 SFSymbol.australsignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.australsignRing,
+                SFSymbol.australsignRingDashed,
                 SFSymbol.bahtsignArrowTriangleheadCounterclockwiseRotate90,
                 SFSymbol.bahtsignBankBuilding,
                 SFSymbol.bahtsignBankBuildingFill,
                 SFSymbol.bahtsignGaugeChartLefthalfRighthalf,
                 SFSymbol.bahtsignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.bahtsignRing,
+                SFSymbol.bahtsignRingDashed,
+                SFSymbol.baseUnit,
                 SFSymbol.baseballDiamondBasesOutsIndicator,
                 SFSymbol.batteryblockStack,
                 SFSymbol.batteryblockStackBadgeSnowflake,
@@ -14777,16 +16016,21 @@ extension SFSymbol:CaseIterable
                 SFSymbol.beatsStudiobudsPlusLeft,
                 SFSymbol.beatsStudiobudsPlusRight,
                 SFSymbol.beatsStudiobudsRight,
+                SFSymbol.beziercurve,
                 SFSymbol.bitcoinsignArrowTriangleheadCounterclockwiseRotate90,
                 SFSymbol.bitcoinsignBankBuilding,
                 SFSymbol.bitcoinsignBankBuildingFill,
                 SFSymbol.bitcoinsignGaugeChartLefthalfRighthalf,
                 SFSymbol.bitcoinsignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.bitcoinsignRing,
+                SFSymbol.bitcoinsignRingDashed,
                 SFSymbol.brazilianrealsignArrowTriangleheadCounterclockwiseRotate90,
                 SFSymbol.brazilianrealsignBankBuilding,
                 SFSymbol.brazilianrealsignBankBuildingFill,
                 SFSymbol.brazilianrealsignGaugeChartLefthalfRighthalf,
                 SFSymbol.brazilianrealsignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.brazilianrealsignRing,
+                SFSymbol.brazilianrealsignRingDashed,
                 SFSymbol.bubbleAndPencil,
                 SFSymbol.bubbleAndPencilRtl,
                 SFSymbol.calendarAndPerson,
@@ -14801,16 +16045,37 @@ extension SFSymbol:CaseIterable
                 SFSymbol.carBadgeGearshapeFill,
                 SFSymbol.carFrontWavesLeftAndRightAndUp,
                 SFSymbol.carFrontWavesLeftAndRightAndUpFill,
+                SFSymbol.carRearAndTireMarksOff,
                 SFSymbol.carRearHazardsign,
                 SFSymbol.carRearHazardsignFill,
+                SFSymbol.carRearRoadLaneDistance1,
+                SFSymbol.carRearRoadLaneDistance1AndGaugeOpenWithLinesNeedle67percentAndArrowtriangle,
+                SFSymbol.carRearRoadLaneDistance2,
+                SFSymbol.carRearRoadLaneDistance2AndGaugeOpenWithLinesNeedle67percentAndArrowtriangle,
+                SFSymbol.carRearRoadLaneDistance3,
+                SFSymbol.carRearRoadLaneDistance3AndGaugeOpenWithLinesNeedle67percentAndArrowtriangle,
+                SFSymbol.carRearRoadLaneDistance4,
+                SFSymbol.carRearRoadLaneDistance4AndGaugeOpenWithLinesNeedle67percentAndArrowtriangle,
+                SFSymbol.carRearRoadLaneDistance5,
+                SFSymbol.carRearRoadLaneDistance5AndGaugeOpenWithLinesNeedle67percentAndArrowtriangle,
+                SFSymbol.carRearRoadLaneOff,
                 SFSymbol.carRearRoadLaneWaveUp,
                 SFSymbol.carRearTiltRoadLanesCurvedRight,
                 SFSymbol.carSideFrontOpenCrop,
                 SFSymbol.carSideFrontOpenCropFill,
+                SFSymbol.carSideHillDescentControl,
+                SFSymbol.carSideHillDescentControlFill,
+                SFSymbol.carSideRearAndExclamationmarkAndCarSideFrontOff,
+                SFSymbol.carSideRearCropTrunkPartition,
+                SFSymbol.carSideRearCropTrunkPartitionFill,
                 SFSymbol.carSideRearOpenCrop,
                 SFSymbol.carSideRearOpenCropFill,
                 SFSymbol.carSideRearTowHitch,
                 SFSymbol.carSideRearTowHitchFill,
+                SFSymbol.carSideRoofCargoCarrier,
+                SFSymbol.carSideRoofCargoCarrierFill,
+                SFSymbol.carSideRoofCargoCarrierSlash,
+                SFSymbol.carSideRoofCargoCarrierSlashFill,
                 SFSymbol.carTopArrowtriangleFrontLeft,
                 SFSymbol.carTopArrowtriangleFrontLeftFill,
                 SFSymbol.carTopArrowtriangleFrontRight,
@@ -14827,16 +16092,29 @@ extension SFSymbol:CaseIterable
                 SFSymbol.carTopRadiowavesRearRightCarTopFrontFill,
                 SFSymbol.carTopRearRadiowavesRearLeftAndRearAndRearRight,
                 SFSymbol.carTopRearRadiowavesRearLeftAndRearAndRearRightFill,
+                SFSymbol.carTopVideoRearLeft,
+                SFSymbol.carTopVideoRearLeftFill,
+                SFSymbol.carTopVideoRearRight,
+                SFSymbol.carTopVideoRearRightFill,
+                SFSymbol.cartBadgeClock,
+                SFSymbol.cartBadgeClockFill,
+                SFSymbol.cartBadgeClockFillRtl,
+                SFSymbol.cartBadgeClockRtl,
                 SFSymbol.cedisignArrowTriangleheadCounterclockwiseRotate90,
                 SFSymbol.cedisignBankBuilding,
                 SFSymbol.cedisignBankBuildingFill,
                 SFSymbol.cedisignGaugeChartLefthalfRighthalf,
                 SFSymbol.cedisignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.cedisignRing,
+                SFSymbol.cedisignRingDashed,
                 SFSymbol.centsignArrowTriangleheadCounterclockwiseRotate90,
                 SFSymbol.centsignBankBuilding,
                 SFSymbol.centsignBankBuildingFill,
                 SFSymbol.centsignGaugeChartLefthalfRighthalf,
                 SFSymbol.centsignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.centsignRing,
+                SFSymbol.centsignRingDashed,
+                SFSymbol.characterBn,
                 SFSymbol.characterCircle,
                 SFSymbol.characterCircleAr,
                 SFSymbol.characterCircleFill,
@@ -14853,6 +16131,15 @@ extension SFSymbol:CaseIterable
                 SFSymbol.characterCircleKo,
                 SFSymbol.characterCircleTh,
                 SFSymbol.characterCircleZh,
+                SFSymbol.characterGu,
+                SFSymbol.characterKn,
+                SFSymbol.characterMl,
+                SFSymbol.characterMni,
+                SFSymbol.characterMr,
+                SFSymbol.characterOr,
+                SFSymbol.characterPa,
+                SFSymbol.characterSat,
+                SFSymbol.characterSi,
                 SFSymbol.characterSquare,
                 SFSymbol.characterSquareAr,
                 SFSymbol.characterSquareFill,
@@ -14869,6 +16156,8 @@ extension SFSymbol:CaseIterable
                 SFSymbol.characterSquareKo,
                 SFSymbol.characterSquareTh,
                 SFSymbol.characterSquareZh,
+                SFSymbol.characterTa,
+                SFSymbol.characterTe,
                 SFSymbol.charactersLowercase,
                 SFSymbol.charactersLowercaseEl,
                 SFSymbol.charactersLowercaseRu,
@@ -14877,7 +16166,14 @@ extension SFSymbol:CaseIterable
                 SFSymbol.charactersUppercaseRu,
                 SFSymbol.chartBarHorizontalPage,
                 SFSymbol.chartBarHorizontalPageFill,
+                SFSymbol.chartBarYaxis,
+                SFSymbol.chartLineTextClipboard,
+                SFSymbol.chartLineTextClipboardFill,
                 SFSymbol.checkmarkArrowTriangleheadCounterclockwise,
+                SFSymbol.checkmarkSealTextPage,
+                SFSymbol.checkmarkSealTextPageFill,
+                SFSymbol.checkmarkSealTextPageFillRtl,
+                SFSymbol.checkmarkSealTextPageRtl,
                 SFSymbol.chevronBackwardChevronBackwardDotted,
                 SFSymbol.chevronCompactLeftChevronCompactRight,
                 SFSymbol.chevronCompactUpChevronCompactDown,
@@ -14906,6 +16202,8 @@ extension SFSymbol:CaseIterable
                 SFSymbol.chineseyuanrenminbisignBankBuildingFill,
                 SFSymbol.chineseyuanrenminbisignGaugeChartLefthalfRighthalf,
                 SFSymbol.chineseyuanrenminbisignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.chineseyuanrenminbisignRing,
+                SFSymbol.chineseyuanrenminbisignRingDashed,
                 SFSymbol.circleBottomrighthalfPatternCheckered,
                 SFSymbol.clockArrowTrianglehead2CounterclockwiseRotate90,
                 SFSymbol.clockArrowTriangleheadCounterclockwiseRotate90,
@@ -14918,6 +16216,8 @@ extension SFSymbol:CaseIterable
                 SFSymbol.coloncurrencysignBankBuildingFill,
                 SFSymbol.coloncurrencysignGaugeChartLefthalfRighthalf,
                 SFSymbol.coloncurrencysignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.coloncurrencysignRing,
+                SFSymbol.coloncurrencysignRingDashed,
                 SFSymbol.convertibleSide,
                 SFSymbol.convertibleSideAirCirculate,
                 SFSymbol.convertibleSideAirCirculateFill,
@@ -14942,6 +16242,8 @@ extension SFSymbol:CaseIterable
                 SFSymbol.convertibleSideFrontOpenCrop,
                 SFSymbol.convertibleSideFrontOpenCropFill,
                 SFSymbol.convertibleSideFrontOpenFill,
+                SFSymbol.convertibleSideHillDescentControl,
+                SFSymbol.convertibleSideHillDescentControlFill,
                 SFSymbol.convertibleSideHillDown,
                 SFSymbol.convertibleSideHillDownFill,
                 SFSymbol.convertibleSideHillUp,
@@ -14955,13 +16257,19 @@ extension SFSymbol:CaseIterable
                 SFSymbol.cruzeirosignBankBuildingFill,
                 SFSymbol.cruzeirosignGaugeChartLefthalfRighthalf,
                 SFSymbol.cruzeirosignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.cruzeirosignRing,
+                SFSymbol.cruzeirosignRingDashed,
+                SFSymbol.cupAndHeatWaves,
+                SFSymbol.cupAndHeatWavesFill,
                 SFSymbol.danishkronesignArrowTriangleheadCounterclockwiseRotate90,
                 SFSymbol.danishkronesignBankBuilding,
                 SFSymbol.danishkronesignBankBuildingFill,
                 SFSymbol.danishkronesignGaugeChartLefthalfRighthalf,
                 SFSymbol.danishkronesignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.danishkronesignRing,
+                SFSymbol.danishkronesignRingDashed,
                 SFSymbol.degreesignCelsius,
-                SFSymbol.degreesignFarenheit,
+                SFSymbol.degreesignFahrenheit,
                 SFSymbol.desktopcomputerAndMacbook,
                 SFSymbol.distributeHorizontal,
                 SFSymbol.distributeHorizontalFill,
@@ -14992,11 +16300,15 @@ extension SFSymbol:CaseIterable
                 SFSymbol.dollarsignBankBuildingFill,
                 SFSymbol.dollarsignGaugeChartLefthalfRighthalf,
                 SFSymbol.dollarsignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.dollarsignRing,
+                SFSymbol.dollarsignRingDashed,
                 SFSymbol.dongsignArrowTriangleheadCounterclockwiseRotate90,
                 SFSymbol.dongsignBankBuilding,
                 SFSymbol.dongsignBankBuildingFill,
                 SFSymbol.dongsignGaugeChartLefthalfRighthalf,
                 SFSymbol.dongsignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.dongsignRing,
+                SFSymbol.dongsignRingDashed,
                 SFSymbol.drone,
                 SFSymbol.droneFill,
                 SFSymbol.duffleBag,
@@ -15005,6 +16317,8 @@ extension SFSymbol:CaseIterable
                 SFSymbol.ecgTextPageFill,
                 SFSymbol.ecgTextPageFillRtl,
                 SFSymbol.ecgTextPageRtl,
+                SFSymbol.engineEmissionAndExclamationmark,
+                SFSymbol.engineEmissionAndFilter,
                 SFSymbol.envelopeAndArrowTriangleheadBranch,
                 SFSymbol.envelopeAndArrowTriangleheadBranchFill,
                 SFSymbol.envelopeFront,
@@ -15016,11 +16330,15 @@ extension SFSymbol:CaseIterable
                 SFSymbol.eurosignBankBuildingFill,
                 SFSymbol.eurosignGaugeChartLefthalfRighthalf,
                 SFSymbol.eurosignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.eurosignRing,
+                SFSymbol.eurosignRingDashed,
                 SFSymbol.eurozonesignArrowTriangleheadCounterclockwiseRotate90,
                 SFSymbol.eurozonesignBankBuilding,
                 SFSymbol.eurozonesignBankBuildingFill,
                 SFSymbol.eurozonesignGaugeChartLefthalfRighthalf,
                 SFSymbol.eurozonesignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.eurozonesignRing,
+                SFSymbol.eurozonesignRingDashed,
                 SFSymbol.exclamationmarkArrowTrianglehead2ClockwiseRotate90,
                 SFSymbol.exclamationmarkArrowTriangleheadCounterclockwiseRotate90,
                 SFSymbol.figure2LeftHoldinghands,
@@ -15284,7 +16602,10 @@ extension SFSymbol:CaseIterable
                 SFSymbol.florinsignBankBuildingFill,
                 SFSymbol.florinsignGaugeChartLefthalfRighthalf,
                 SFSymbol.florinsignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.florinsignRing,
+                SFSymbol.florinsignRingDashed,
                 SFSymbol.fluidBatteryblock,
+                SFSymbol.fluidCoolant,
                 SFSymbol.formfittingGamecontroller,
                 SFSymbol.formfittingGamecontrollerFill,
                 SFSymbol.francsignArrowTriangleheadCounterclockwiseRotate90,
@@ -15292,6 +16613,8 @@ extension SFSymbol:CaseIterable
                 SFSymbol.francsignBankBuildingFill,
                 SFSymbol.francsignGaugeChartLefthalfRighthalf,
                 SFSymbol.francsignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.francsignRing,
+                SFSymbol.francsignRingDashed,
                 SFSymbol.fuelpumpAndFilter,
                 SFSymbol.gamecontrollerCircle,
                 SFSymbol.gamecontrollerCircleFill,
@@ -15307,6 +16630,8 @@ extension SFSymbol:CaseIterable
                 SFSymbol.guaranisignBankBuildingFill,
                 SFSymbol.guaranisignGaugeChartLefthalfRighthalf,
                 SFSymbol.guaranisignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.guaranisignRing,
+                SFSymbol.guaranisignRingDashed,
                 SFSymbol.handDrawBadgeEllipsis,
                 SFSymbol.handDrawBadgeEllipsisFill,
                 SFSymbol.handPalmFacing,
@@ -15317,6 +16642,8 @@ extension SFSymbol:CaseIterable
                 SFSymbol.handPointUpBrailleBadgeEllipsisFill,
                 SFSymbol.handRaisedPalmFacing,
                 SFSymbol.handRaisedPalmFacingFill,
+                SFSymbol.handRays,
+                SFSymbol.handRaysFill,
                 SFSymbol.hatCap,
                 SFSymbol.hatCapFill,
                 SFSymbol.hatWidebrim,
@@ -15393,11 +16720,15 @@ extension SFSymbol:CaseIterable
                 SFSymbol.hryvniasignBankBuildingFill,
                 SFSymbol.hryvniasignGaugeChartLefthalfRighthalf,
                 SFSymbol.hryvniasignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.hryvniasignRing,
+                SFSymbol.hryvniasignRingDashed,
                 SFSymbol.indianrupeesignArrowTriangleheadCounterclockwiseRotate90,
                 SFSymbol.indianrupeesignBankBuilding,
                 SFSymbol.indianrupeesignBankBuildingFill,
                 SFSymbol.indianrupeesignGaugeChartLefthalfRighthalf,
                 SFSymbol.indianrupeesignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.indianrupeesignRing,
+                SFSymbol.indianrupeesignRingDashed,
                 SFSymbol.inhaler,
                 SFSymbol.inhalerFill,
                 SFSymbol.insetFilledApplewatchCase,
@@ -15487,8 +16818,12 @@ extension SFSymbol:CaseIterable
                 SFSymbol.ipadBadgeLocation,
                 SFSymbol.ipadGen1BadgeLocation,
                 SFSymbol.ipadGen1LandscapeBadgeLocation,
+                SFSymbol.ipadGen1LandscapeSlash,
+                SFSymbol.ipadGen1Slash,
                 SFSymbol.ipadGen2BadgeLocation,
                 SFSymbol.ipadGen2LandscapeBadgeLocation,
+                SFSymbol.ipadGen2LandscapeSlash,
+                SFSymbol.ipadGen2Slash,
                 SFSymbol.ipadLandscapeAndIphone,
                 SFSymbol.ipadLandscapeAndIphoneSlash,
                 SFSymbol.ipadLandscapeBadgeLocation,
@@ -15504,14 +16839,17 @@ extension SFSymbol:CaseIterable
                 SFSymbol.iphoneGen1AndArrowLeft,
                 SFSymbol.iphoneGen1BadgeLocation,
                 SFSymbol.iphoneGen1CropCircle,
+                SFSymbol.iphoneGen1LandscapeSlash,
                 SFSymbol.iphoneGen1Motion,
                 SFSymbol.iphoneGen2AndArrowLeftAndArrowRightInward,
                 SFSymbol.iphoneGen2BadgeLocation,
                 SFSymbol.iphoneGen2CropCircle,
+                SFSymbol.iphoneGen2LandscapeSlash,
                 SFSymbol.iphoneGen2Motion,
                 SFSymbol.iphoneGen3AndArrowLeftAndArrowRightInward,
                 SFSymbol.iphoneGen3BadgeLocation,
                 SFSymbol.iphoneGen3CropCircle,
+                SFSymbol.iphoneGen3LandscapeSlash,
                 SFSymbol.iphoneGen3Motion,
                 SFSymbol.iphoneMotion,
                 SFSymbol.ipodShuffleGen1,
@@ -15525,11 +16863,19 @@ extension SFSymbol:CaseIterable
                 SFSymbol.jacketFill,
                 SFSymbol.key2OnRing,
                 SFSymbol.key2OnRingFill,
+                SFSymbol.keyCarRadiowavesForward,
+                SFSymbol.keyCarRadiowavesForwardFill,
+                SFSymbol.keyCarRadiowavesForwardFillRtl,
+                SFSymbol.keyCarRadiowavesForwardRtl,
+                SFSymbol.keyCard,
+                SFSymbol.keyCardFill,
                 SFSymbol.kipsignArrowTriangleheadCounterclockwiseRotate90,
                 SFSymbol.kipsignBankBuilding,
                 SFSymbol.kipsignBankBuildingFill,
                 SFSymbol.kipsignGaugeChartLefthalfRighthalf,
                 SFSymbol.kipsignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.kipsignRing,
+                SFSymbol.kipsignRingDashed,
                 SFSymbol.ladybugSlash,
                 SFSymbol.ladybugSlashCircle,
                 SFSymbol.ladybugSlashCircleFill,
@@ -15539,6 +16885,8 @@ extension SFSymbol:CaseIterable
                 SFSymbol.larisignBankBuildingFill,
                 SFSymbol.larisignGaugeChartLefthalfRighthalf,
                 SFSymbol.larisignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.larisignRing,
+                SFSymbol.larisignRingDashed,
                 SFSymbol.leafArrowTriangleheadClockwise,
                 SFSymbol.lessthanorequalto,
                 SFSymbol.lessthanorequaltoCircle,
@@ -15550,12 +16898,16 @@ extension SFSymbol:CaseIterable
                 SFSymbol.lirasignBankBuildingFill,
                 SFSymbol.lirasignGaugeChartLefthalfRighthalf,
                 SFSymbol.lirasignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.lirasignRing,
+                SFSymbol.lirasignRingDashed,
                 SFSymbol.locationApp,
                 SFSymbol.locationAppFill,
                 SFSymbol.lockDocument,
                 SFSymbol.lockDocumentFill,
                 SFSymbol.lockRectangleOnRectangleDashed,
+                SFSymbol.macbookAndApplewatch,
                 SFSymbol.macbookAndVisionPro,
+                SFSymbol.macbookSlash,
                 SFSymbol.malaysianringgitsign,
                 SFSymbol.malaysianringgitsignArrowTriangleheadCounterclockwiseRotate90,
                 SFSymbol.malaysianringgitsignBankBuilding,
@@ -15564,6 +16916,8 @@ extension SFSymbol:CaseIterable
                 SFSymbol.malaysianringgitsignCircleFill,
                 SFSymbol.malaysianringgitsignGaugeChartLefthalfRighthalf,
                 SFSymbol.malaysianringgitsignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.malaysianringgitsignRing,
+                SFSymbol.malaysianringgitsignRingDashed,
                 SFSymbol.malaysianringgitsignSquare,
                 SFSymbol.malaysianringgitsignSquareFill,
                 SFSymbol.manatsignArrowTriangleheadCounterclockwiseRotate90,
@@ -15571,6 +16925,10 @@ extension SFSymbol:CaseIterable
                 SFSymbol.manatsignBankBuildingFill,
                 SFSymbol.manatsignGaugeChartLefthalfRighthalf,
                 SFSymbol.manatsignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.manatsignRing,
+                SFSymbol.manatsignRingDashed,
+                SFSymbol.matterLogo,
+                SFSymbol.mecca,
                 SFSymbol.microphone,
                 SFSymbol.microphoneAndSignalMeter,
                 SFSymbol.microphoneAndSignalMeterFill,
@@ -15594,6 +16952,8 @@ extension SFSymbol:CaseIterable
                 SFSymbol.millsignBankBuildingFill,
                 SFSymbol.millsignGaugeChartLefthalfRighthalf,
                 SFSymbol.millsignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.millsignRing,
+                SFSymbol.millsignRingDashed,
                 SFSymbol.minusArrowTriangleheadCounterclockwise,
                 SFSymbol.moonRoadLanes,
                 SFSymbol.moped,
@@ -15608,11 +16968,15 @@ extension SFSymbol:CaseIterable
                 SFSymbol.nairasignBankBuildingFill,
                 SFSymbol.nairasignGaugeChartLefthalfRighthalf,
                 SFSymbol.nairasignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.nairasignRing,
+                SFSymbol.nairasignRingDashed,
                 SFSymbol.norwegiankronesignArrowTriangleheadCounterclockwiseRotate90,
                 SFSymbol.norwegiankronesignBankBuilding,
                 SFSymbol.norwegiankronesignBankBuildingFill,
                 SFSymbol.norwegiankronesignGaugeChartLefthalfRighthalf,
                 SFSymbol.norwegiankronesignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.norwegiankronesignRing,
+                SFSymbol.norwegiankronesignRingDashed,
                 SFSymbol.notequal,
                 SFSymbol.notequalCircle,
                 SFSymbol.notequalCircleFill,
@@ -15631,6 +16995,7 @@ extension SFSymbol:CaseIterable
                 SFSymbol.oar2CrossedCircleFill,
                 SFSymbol.oilcanAndThermometer,
                 SFSymbol.oilcanAndThermometerFill,
+                SFSymbol.parkingsignRadiowavesDownRightOff,
                 SFSymbol.parkingsignRadiowavesLeftAndRightSlash,
                 SFSymbol.parkingsignSquare,
                 SFSymbol.parkingsignSquareFill,
@@ -15647,6 +17012,7 @@ extension SFSymbol:CaseIterable
                 SFSymbol.personCropSquareOnSquareAngled,
                 SFSymbol.personCropSquareOnSquareAngledFill,
                 SFSymbol.personFillAndArrowLeftAndArrowRightOutward,
+                SFSymbol.personalhotspotSlash,
                 SFSymbol.peruviansolessign,
                 SFSymbol.peruviansolessignArrowTriangleheadCounterclockwiseRotate90,
                 SFSymbol.peruviansolessignBankBuilding,
@@ -15655,6 +17021,8 @@ extension SFSymbol:CaseIterable
                 SFSymbol.peruviansolessignCircleFill,
                 SFSymbol.peruviansolessignGaugeChartLefthalfRighthalf,
                 SFSymbol.peruviansolessignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.peruviansolessignRing,
+                SFSymbol.peruviansolessignRingDashed,
                 SFSymbol.peruviansolessignSquare,
                 SFSymbol.peruviansolessignSquareFill,
                 SFSymbol.pesetasignArrowTriangleheadCounterclockwiseRotate90,
@@ -15662,11 +17030,15 @@ extension SFSymbol:CaseIterable
                 SFSymbol.pesetasignBankBuildingFill,
                 SFSymbol.pesetasignGaugeChartLefthalfRighthalf,
                 SFSymbol.pesetasignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.pesetasignRing,
+                SFSymbol.pesetasignRingDashed,
                 SFSymbol.pesosignArrowTriangleheadCounterclockwiseRotate90,
                 SFSymbol.pesosignBankBuilding,
                 SFSymbol.pesosignBankBuildingFill,
                 SFSymbol.pesosignGaugeChartLefthalfRighthalf,
                 SFSymbol.pesosignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.pesosignRing,
+                SFSymbol.pesosignRingDashed,
                 SFSymbol.phoneBadgeClock,
                 SFSymbol.phoneBadgeClockFill,
                 SFSymbol.photoBadgeExclamationmark,
@@ -15686,6 +17058,8 @@ extension SFSymbol:CaseIterable
                 SFSymbol.polishzlotysignBankBuildingFill,
                 SFSymbol.polishzlotysignGaugeChartLefthalfRighthalf,
                 SFSymbol.polishzlotysignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.polishzlotysignRing,
+                SFSymbol.polishzlotysignRingDashed,
                 SFSymbol.powermeter,
                 SFSymbol.powerplugPortrait,
                 SFSymbol.powerplugPortraitFill,
@@ -15702,6 +17076,7 @@ extension SFSymbol:CaseIterable
                 SFSymbol.questionmarkTextPageFillAr,
                 SFSymbol.questionmarkTextPageFillRtl,
                 SFSymbol.questionmarkTextPageRtl,
+                SFSymbol.rectangleExpandDiagonal,
                 SFSymbol.rectangleGrid3x3,
                 SFSymbol.rectangleGrid3x3Fill,
                 SFSymbol.rectangleOnRectangleDashed,
@@ -15729,6 +17104,8 @@ extension SFSymbol:CaseIterable
                 SFSymbol.rublesignBankBuildingFill,
                 SFSymbol.rublesignGaugeChartLefthalfRighthalf,
                 SFSymbol.rublesignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.rublesignRing,
+                SFSymbol.rublesignRingDashed,
                 SFSymbol.rugbyball,
                 SFSymbol.rugbyballCircle,
                 SFSymbol.rugbyballCircleFill,
@@ -15738,15 +17115,19 @@ extension SFSymbol:CaseIterable
                 SFSymbol.rupeesignBankBuildingFill,
                 SFSymbol.rupeesignGaugeChartLefthalfRighthalf,
                 SFSymbol.rupeesignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.rupeesignRing,
+                SFSymbol.rupeesignRingDashed,
                 SFSymbol.sharedwithyou,
                 SFSymbol.sharedwithyouCircle,
                 SFSymbol.sharedwithyouCircleFill,
-                SFSymbol.sharedwithyouCircleSlash,
+                SFSymbol.sharedwithyouSlash,
                 SFSymbol.shekelsignArrowTriangleheadCounterclockwiseRotate90,
                 SFSymbol.shekelsignBankBuilding,
                 SFSymbol.shekelsignBankBuildingFill,
                 SFSymbol.shekelsignGaugeChartLefthalfRighthalf,
                 SFSymbol.shekelsignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.shekelsignRing,
+                SFSymbol.shekelsignRingDashed,
                 SFSymbol.shieldPatternCheckered,
                 SFSymbol.singaporedollarsign,
                 SFSymbol.singaporedollarsignArrowTriangleheadCounterclockwiseRotate90,
@@ -15756,13 +17137,18 @@ extension SFSymbol:CaseIterable
                 SFSymbol.singaporedollarsignCircleFill,
                 SFSymbol.singaporedollarsignGaugeChartLefthalfRighthalf,
                 SFSymbol.singaporedollarsignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.singaporedollarsignRing,
+                SFSymbol.singaporedollarsignRingDashed,
                 SFSymbol.singaporedollarsignSquare,
                 SFSymbol.singaporedollarsignSquareFill,
                 SFSymbol.sliderHorizontal2ArrowTriangleheadCounterclockwise,
                 SFSymbol.sliderHorizontal2RectangleAndArrowTrianglehead2ClockwiseRotate90,
                 SFSymbol.speakerWave1ArrowtrianglesUpRightDownLeft,
+                SFSymbol.squareAndArrowDownBadgeClock,
+                SFSymbol.squareAndArrowDownBadgeClockFill,
                 SFSymbol.squareAndArrowUpTrianglebadgeExclamationmarkFill,
                 SFSymbol.squareGrid3x3SquareBadgeEllipsis,
+                SFSymbol.squareroot,
                 SFSymbol.steeringwheelAndHands,
                 SFSymbol.steeringwheelArrowTriangleheadCounterclockwiseAndClockwise,
                 SFSymbol.sterlingsignArrowTriangleheadCounterclockwiseRotate90,
@@ -15770,26 +17156,50 @@ extension SFSymbol:CaseIterable
                 SFSymbol.sterlingsignBankBuildingFill,
                 SFSymbol.sterlingsignGaugeChartLefthalfRighthalf,
                 SFSymbol.sterlingsignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.sterlingsignRing,
+                SFSymbol.sterlingsignRingDashed,
+                SFSymbol.sunLefthalfFilled,
+                SFSymbol.sunRighthalfFilled,
+                SFSymbol.suspensionShock,
                 SFSymbol.suvSideFrontOpenCrop,
                 SFSymbol.suvSideFrontOpenCropFill,
+                SFSymbol.suvSideHillDescentControl,
+                SFSymbol.suvSideHillDescentControlFill,
                 SFSymbol.suvSideRearOpenCrop,
                 SFSymbol.suvSideRearOpenCropFill,
+                SFSymbol.suvSideRoofCargoCarrier,
+                SFSymbol.suvSideRoofCargoCarrierFill,
+                SFSymbol.suvSideRoofCargoCarrierSlash,
+                SFSymbol.suvSideRoofCargoCarrierSlashFill,
                 SFSymbol.swedishkronasignArrowTriangleheadCounterclockwiseRotate90,
                 SFSymbol.swedishkronasignBankBuilding,
                 SFSymbol.swedishkronasignBankBuildingFill,
                 SFSymbol.swedishkronasignGaugeChartLefthalfRighthalf,
                 SFSymbol.swedishkronasignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.swedishkronasignRing,
+                SFSymbol.swedishkronasignRingDashed,
                 SFSymbol.tachometer,
                 SFSymbol.tengesignArrowTriangleheadCounterclockwiseRotate90,
                 SFSymbol.tengesignBankBuilding,
                 SFSymbol.tengesignBankBuildingFill,
                 SFSymbol.tengesignGaugeChartLefthalfRighthalf,
                 SFSymbol.tengesignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.tengesignRing,
+                SFSymbol.tengesignRingDashed,
+                SFSymbol.textBubbleBadgeClock,
+                SFSymbol.textBubbleBadgeClockFill,
+                SFSymbol.textBubbleBadgeClockFillRtl,
+                SFSymbol.textBubbleBadgeClockRtl,
                 SFSymbol.textDocument,
                 SFSymbol.textDocumentFill,
+                SFSymbol.textLineMagnify,
                 SFSymbol.textPage,
                 SFSymbol.textPageBadgeMagnifyingglass,
                 SFSymbol.textPageFill,
+                SFSymbol.textPageSlash,
+                SFSymbol.textPageSlashFill,
+                SFSymbol.textPageSlashFillRtl,
+                SFSymbol.textPageSlashRtl,
                 SFSymbol.textRectanglePage,
                 SFSymbol.textRectanglePageFill,
                 SFSymbol.textformatAltAr,
@@ -15850,6 +17260,42 @@ extension SFSymbol:CaseIterable
                 SFSymbol.textformatNumbersPa,
                 SFSymbol.textformatNumbersSat,
                 SFSymbol.textformatNumbersTe,
+                SFSymbol.textformatSizeBn,
+                SFSymbol.textformatSizeGu,
+                SFSymbol.textformatSizeKn,
+                SFSymbol.textformatSizeLargerBn,
+                SFSymbol.textformatSizeLargerGu,
+                SFSymbol.textformatSizeLargerKn,
+                SFSymbol.textformatSizeLargerMl,
+                SFSymbol.textformatSizeLargerMni,
+                SFSymbol.textformatSizeLargerMr,
+                SFSymbol.textformatSizeLargerOr,
+                SFSymbol.textformatSizeLargerPa,
+                SFSymbol.textformatSizeLargerSat,
+                SFSymbol.textformatSizeLargerSi,
+                SFSymbol.textformatSizeLargerTa,
+                SFSymbol.textformatSizeLargerTe,
+                SFSymbol.textformatSizeMl,
+                SFSymbol.textformatSizeMni,
+                SFSymbol.textformatSizeMr,
+                SFSymbol.textformatSizeOr,
+                SFSymbol.textformatSizePa,
+                SFSymbol.textformatSizeSat,
+                SFSymbol.textformatSizeSi,
+                SFSymbol.textformatSizeSmallerBn,
+                SFSymbol.textformatSizeSmallerGu,
+                SFSymbol.textformatSizeSmallerKn,
+                SFSymbol.textformatSizeSmallerMl,
+                SFSymbol.textformatSizeSmallerMni,
+                SFSymbol.textformatSizeSmallerMr,
+                SFSymbol.textformatSizeSmallerOr,
+                SFSymbol.textformatSizeSmallerPa,
+                SFSymbol.textformatSizeSmallerSat,
+                SFSymbol.textformatSizeSmallerSi,
+                SFSymbol.textformatSizeSmallerTa,
+                SFSymbol.textformatSizeSmallerTe,
+                SFSymbol.textformatSizeTa,
+                SFSymbol.textformatSizeTe,
                 SFSymbol.textformatTh,
                 SFSymbol.textformatZh,
                 SFSymbol.thermometerAndLiquidWavesSnowflake,
@@ -15857,18 +17303,36 @@ extension SFSymbol:CaseIterable
                 SFSymbol.thermometerVariable,
                 SFSymbol.tire,
                 SFSymbol.tireBadgeSnowflake,
+                SFSymbol.towHitch,
+                SFSymbol.towHitchExclamationmark,
+                SFSymbol.towHitchExclamationmarkFill,
+                SFSymbol.towHitchFill,
                 SFSymbol.truckPickupSideFrontOpenCrop,
                 SFSymbol.truckPickupSideFrontOpenCropFill,
+                SFSymbol.truckSideHillDescentControl,
+                SFSymbol.truckSideHillDescentControlFill,
+                SFSymbol.truckSideRoofCargoCarrier,
+                SFSymbol.truckSideRoofCargoCarrierFill,
+                SFSymbol.truckSideRoofCargoCarrierSlash,
+                SFSymbol.truckSideRoofCargoCarrierSlashFill,
+                SFSymbol.tsa,
+                SFSymbol.tsaCircle,
+                SFSymbol.tsaCircleFill,
+                SFSymbol.tsaSlash,
                 SFSymbol.tugriksignArrowTriangleheadCounterclockwiseRotate90,
                 SFSymbol.tugriksignBankBuilding,
                 SFSymbol.tugriksignBankBuildingFill,
                 SFSymbol.tugriksignGaugeChartLefthalfRighthalf,
                 SFSymbol.tugriksignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.tugriksignRing,
+                SFSymbol.tugriksignRingDashed,
                 SFSymbol.turkishlirasignArrowTriangleheadCounterclockwiseRotate90,
                 SFSymbol.turkishlirasignBankBuilding,
                 SFSymbol.turkishlirasignBankBuildingFill,
                 SFSymbol.turkishlirasignGaugeChartLefthalfRighthalf,
                 SFSymbol.turkishlirasignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.turkishlirasignRing,
+                SFSymbol.turkishlirasignRingDashed,
                 SFSymbol.visionPro,
                 SFSymbol.visionProAndArrowForward,
                 SFSymbol.visionProAndArrowForwardFill,
@@ -15893,8 +17357,16 @@ extension SFSymbol:CaseIterable
                 SFSymbol.waterWavesAndArrowTriangleheadDownTrianglebadgeExclamationmark,
                 SFSymbol.waterWavesAndArrowTriangleheadUp,
                 SFSymbol.wave3Down,
+                SFSymbol.wave3DownCarSide,
+                SFSymbol.wave3DownCarSideFill,
                 SFSymbol.wave3DownCircle,
                 SFSymbol.wave3DownCircleFill,
+                SFSymbol.wave3DownConvertibleSide,
+                SFSymbol.wave3DownConvertibleSideFill,
+                SFSymbol.wave3DownPickupSide,
+                SFSymbol.wave3DownPickupSideFill,
+                SFSymbol.wave3DownSuvSide,
+                SFSymbol.wave3DownSuvSideFill,
                 SFSymbol.wave3Up,
                 SFSymbol.wave3UpCircle,
                 SFSymbol.wave3UpCircleFill,
@@ -15913,12 +17385,982 @@ extension SFSymbol:CaseIterable
                 SFSymbol.wonsignBankBuildingFill,
                 SFSymbol.wonsignGaugeChartLefthalfRighthalf,
                 SFSymbol.wonsignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.wonsignRing,
+                SFSymbol.wonsignRingDashed,
+                SFSymbol.xmarkTriangleCircleSquare,
+                SFSymbol.xmarkTriangleCircleSquareFill,
                 SFSymbol.yensignArrowTriangleheadCounterclockwiseRotate90,
                 SFSymbol.yensignBankBuilding,
                 SFSymbol.yensignBankBuildingFill,
                 SFSymbol.yensignGaugeChartLefthalfRighthalf,
                 SFSymbol.yensignGaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.yensignRing,
+                SFSymbol.yensignRingDashed,
                 SFSymbol.zipperPage
+            ])
+        }
+
+        if #available(iOS 18.1,macOS 15.1,tvOS 18.1,visionOS 2.1,watchOS 11.1,*){
+            allCases.append(contentsOf: [
+                SFSymbol.boltHouse,
+                SFSymbol.boltHouseFill,
+                SFSymbol.cableConnectorVideo,
+                SFSymbol.carTopRadiowaves2FrontLeftFrontFrontRight,
+                SFSymbol.carTopRadiowaves2FrontLeftFrontFrontRightFill,
+                SFSymbol.carTopRadiowaves2RearLeftRearRearRight,
+                SFSymbol.carTopRadiowaves2RearLeftRearRearRightFill,
+                SFSymbol.characterCircleBn,
+                SFSymbol.characterCircleFillBn,
+                SFSymbol.characterCircleFillGu,
+                SFSymbol.characterCircleFillKn,
+                SFSymbol.characterCircleFillMl,
+                SFSymbol.characterCircleFillMni,
+                SFSymbol.characterCircleFillMr,
+                SFSymbol.characterCircleFillOr,
+                SFSymbol.characterCircleFillPa,
+                SFSymbol.characterCircleFillSat,
+                SFSymbol.characterCircleFillSi,
+                SFSymbol.characterCircleFillTa,
+                SFSymbol.characterCircleFillTe,
+                SFSymbol.characterCircleGu,
+                SFSymbol.characterCircleKn,
+                SFSymbol.characterCircleMl,
+                SFSymbol.characterCircleMni,
+                SFSymbol.characterCircleMr,
+                SFSymbol.characterCircleOr,
+                SFSymbol.characterCirclePa,
+                SFSymbol.characterCircleSat,
+                SFSymbol.characterCircleSi,
+                SFSymbol.characterCircleTa,
+                SFSymbol.characterCircleTe,
+                SFSymbol.characterSquareBn,
+                SFSymbol.characterSquareFillBn,
+                SFSymbol.characterSquareFillGu,
+                SFSymbol.characterSquareFillKn,
+                SFSymbol.characterSquareFillMl,
+                SFSymbol.characterSquareFillMni,
+                SFSymbol.characterSquareFillMr,
+                SFSymbol.characterSquareFillOr,
+                SFSymbol.characterSquareFillPa,
+                SFSymbol.characterSquareFillSat,
+                SFSymbol.characterSquareFillSi,
+                SFSymbol.characterSquareFillTa,
+                SFSymbol.characterSquareFillTe,
+                SFSymbol.characterSquareGu,
+                SFSymbol.characterSquareKn,
+                SFSymbol.characterSquareMl,
+                SFSymbol.characterSquareMni,
+                SFSymbol.characterSquareMr,
+                SFSymbol.characterSquareOr,
+                SFSymbol.characterSquarePa,
+                SFSymbol.characterSquareSat,
+                SFSymbol.characterSquareSi,
+                SFSymbol.characterSquareTa,
+                SFSymbol.characterSquareTe,
+                SFSymbol.dotCarTopRadiowaves2RearLeftRearRearRight,
+                SFSymbol.dotCarTopRadiowaves2RearLeftRearRearRightFill,
+                SFSymbol.envelopeStack,
+                SFSymbol.envelopeStackFill,
+                SFSymbol.exclamationmarkMessage,
+                SFSymbol.exclamationmarkMessageFill,
+                SFSymbol.handThumbsdownSlash,
+                SFSymbol.handThumbsdownSlashFill,
+                SFSymbol.handThumbsupSlash,
+                SFSymbol.handThumbsupSlashFill,
+                SFSymbol.laurelLeadingLaurelTrailing,
+                SFSymbol.memoriesBadgeCheckmark,
+                SFSymbol.memoriesBadgeXmark,
+                SFSymbol.photoBadgeMagnifyingglass,
+                SFSymbol.photoBadgeMagnifyingglassFill,
+                SFSymbol.questionmarkMessage,
+                SFSymbol.questionmarkMessageFill,
+                SFSymbol.rectangleGrid3x1,
+                SFSymbol.rectangleGrid3x1Fill,
+                SFSymbol.squareAndArrowDownBadgeCheckmark,
+                SFSymbol.squareAndArrowDownBadgeCheckmarkFill,
+                SFSymbol.squareAndArrowDownBadgeXmark,
+                SFSymbol.squareAndArrowDownBadgeXmarkFill,
+                SFSymbol.waveformBadgeCheckmark,
+                SFSymbol.waveformBadgeXmark,
+                SFSymbol.waveformPathEcgMagnifyingglass,
+                SFSymbol.waveformPathEcgText,
+                SFSymbol.waveformPathEcgTextClipboard,
+                SFSymbol.waveformPathEcgTextClipboardFill,
+                SFSymbol.waveformPathEcgTextClipboardFillRtl,
+                SFSymbol.waveformPathEcgTextClipboardRtl,
+                SFSymbol.waveformPathEcgTextPage,
+                SFSymbol.waveformPathEcgTextPageFill,
+                SFSymbol.waveformPathEcgTextPageFillRtl,
+                SFSymbol.waveformPathEcgTextPageRtl,
+                SFSymbol.waveformPathEcgTextRtl
+            ])
+        }
+
+        if #available(iOS 18.2,macOS 15.2,tvOS 18.2,visionOS 2.2,watchOS 11.2,*){
+            allCases.append(contentsOf: [
+                SFSymbol.airpodsGen4,
+                SFSymbol.airpodsGen4ChargingcaseWireless,
+                SFSymbol.airpodsGen4ChargingcaseWirelessFill,
+                SFSymbol.airpodsGen4Left,
+                SFSymbol.airpodsGen4Right,
+                SFSymbol.appleWritingTools,
+                SFSymbol.exclamationmarkTriangleTextPage,
+                SFSymbol.exclamationmarkTriangleTextPageFill,
+                SFSymbol.exclamationmarkTriangleTextPageFillRtl,
+                SFSymbol.exclamationmarkTriangleTextPageRtl,
+                SFSymbol.figureSeatedSideLeftAirDistributionUpperAndMiddleAndLower,
+                SFSymbol.figureSeatedSideRightAirDistributionUpperAndMiddleAndLower,
+                SFSymbol.headphonesDots,
+                SFSymbol.infoTriangle,
+                SFSymbol.infoTriangleFill,
+                SFSymbol.insetFilledRectangleAndPersonFilledCircle,
+                SFSymbol.insetFilledRectangleAndPersonFilledCircleFill,
+                SFSymbol.questionmarkMessageAr,
+                SFSymbol.questionmarkMessageFillAr,
+                SFSymbol.receipt,
+                SFSymbol.receiptFill,
+                SFSymbol.wandAndOutline,
+                SFSymbol.wandAndOutlineInverse
+            ])
+        }
+
+        if #available(iOS 18.4,macOS 15.4,tvOS 18.4,visionOS 2.4,watchOS 11.4,*){
+            allCases.append(contentsOf: [
+                SFSymbol.arrowBackwardToLineCompact,
+                SFSymbol.arrowForwardToLineCompact,
+                SFSymbol.carSideArrowLeftAndRight,
+                SFSymbol.carSideArrowLeftAndRightFill,
+                SFSymbol.carSideHillDownAndGaugeOpenWithLinesNeedle25percentAndArrowtriangle,
+                SFSymbol.carSideHillDownAndGaugeOpenWithLinesNeedle25percentAndArrowtriangleFill,
+                SFSymbol.carSideRearAndCollisionAndCarSideFrontAndArrowForward,
+                SFSymbol.carSideRearAndCollisionAndCarSideFrontAndSteeringwheel,
+                SFSymbol.carTopLaneDashedDepartureLeftSlash,
+                SFSymbol.carTopLaneDashedDepartureLeftSlashFill,
+                SFSymbol.carTopLaneDashedDepartureRightSlash,
+                SFSymbol.carTopLaneDashedDepartureRightSlashFill,
+                SFSymbol.characterCursorIbeamBn,
+                SFSymbol.characterCursorIbeamGu,
+                SFSymbol.characterCursorIbeamKn,
+                SFSymbol.characterCursorIbeamMl,
+                SFSymbol.characterCursorIbeamMni,
+                SFSymbol.characterCursorIbeamMr,
+                SFSymbol.characterCursorIbeamOr,
+                SFSymbol.characterCursorIbeamPa,
+                SFSymbol.characterCursorIbeamSat,
+                SFSymbol.characterCursorIbeamSi,
+                SFSymbol.characterCursorIbeamTa,
+                SFSymbol.characterCursorIbeamTe,
+                SFSymbol.characterMagnifyBn,
+                SFSymbol.characterMagnifyGu,
+                SFSymbol.characterMagnifyKn,
+                SFSymbol.characterMagnifyMl,
+                SFSymbol.characterMagnifyMni,
+                SFSymbol.characterMagnifyMr,
+                SFSymbol.characterMagnifyOr,
+                SFSymbol.characterMagnifyPa,
+                SFSymbol.characterMagnifySat,
+                SFSymbol.characterMagnifySi,
+                SFSymbol.characterMagnifyTa,
+                SFSymbol.characterMagnifyTe,
+                SFSymbol.characterTextboxBadgeSparkles,
+                SFSymbol.characterTextboxBadgeSparklesAr,
+                SFSymbol.characterTextboxBadgeSparklesBn,
+                SFSymbol.characterTextboxBadgeSparklesGu,
+                SFSymbol.characterTextboxBadgeSparklesHe,
+                SFSymbol.characterTextboxBadgeSparklesHi,
+                SFSymbol.characterTextboxBadgeSparklesJa,
+                SFSymbol.characterTextboxBadgeSparklesKn,
+                SFSymbol.characterTextboxBadgeSparklesKo,
+                SFSymbol.characterTextboxBadgeSparklesMl,
+                SFSymbol.characterTextboxBadgeSparklesMni,
+                SFSymbol.characterTextboxBadgeSparklesMr,
+                SFSymbol.characterTextboxBadgeSparklesOr,
+                SFSymbol.characterTextboxBadgeSparklesPa,
+                SFSymbol.characterTextboxBadgeSparklesSat,
+                SFSymbol.characterTextboxBadgeSparklesSi,
+                SFSymbol.characterTextboxBadgeSparklesTa,
+                SFSymbol.characterTextboxBadgeSparklesTe,
+                SFSymbol.characterTextboxBadgeSparklesTh,
+                SFSymbol.characterTextboxBadgeSparklesZh,
+                SFSymbol.characterTextboxBn,
+                SFSymbol.characterTextboxGu,
+                SFSymbol.characterTextboxKn,
+                SFSymbol.characterTextboxMl,
+                SFSymbol.characterTextboxMni,
+                SFSymbol.characterTextboxMr,
+                SFSymbol.characterTextboxOr,
+                SFSymbol.characterTextboxPa,
+                SFSymbol.characterTextboxSat,
+                SFSymbol.characterTextboxSi,
+                SFSymbol.characterTextboxTa,
+                SFSymbol.characterTextboxTe,
+                SFSymbol.convertibleSideArrowLeftAndRight,
+                SFSymbol.convertibleSideArrowLeftAndRightFill,
+                SFSymbol.convertibleSideHillDownAndGaugeOpenWithLinesNeedle25percentAndArrowtriangle,
+                SFSymbol.convertibleSideHillDownAndGaugeOpenWithLinesNeedle25percentAndArrowtriangleFill,
+                SFSymbol.cursorarrowResizeNorthEastSouthEast,
+                SFSymbol.electronicTollCollection,
+                SFSymbol.electronicTollCollectionRectangle,
+                SFSymbol.electronicTollCollectionRectangleFill,
+                SFSymbol.electronicTollCollectionRectangleSlash,
+                SFSymbol.electronicTollCollectionRectangleSlashFill,
+                SFSymbol.electronicTollCollectionRectangleTrianglebadgeExclamationmark,
+                SFSymbol.electronicTollCollectionRectangleTrianglebadgeExclamationmarkFill,
+                SFSymbol.engineEmissionAndDrop2WaterWaveBelow,
+                SFSymbol.envelopeAndArrow3Down,
+                SFSymbol.envelopeAndArrow3DownFill,
+                SFSymbol.flagPatternCheckeredLc,
+                SFSymbol.fuelFilterWater,
+                SFSymbol.functionAr,
+                SFSymbol.hydrogen,
+                SFSymbol.hydrogenCircle,
+                SFSymbol.hydrogenCircleFill,
+                SFSymbol.hydrogenSquare,
+                SFSymbol.hydrogenSquareFill,
+                SFSymbol.infoCircleTextPage,
+                SFSymbol.infoCircleTextPageFill,
+                SFSymbol.infoCircleTextPageFillRtl,
+                SFSymbol.infoCircleTextPageRtl,
+                SFSymbol.keyCarSide,
+                SFSymbol.keyCarSideFill,
+                SFSymbol.keyConvertibleSide,
+                SFSymbol.keyConvertibleSideFill,
+                SFSymbol.keySuvSide,
+                SFSymbol.keySuvSideFill,
+                SFSymbol.keyTruckPickupSide,
+                SFSymbol.keyTruckPickupSideFill,
+                SFSymbol.longTextPageAndPencil,
+                SFSymbol.longTextPageAndPencilFill,
+                SFSymbol.macminiGen2,
+                SFSymbol.macminiGen2Fill,
+                SFSymbol.macminiGen3,
+                SFSymbol.macminiGen3Fill,
+                SFSymbol.memoriesSlash,
+                SFSymbol.minusPlusBatteryblockStackArrowtriangleLeft,
+                SFSymbol.minusPlusBatteryblockStackArrowtriangleLeftFill,
+                SFSymbol.minusPlusBatteryblockStackArrowtriangleRight,
+                SFSymbol.minusPlusBatteryblockStackArrowtriangleRightAndArrowtriangleLeft,
+                SFSymbol.minusPlusBatteryblockStackArrowtriangleRightAndArrowtriangleLeftFill,
+                SFSymbol.minusPlusBatteryblockStackArrowtriangleRightFill,
+                SFSymbol.nosignBadgeClock,
+                SFSymbol.personCheckmarkAndXmark,
+                SFSymbol.personCheckmarkAndXmarkRtl,
+                SFSymbol.personFillCheckmarkAndXmark,
+                SFSymbol.personFillCheckmarkAndXmarkRtl,
+                SFSymbol.photoBadgeShieldExclamationmark,
+                SFSymbol.photoBadgeShieldExclamationmarkFill,
+                SFSymbol.photoTrianglebadgeExclamationmark,
+                SFSymbol.photoTrianglebadgeExclamationmarkFill,
+                SFSymbol.pi,
+                SFSymbol.piCircle,
+                SFSymbol.piCircleFill,
+                SFSymbol.piSquare,
+                SFSymbol.piSquareFill,
+                SFSymbol.plusMinusCapsule,
+                SFSymbol.plusMinusCapsuleFill,
+                SFSymbol.repeatBadgeXmarkCircleFill,
+                SFSymbol.roadLaneArrowtriangle2Outward,
+                SFSymbol.roboticVacuumAndArrowtriangleUp,
+                SFSymbol.roboticVacuumAndArrowtriangleUpFill,
+                SFSymbol.roboticVacuumAndEllipsis,
+                SFSymbol.roboticVacuumAndEllipsisFill,
+                SFSymbol.spoonServing,
+                SFSymbol.squareAndArrowUpBadgeCheckmark,
+                SFSymbol.squareAndArrowUpBadgeCheckmarkFill,
+                SFSymbol.squareshapeSplit2x2DottedInside,
+                SFSymbol.squareshapeSplit2x2DottedInsideAndOutside,
+                SFSymbol.squareshapeSplit2x2DottedOutside,
+                SFSymbol.starHexagon,
+                SFSymbol.starHexagonFill,
+                SFSymbol.suvSideArrowLeftAndRight,
+                SFSymbol.suvSideArrowLeftAndRightFill,
+                SFSymbol.suvSideHillDownAndGaugeOpenWithLinesNeedle25percentAndArrowtriangle,
+                SFSymbol.suvSideHillDownAndGaugeOpenWithLinesNeedle25percentAndArrowtriangleFill,
+                SFSymbol.textformatAltBn,
+                SFSymbol.textformatAltGu,
+                SFSymbol.textformatAltKn,
+                SFSymbol.textformatAltMl,
+                SFSymbol.textformatAltMni,
+                SFSymbol.textformatAltMr,
+                SFSymbol.textformatAltOr,
+                SFSymbol.textformatAltPa,
+                SFSymbol.textformatAltSat,
+                SFSymbol.textformatAltSi,
+                SFSymbol.textformatAltTa,
+                SFSymbol.textformatAltTe,
+                SFSymbol.textformatBn,
+                SFSymbol.textformatCharactersArrowLeftAndRightBn,
+                SFSymbol.textformatCharactersArrowLeftAndRightGu,
+                SFSymbol.textformatCharactersArrowLeftAndRightKn,
+                SFSymbol.textformatCharactersArrowLeftAndRightMl,
+                SFSymbol.textformatCharactersArrowLeftAndRightMni,
+                SFSymbol.textformatCharactersArrowLeftAndRightMr,
+                SFSymbol.textformatCharactersArrowLeftAndRightOr,
+                SFSymbol.textformatCharactersArrowLeftAndRightPa,
+                SFSymbol.textformatCharactersArrowLeftAndRightSat,
+                SFSymbol.textformatCharactersArrowLeftAndRightSi,
+                SFSymbol.textformatCharactersArrowLeftAndRightTa,
+                SFSymbol.textformatCharactersArrowLeftAndRightTe,
+                SFSymbol.textformatCharactersBn,
+                SFSymbol.textformatCharactersDottedunderlineBn,
+                SFSymbol.textformatCharactersDottedunderlineGu,
+                SFSymbol.textformatCharactersDottedunderlineKn,
+                SFSymbol.textformatCharactersDottedunderlineMl,
+                SFSymbol.textformatCharactersDottedunderlineMni,
+                SFSymbol.textformatCharactersDottedunderlineMr,
+                SFSymbol.textformatCharactersDottedunderlineOr,
+                SFSymbol.textformatCharactersDottedunderlinePa,
+                SFSymbol.textformatCharactersDottedunderlineSat,
+                SFSymbol.textformatCharactersDottedunderlineSi,
+                SFSymbol.textformatCharactersDottedunderlineTa,
+                SFSymbol.textformatCharactersDottedunderlineTe,
+                SFSymbol.textformatCharactersGu,
+                SFSymbol.textformatCharactersKn,
+                SFSymbol.textformatCharactersMl,
+                SFSymbol.textformatCharactersMni,
+                SFSymbol.textformatCharactersMr,
+                SFSymbol.textformatCharactersOr,
+                SFSymbol.textformatCharactersPa,
+                SFSymbol.textformatCharactersSat,
+                SFSymbol.textformatCharactersSi,
+                SFSymbol.textformatCharactersTa,
+                SFSymbol.textformatCharactersTe,
+                SFSymbol.textformatGu,
+                SFSymbol.textformatKn,
+                SFSymbol.textformatMl,
+                SFSymbol.textformatMni,
+                SFSymbol.textformatMr,
+                SFSymbol.textformatOr,
+                SFSymbol.textformatPa,
+                SFSymbol.textformatSat,
+                SFSymbol.textformatSi,
+                SFSymbol.textformatSubscriptBn,
+                SFSymbol.textformatSubscriptGu,
+                SFSymbol.textformatSubscriptKn,
+                SFSymbol.textformatSubscriptMl,
+                SFSymbol.textformatSubscriptMni,
+                SFSymbol.textformatSubscriptMr,
+                SFSymbol.textformatSubscriptOr,
+                SFSymbol.textformatSubscriptPa,
+                SFSymbol.textformatSubscriptSat,
+                SFSymbol.textformatSubscriptSi,
+                SFSymbol.textformatSubscriptTa,
+                SFSymbol.textformatSubscriptTe,
+                SFSymbol.textformatSuperscriptBn,
+                SFSymbol.textformatSuperscriptGu,
+                SFSymbol.textformatSuperscriptKn,
+                SFSymbol.textformatSuperscriptMl,
+                SFSymbol.textformatSuperscriptMni,
+                SFSymbol.textformatSuperscriptMr,
+                SFSymbol.textformatSuperscriptOr,
+                SFSymbol.textformatSuperscriptPa,
+                SFSymbol.textformatSuperscriptSat,
+                SFSymbol.textformatSuperscriptSi,
+                SFSymbol.textformatSuperscriptTa,
+                SFSymbol.textformatSuperscriptTe,
+                SFSymbol.textformatTa,
+                SFSymbol.textformatTe,
+                SFSymbol.truckPickupSideArrowLeftAndRight,
+                SFSymbol.truckPickupSideArrowLeftAndRightFill,
+                SFSymbol.truckPickupSideHillDownAndGaugeOpenWithLinesNeedle25percentAndArrowtriangle,
+                SFSymbol.truckPickupSideHillDownAndGaugeOpenWithLinesNeedle25percentAndArrowtriangleFill
+            ])
+        }
+
+        if #available(iOS 18.5,macOS 15.5,tvOS 18.5,visionOS 2.5,watchOS 11.5,*){
+            allCases.append(contentsOf: [
+                SFSymbol.appleIntelligenceBadgeXmark,
+                SFSymbol.beatsPowerbeatsPro2,
+                SFSymbol.beatsPowerbeatsPro2Chargingcase,
+                SFSymbol.beatsPowerbeatsPro2ChargingcaseFill,
+                SFSymbol.beatsPowerbeatsPro2Left,
+                SFSymbol.beatsPowerbeatsPro2Right
+            ])
+        }
+
+        if #available(iOS 26.0,macOS 26.0,tvOS 26.0,visionOS 26.0,watchOS 26.0,*){
+            allCases.append(contentsOf: [
+                SFSymbol.number1Calendar,
+                SFSymbol.number1CalendarAr,
+                SFSymbol.number1CalendarHi,
+                SFSymbol.number10Calendar,
+                SFSymbol.number10CalendarAr,
+                SFSymbol.number10CalendarHi,
+                SFSymbol.number11Calendar,
+                SFSymbol.number11CalendarAr,
+                SFSymbol.number11CalendarHi,
+                SFSymbol.number12Calendar,
+                SFSymbol.number12CalendarAr,
+                SFSymbol.number12CalendarHi,
+                SFSymbol.number13Calendar,
+                SFSymbol.number13CalendarAr,
+                SFSymbol.number13CalendarHi,
+                SFSymbol.number14Calendar,
+                SFSymbol.number14CalendarAr,
+                SFSymbol.number14CalendarHi,
+                SFSymbol.number15Calendar,
+                SFSymbol.number15CalendarAr,
+                SFSymbol.number15CalendarHi,
+                SFSymbol.number16Calendar,
+                SFSymbol.number16CalendarAr,
+                SFSymbol.number16CalendarHi,
+                SFSymbol.number17Calendar,
+                SFSymbol.number17CalendarAr,
+                SFSymbol.number17CalendarHi,
+                SFSymbol.number18Calendar,
+                SFSymbol.number18CalendarAr,
+                SFSymbol.number18CalendarHi,
+                SFSymbol.number19Calendar,
+                SFSymbol.number19CalendarAr,
+                SFSymbol.number19CalendarHi,
+                SFSymbol.number2Calendar,
+                SFSymbol.number2CalendarAr,
+                SFSymbol.number2CalendarHi,
+                SFSymbol.number20Calendar,
+                SFSymbol.number20CalendarAr,
+                SFSymbol.number20CalendarHi,
+                SFSymbol.number21Calendar,
+                SFSymbol.number21CalendarAr,
+                SFSymbol.number21CalendarHi,
+                SFSymbol.number22Calendar,
+                SFSymbol.number22CalendarAr,
+                SFSymbol.number22CalendarHi,
+                SFSymbol.number23Calendar,
+                SFSymbol.number23CalendarAr,
+                SFSymbol.number23CalendarHi,
+                SFSymbol.number24Calendar,
+                SFSymbol.number24CalendarAr,
+                SFSymbol.number24CalendarHi,
+                SFSymbol.number25Calendar,
+                SFSymbol.number25CalendarAr,
+                SFSymbol.number25CalendarHi,
+                SFSymbol.number26Calendar,
+                SFSymbol.number26CalendarAr,
+                SFSymbol.number26CalendarHi,
+                SFSymbol.number27Calendar,
+                SFSymbol.number27CalendarAr,
+                SFSymbol.number27CalendarHi,
+                SFSymbol.number28Calendar,
+                SFSymbol.number28CalendarAr,
+                SFSymbol.number28CalendarHi,
+                SFSymbol.number29Calendar,
+                SFSymbol.number29CalendarAr,
+                SFSymbol.number29CalendarHi,
+                SFSymbol.number3Calendar,
+                SFSymbol.number3CalendarAr,
+                SFSymbol.number3CalendarHi,
+                SFSymbol.number30Calendar,
+                SFSymbol.number30CalendarAr,
+                SFSymbol.number30CalendarHi,
+                SFSymbol.number31Calendar,
+                SFSymbol.number31CalendarAr,
+                SFSymbol.number31CalendarHi,
+                SFSymbol.number4Calendar,
+                SFSymbol.number4CalendarAr,
+                SFSymbol.number4CalendarHi,
+                SFSymbol.number5Calendar,
+                SFSymbol.number5CalendarAr,
+                SFSymbol.number5CalendarHi,
+                SFSymbol.number6Calendar,
+                SFSymbol.number6CalendarAr,
+                SFSymbol.number6CalendarHi,
+                SFSymbol.number7Calendar,
+                SFSymbol.number7CalendarAr,
+                SFSymbol.number7CalendarHi,
+                SFSymbol.number8Calendar,
+                SFSymbol.number8CalendarAr,
+                SFSymbol.number8CalendarHi,
+                SFSymbol.number9Calendar,
+                SFSymbol.number9CalendarAr,
+                SFSymbol.number9CalendarHi,
+                SFSymbol.airplaneCloud,
+                SFSymbol.airplaneLanded,
+                SFSymbol.airplanePathDotted,
+                SFSymbol.airplaneTicket,
+                SFSymbol.airplaneTicketFill,
+                SFSymbol.airplaneUpForward,
+                SFSymbol.airplaneUpForwardApp,
+                SFSymbol.airplaneUpForwardAppFill,
+                SFSymbol.airplaneUpRight,
+                SFSymbol.airplaneUpRightApp,
+                SFSymbol.airplaneUpRightAppFill,
+                SFSymbol.airplaneseat,
+                SFSymbol.appBackgroundDotted,
+                SFSymbol.appGrid,
+                SFSymbol.appShadow,
+                SFSymbol.appSpecular,
+                SFSymbol.appTranslucent,
+                SFSymbol.appleBooksPages,
+                SFSymbol.appleBooksPagesFill,
+                SFSymbol.appleClassicalPages,
+                SFSymbol.appleClassicalPagesFill,
+                SFSymbol.applePodcastsPages,
+                SFSymbol.applePodcastsPagesFill,
+                SFSymbol.appletvBadgeCheckmark,
+                SFSymbol.appletvBadgeCheckmarkFill,
+                SFSymbol.appletvBadgeExclamationmark,
+                SFSymbol.appletvBadgeExclamationmarkFill,
+                SFSymbol.applewatchBadgeCheckmark,
+                SFSymbol.appsIpadBadgeCheckmark,
+                SFSymbol.appsIpadBadgeCheckmarkRtl,
+                SFSymbol.appsIpadBadgePlus,
+                SFSymbol.appsIpadOnRectanglePortraitDashed,
+                SFSymbol.appsIpadOnRectanglePortraitDashedRtl,
+                SFSymbol.appsIphoneBadgeCheckmark,
+                SFSymbol.appsIphoneBadgeCheckmarkRtl,
+                SFSymbol.aqiMediumGaugeOpen,
+                SFSymbol.arrowDownCircleBadgePause,
+                SFSymbol.arrowDownCircleBadgePauseFill,
+                SFSymbol.arrowDownCircleBadgeXmark,
+                SFSymbol.arrowDownCircleBadgeXmarkFill,
+                SFSymbol.arrowForwardFolder,
+                SFSymbol.arrowForwardFolderFill,
+                SFSymbol.arrowForwardFolderFillRtl,
+                SFSymbol.arrowForwardFolderRtl,
+                SFSymbol.arrowTriangleheadTurnUpRight,
+                SFSymbol.arrowUpFolder,
+                SFSymbol.arrowUpFolderFill,
+                SFSymbol.backpackSensorTagRadiowavesLeftAndRight,
+                SFSymbol.backpackSensorTagRadiowavesLeftAndRightFill,
+                SFSymbol.bedDoubleBadgeCheckmark,
+                SFSymbol.bedDoubleBadgeCheckmarkFill,
+                SFSymbol.bellBadgeWaveformSlash,
+                SFSymbol.bellBadgeWaveformSlashFill,
+                SFSymbol.bicycleSensorTagRadiowavesLeftAndRight,
+                SFSymbol.bicycleSensorTagRadiowavesLeftAndRightFill,
+                SFSymbol.bloodPressureCuff,
+                SFSymbol.bloodPressureCuffBadgeGaugeWithNeedle,
+                SFSymbol.bloodPressureCuffBadgeGaugeWithNeedleFill,
+                SFSymbol.bloodPressureCuffFill,
+                SFSymbol.bookBadgePlus,
+                SFSymbol.bookBadgePlusFill,
+                SFSymbol.briefcaseSensorTagRadiowavesLeftAndRight,
+                SFSymbol.briefcaseSensorTagRadiowavesLeftAndRightFill,
+                SFSymbol.calendarBadge,
+                SFSymbol.calendarBadgeLock,
+                SFSymbol.calendarDayTimelineLeadingCircle,
+                SFSymbol.calendarDayTimelineLeadingCircleFill,
+                SFSymbol.calendarDayTimelineLeftCircle,
+                SFSymbol.calendarDayTimelineLeftCircleFill,
+                SFSymbol.calendarDayTimelineRightCircle,
+                SFSymbol.calendarDayTimelineRightCircleFill,
+                SFSymbol.calendarDayTimelineTrailingCircle,
+                SFSymbol.calendarDayTimelineTrailingCircleFill,
+                SFSymbol.cameraSensorTagRadiowavesLeftAndRight,
+                SFSymbol.cameraSensorTagRadiowavesLeftAndRightFill,
+                SFSymbol.cellularbarsCircle,
+                SFSymbol.cellularbarsCircleFill,
+                SFSymbol.characterBookClosedBn,
+                SFSymbol.characterBookClosedFillBn,
+                SFSymbol.characterBookClosedFillGu,
+                SFSymbol.characterBookClosedFillKn,
+                SFSymbol.characterBookClosedFillMl,
+                SFSymbol.characterBookClosedFillMni,
+                SFSymbol.characterBookClosedFillMr,
+                SFSymbol.characterBookClosedFillOr,
+                SFSymbol.characterBookClosedFillPa,
+                SFSymbol.characterBookClosedFillSat,
+                SFSymbol.characterBookClosedFillSi,
+                SFSymbol.characterBookClosedFillTa,
+                SFSymbol.characterBookClosedFillTe,
+                SFSymbol.characterBookClosedGu,
+                SFSymbol.characterBookClosedKn,
+                SFSymbol.characterBookClosedMl,
+                SFSymbol.characterBookClosedMni,
+                SFSymbol.characterBookClosedMr,
+                SFSymbol.characterBookClosedOr,
+                SFSymbol.characterBookClosedPa,
+                SFSymbol.characterBookClosedSat,
+                SFSymbol.characterBookClosedSi,
+                SFSymbol.characterBookClosedTa,
+                SFSymbol.characterBookClosedTe,
+                SFSymbol.characterBubbleBn,
+                SFSymbol.characterBubbleFillBn,
+                SFSymbol.characterBubbleFillGu,
+                SFSymbol.characterBubbleFillKn,
+                SFSymbol.characterBubbleFillMl,
+                SFSymbol.characterBubbleFillMni,
+                SFSymbol.characterBubbleFillMr,
+                SFSymbol.characterBubbleFillOr,
+                SFSymbol.characterBubbleFillPa,
+                SFSymbol.characterBubbleFillSat,
+                SFSymbol.characterBubbleFillSi,
+                SFSymbol.characterBubbleFillTa,
+                SFSymbol.characterBubbleFillTe,
+                SFSymbol.characterBubbleGu,
+                SFSymbol.characterBubbleKn,
+                SFSymbol.characterBubbleMl,
+                SFSymbol.characterBubbleMni,
+                SFSymbol.characterBubbleMr,
+                SFSymbol.characterBubbleOr,
+                SFSymbol.characterBubblePa,
+                SFSymbol.characterBubbleSat,
+                SFSymbol.characterBubbleSi,
+                SFSymbol.characterBubbleTa,
+                SFSymbol.characterBubbleTe,
+                SFSymbol.characterTextJustify,
+                SFSymbol.characterTextJustifyAr,
+                SFSymbol.characterTextJustifyBn,
+                SFSymbol.characterTextJustifyGu,
+                SFSymbol.characterTextJustifyHe,
+                SFSymbol.characterTextJustifyHi,
+                SFSymbol.characterTextJustifyJa,
+                SFSymbol.characterTextJustifyKn,
+                SFSymbol.characterTextJustifyKo,
+                SFSymbol.characterTextJustifyMl,
+                SFSymbol.characterTextJustifyMni,
+                SFSymbol.characterTextJustifyMr,
+                SFSymbol.characterTextJustifyOr,
+                SFSymbol.characterTextJustifyPa,
+                SFSymbol.characterTextJustifySat,
+                SFSymbol.characterTextJustifySi,
+                SFSymbol.characterTextJustifyTa,
+                SFSymbol.characterTextJustifyTe,
+                SFSymbol.characterTextJustifyTh,
+                SFSymbol.characterTextJustifyZh,
+                SFSymbol.chartBarXaxisDescending,
+                SFSymbol.checkmarkApp,
+                SFSymbol.checkmarkAppFill,
+                SFSymbol.checkmarkArrowTriangleheadClockwise,
+                SFSymbol.checkmarkCircleBadgeAirplane,
+                SFSymbol.checkmarkCircleBadgeAirplaneFill,
+                SFSymbol.checkmarkCircleBadgePlus,
+                SFSymbol.checkmarkCircleBadgePlusFill,
+                SFSymbol.checkmarkCircleDotted,
+                SFSymbol.checkmarkCircleTrianglebadgeExclamationmarkFill,
+                SFSymbol.circleGrid2x2TopleftCheckmarkFilled,
+                SFSymbol.circleOnSquare,
+                SFSymbol.circleOnSquareIntersectionDotted,
+                SFSymbol.circleOnSquareMerge,
+                SFSymbol.clockArrowTriangleheadClockwiseRotate90PathDotted,
+                SFSymbol.clockBadgeAirplane,
+                SFSymbol.clockBadgeAirplaneFill,
+                SFSymbol.coatCircle,
+                SFSymbol.coatCircleFill,
+                SFSymbol.contextualmenuAndPointerArrow,
+                SFSymbol.creditcardAndNumbers,
+                SFSymbol.creditcardRewards,
+                SFSymbol.creditcardRewardsFill,
+                SFSymbol.cubeCircle,
+                SFSymbol.cubeCircleFill,
+                SFSymbol.desktopcomputerBadgeCheckmark,
+                SFSymbol.desktopcomputerBadgeShieldCheckmark,
+                SFSymbol.displayAndScrewdriver,
+                SFSymbol.documentOnTrash,
+                SFSymbol.documentOnTrashFill,
+                SFSymbol.dotCircleAndPointerArrow,
+                SFSymbol.dotCrosshair,
+                SFSymbol.dotsAndLineVerticalAndPointerArrowRectangle,
+                SFSymbol.earbudLeft,
+                SFSymbol.earbudRight,
+                SFSymbol.earbudsBoneConduction,
+                SFSymbol.earbudsBoneConductionLeft,
+                SFSymbol.earbudsBoneConductionRight,
+                SFSymbol.earbudsInEar,
+                SFSymbol.earbudsInEarLeft,
+                SFSymbol.earbudsInEarRight,
+                SFSymbol.earbudsStemless,
+                SFSymbol.earbudsStemlessLeft,
+                SFSymbol.earbudsStemlessRight,
+                SFSymbol.ellipsisCalendar,
+                SFSymbol.ellipsisCircleBadge,
+                SFSymbol.ellipsisCircleBadgeFill,
+                SFSymbol.envelopeAndHandRaised,
+                SFSymbol.envelopeAndHandRaisedFill,
+                SFSymbol.envelopeBadgeMinus,
+                SFSymbol.envelopeBadgeMinusFill,
+                SFSymbol.envelopeBadgePlus,
+                SFSymbol.envelopeBadgePlusFill,
+                SFSymbol.envelopeOpenBadgeClockFill,
+                SFSymbol.environments,
+                SFSymbol.environmentsCircle,
+                SFSymbol.environmentsCircleFill,
+                SFSymbol.environmentsFill,
+                SFSymbol.environmentsSlash,
+                SFSymbol.environmentsSlashCircle,
+                SFSymbol.environmentsSlashCircleFill,
+                SFSymbol.environmentsSlashFill,
+                SFSymbol.eraserBadgeXmark,
+                SFSymbol.eraserBadgeXmarkFill,
+                SFSymbol.eraserSlash,
+                SFSymbol.eraserSlashFill,
+                SFSymbol.eraserTrianglebadgeExclamationmark,
+                SFSymbol.eraserTrianglebadgeExclamationmarkFill,
+                SFSymbol.eyeHalfClosed,
+                SFSymbol.eyeHalfClosedFill,
+                SFSymbol.fCursiveSlash,
+                SFSymbol.fanBadgeArrowUpAndDownAndArrowLeftAndRight,
+                SFSymbol.fanBadgeArrowUpAndDownAndArrowLeftAndRightFill,
+                SFSymbol.fanCircle,
+                SFSymbol.fanCircleFill,
+                SFSymbol.fanGaugeOpen,
+                SFSymbol.figureSeatedSideLeftAirDistributionIndirect,
+                SFSymbol.figureSeatedSideLeftAirDistributionLowerAngledAndUpperAngled,
+                SFSymbol.figureSeatedSideLeftAirDistributionUpperAngledAndDottedlineAndLowerAngled,
+                SFSymbol.figureSeatedSideRightAirDistributionIndirect,
+                SFSymbol.figureSeatedSideRightAirDistributionLowerAngledAndUpperAngled,
+                SFSymbol.figureSeatedSideRightAirDistributionUpperAngledAndDottedlineAndLowerAngled,
+                SFSymbol.figureSeatedSideRightChildLap,
+                SFSymbol.figureWalkSuitcaseRolling,
+                SFSymbol.figureWalkSuitcaseRollingCircle,
+                SFSymbol.figureWalkSuitcaseRollingCircleFill,
+                SFSymbol.filemenuAndPointerArrow,
+                SFSymbol.filemenuAndPointerArrowRtl,
+                SFSymbol.finder,
+                SFSymbol.flameGaugeOpen,
+                SFSymbol.fuelpumpThermometer,
+                SFSymbol.fuelpumpThermometerFill,
+                SFSymbol.gaugeChartLefthalfRighthalf,
+                SFSymbol.gaugeChartLeftthirdTopthirdRightthird,
+                SFSymbol.gaugeOpen,
+                SFSymbol.gaugeOpenRighthalfDottedWithNeedleAndArrowTriangleheadBackward,
+                SFSymbol.globeBadgeClock,
+                SFSymbol.globeBadgeClockFill,
+                SFSymbol.globeFill,
+                SFSymbol.graph2d,
+                SFSymbol.graph3d,
+                SFSymbol.guidepointHorizontal,
+                SFSymbol.guidepointVerticalArrowtriangleForward,
+                SFSymbol.guidepointVerticalNumbers,
+                SFSymbol.handThumbsdownFilledHandThumbsup,
+                SFSymbol.handThumbsdownHandThumbsup,
+                SFSymbol.handThumbsdownHandThumbsupFill,
+                SFSymbol.handThumbsdownHandThumbsupFilled,
+                SFSymbol.handbagSensorTagRadiowavesLeftAndRight,
+                SFSymbol.handbagSensorTagRadiowavesLeftAndRightFill,
+                SFSymbol.headphonesOverEar,
+                SFSymbol.headphonesSensorTagRadiowavesLeftAndRight,
+                SFSymbol.headphonesSensorTagRadiowavesLeftAndRightFill,
+                SFSymbol.heartBadgeBolt,
+                SFSymbol.heartBadgeBoltFill,
+                SFSymbol.heartBadgeBoltSlash,
+                SFSymbol.heartBadgeBoltSlashFill,
+                SFSymbol.heartGaugeOpen,
+                SFSymbol.heatWavesCircle,
+                SFSymbol.heatWavesCircleFill,
+                SFSymbol.heatWavesGaugeOpen,
+                SFSymbol.highlighterBadgeEllipsis,
+                SFSymbol.homepodBadgeCheckmark,
+                SFSymbol.homepodBadgeCheckmarkFill,
+                SFSymbol.homepodBadgeCheckmarkFillRtl,
+                SFSymbol.homepodBadgeCheckmarkRtl,
+                SFSymbol.homepodMiniAndAppletv,
+                SFSymbol.homepodMiniAndAppletvFill,
+                SFSymbol.homepodMiniAndAppletvFillRtl,
+                SFSymbol.homepodMiniAndAppletvRtl,
+                SFSymbol.homepodMiniBadgeCheckmark,
+                SFSymbol.homepodMiniBadgeCheckmarkFill,
+                SFSymbol.homepodMiniBadgeCheckmarkFillRtl,
+                SFSymbol.homepodMiniBadgeCheckmarkRtl,
+                SFSymbol.hourglassBadgeLock,
+                SFSymbol.humidifierAndEllipsis,
+                SFSymbol.humidifierAndEllipsisFill,
+                SFSymbol.icloudDashed,
+                SFSymbol.insetFilledBottomleadingBottomtrailingRectangle,
+                SFSymbol.insetFilledBottomleftBottomrightRectangle,
+                SFSymbol.insetFilledCircleSlash,
+                SFSymbol.insetFilledLeftthirdMiddlethirdRightthirdRectangle,
+                SFSymbol.insetFilledPano,
+                SFSymbol.insetFilledRectangleAndPointerArrow,
+                SFSymbol.insetFilledTopthirdMiddlethirdBottomthirdRectangle,
+                SFSymbol.ipadBadgeCheckmark,
+                SFSymbol.ipadGen1CropHomebuttonCircle,
+                SFSymbol.ipadGen1Sizes,
+                SFSymbol.ipadGen2Sizes,
+                SFSymbol.ipadLandscapeAndApplewatch,
+                SFSymbol.ipadLandscapeAndIpod,
+                SFSymbol.iphoneAndIpod,
+                SFSymbol.iphoneAndVisionPro,
+                SFSymbol.iphoneBadgeCheckmark,
+                SFSymbol.iphoneGen1CropHomebuttonCircle,
+                SFSymbol.iphoneGen1Sizes,
+                SFSymbol.iphoneGen2Sizes,
+                SFSymbol.iphoneGen3Sizes,
+                SFSymbol.iphonePatternDiagonalline,
+                SFSymbol.iphonePatternDiagonallineOnRectanglePortraitDashed,
+                SFSymbol.ipodAndApplewatch,
+                SFSymbol.ipodAndVisionPro,
+                SFSymbol.jacketCircle,
+                SFSymbol.jacketCircleFill,
+                SFSymbol.jacketSensorTagRadiowavesLeftAndRight,
+                SFSymbol.jacketSensorTagRadiowavesLeftAndRightFill,
+                SFSymbol.keyCircle,
+                SFSymbol.keyCircleFill,
+                SFSymbol.keySensorTagRadiowavesLeftAndRight,
+                SFSymbol.keySensorTagRadiowavesLeftAndRightFill,
+                SFSymbol.keyShield,
+                SFSymbol.keyShieldFill,
+                SFSymbol.laptopcomputerBadgeCheckmark,
+                SFSymbol.lineDiagonalTriangleheadUpRight,
+                SFSymbol.lineDiagonalTriangleheadUpRightLeftDown,
+                SFSymbol.linesMeasurementHorizontalAlignedBottom,
+                SFSymbol.listBulletBadgeEllipsis,
+                SFSymbol.listDashBadgeEllipsis,
+                SFSymbol.listDashHeaderRectangleFill,
+                SFSymbol.listNumberBadgeEllipsis,
+                SFSymbol.listNumberBadgeEllipsisHi,
+                SFSymbol.listNumberBadgeEllipsisRtl,
+                SFSymbol.lockBadgeCheckmark,
+                SFSymbol.lockBadgeCheckmarkFill,
+                SFSymbol.lockBadgeXmark,
+                SFSymbol.lockBadgeXmarkFill,
+                SFSymbol.lockHeart,
+                SFSymbol.lockHeartFill,
+                SFSymbol.lockRectangleDashed,
+                SFSymbol.macbookAndIpod,
+                SFSymbol.macbookBadgeCheckmark,
+                SFSymbol.macbookBadgeShieldCheckmark,
+                SFSymbol.macbookGen1Sizes,
+                SFSymbol.macbookGen2Sizes,
+                SFSymbol.macbookSizes,
+                SFSymbol.macbookTrianglebadgeExclamationmark,
+                SFSymbol.macminiBadgeCheckmark,
+                SFSymbol.macminiBadgeCheckmarkFill,
+                SFSymbol.macproGen3BadgeCkeckmark,
+                SFSymbol.macproGen3BadgeCkeckmarkFill,
+                SFSymbol.macstudioBadgeCheckmark,
+                SFSymbol.macstudioBadgeCheckmarkFill,
+                SFSymbol.macwindowAndPointerArrow,
+                SFSymbol.macwindowAndPointerArrowRtl,
+                SFSymbol.macwindowStack,
+                SFSymbol.minusArrowTriangleheadClockwise,
+                SFSymbol.minusPlusLinesMeasurementHorizontalAlignedBottom,
+                SFSymbol.musicNoteArrowTriangleheadClockwise,
+                SFSymbol.musicNoteSlash,
+                SFSymbol.musicNoteSquareStack,
+                SFSymbol.musicNoteSquareStackFill,
+                SFSymbol.musicPages,
+                SFSymbol.musicPagesFill,
+                SFSymbol.numbersBn,
+                SFSymbol.numbersGu,
+                SFSymbol.numbersKm,
+                SFSymbol.numbersKn,
+                SFSymbol.numbersMl,
+                SFSymbol.numbersMni,
+                SFSymbol.numbersMr,
+                SFSymbol.numbersMy,
+                SFSymbol.numbersOr,
+                SFSymbol.numbersPa,
+                SFSymbol.numbersSat,
+                SFSymbol.numbersTe,
+                SFSymbol.padHeader,
+                SFSymbol.paintBucketClassic,
+                SFSymbol.person2Badge,
+                SFSymbol.person2BadgeFill,
+                SFSymbol.person2Shield,
+                SFSymbol.person2ShieldFill,
+                SFSymbol.personCropCircleBadgeEllipsis,
+                SFSymbol.personCropCircleBadgeEllipsisFill,
+                SFSymbol.personSpatialaudio3dFill,
+                SFSymbol.personSpatialaudioFill,
+                SFSymbol.personSpatialaudioStereo3dFill,
+                SFSymbol.personSpatialaudioStereoFill,
+                SFSymbol.personTextRectangleTrianglebadgeExclamationmark,
+                SFSymbol.personTextRectangleTrianglebadgeExclamationmarkFill,
+                SFSymbol.petCarrier,
+                SFSymbol.petCarrierCircle,
+                SFSymbol.petCarrierCircleFill,
+                SFSymbol.petCarrierFill,
+                SFSymbol.phonePause,
+                SFSymbol.phonePauseCircle,
+                SFSymbol.phonePauseCircleFill,
+                SFSymbol.phonePauseFill,
+                SFSymbol.playDiamond,
+                SFSymbol.playDiamondFill,
+                SFSymbol.plusArrowTriangleheadCounterclockwise,
+                SFSymbol.plusCapsule,
+                SFSymbol.plusCapsuleFill,
+                SFSymbol.pointerArrow,
+                SFSymbol.pointerArrowAndSquareOnSquareDashed,
+                SFSymbol.pointerArrowClick,
+                SFSymbol.pointerArrowClick2,
+                SFSymbol.pointerArrowClickBadgeClock,
+                SFSymbol.pointerArrowMotionlines,
+                SFSymbol.pointerArrowMotionlinesClick,
+                SFSymbol.pointerArrowRays,
+                SFSymbol.pointerArrowSlash,
+                SFSymbol.pointerArrowSlashSquare,
+                SFSymbol.pointerArrowSlashSquareFill,
+                SFSymbol.pointerArrowSquare,
+                SFSymbol.pointerArrowSquareFill,
+                SFSymbol.rectangle3GroupDashed,
+                SFSymbol.rectangleGrid1x3,
+                SFSymbol.rectangleGrid1x3Fill,
+                SFSymbol.rectangleStackSlash,
+                SFSymbol.rectangleStackSlashFill,
+                SFSymbol.repeatBadgeXmark,
+                SFSymbol.ring,
+                SFSymbol.ringDashed,
+                SFSymbol.sensorRadiowavesLeftAndRight,
+                SFSymbol.sensorRadiowavesLeftAndRightFill,
+                SFSymbol.serviceDog,
+                SFSymbol.serviceDogFill,
+                SFSymbol.siri,
+                SFSymbol.sliderHorizontalBelowCircleLefthalfFilled,
+                SFSymbol.sliderHorizontalBelowCircleLefthalfFilledInverse,
+                SFSymbol.sliderHorizontalBelowCircleRighthalfFilled,
+                SFSymbol.sliderHorizontalBelowCircleRighthalfFilledInverse,
+                SFSymbol.sparkleTextClipboard,
+                SFSymbol.sparkleTextClipboardFill,
+                SFSymbol.sparkles2,
+                SFSymbol.spatialCapture,
+                SFSymbol.spatialCaptureFill,
+                SFSymbol.spatialCaptureOnHexagon,
+                SFSymbol.spatialCaptureOnHexagonFill,
+                SFSymbol.spatialCaptureSlash,
+                SFSymbol.spatialCaptureSlashFill,
+                SFSymbol.speakerTrianglebadgeExclamationmark,
+                SFSymbol.speakerTrianglebadgeExclamationmarkFill,
+                SFSymbol.steeringwheelBadgeLock,
+                SFSymbol.strikethroughDouble,
+                SFSymbol.strokeLineDiagonal,
+                SFSymbol.strokeLineDiagonalSlash,
+                SFSymbol.suitcaseCircle,
+                SFSymbol.suitcaseCircleFill,
+                SFSymbol.suitcaseRollingAndFilm,
+                SFSymbol.suitcaseRollingAndFilmCircle,
+                SFSymbol.suitcaseRollingAndFilmCircleFill,
+                SFSymbol.suitcaseRollingAndFilmFill,
+                SFSymbol.suitcaseRollingAndSuitcase,
+                SFSymbol.suitcaseRollingAndSuitcaseCircle,
+                SFSymbol.suitcaseRollingAndSuitcaseCircleFill,
+                SFSymbol.suitcaseRollingAndSuitcaseFill,
+                SFSymbol.suitcaseRollingCircle,
+                SFSymbol.suitcaseRollingCircleFill,
+                SFSymbol.textBelowFolder,
+                SFSymbol.textBelowFolderFill,
+                SFSymbol.textPadHeader,
+                SFSymbol.textPadHeaderBadgeClock,
+                SFSymbol.textPadHeaderBadgeClockRtl,
+                SFSymbol.textPadHeaderBadgePlus,
+                SFSymbol.textRectangle,
+                SFSymbol.textRectangleFill,
+                SFSymbol.textSquareFilled,
+                SFSymbol.textformatNumbersMr,
+                SFSymbol.thermometerAndEllipsis,
+                SFSymbol.thermometerGaugeOpen,
+                SFSymbol.thermometerTirepressure,
+                SFSymbol.thermometerVariableBadgeClock,
+                SFSymbol.thermometerVariableBadgePlay,
+                SFSymbol.tramCard,
+                SFSymbol.tramCardFill,
+                SFSymbol.trayBadge,
+                SFSymbol.trayBadgeFill,
+                SFSymbol.umbrellaCircle,
+                SFSymbol.umbrellaCircleFill,
+                SFSymbol.umbrellaGaugeOpen,
+                SFSymbol.umbrellaSensorTagRadiowavesLeftAndRight,
+                SFSymbol.umbrellaSensorTagRadiowavesLeftAndRightFill,
+                SFSymbol.underlineDouble,
+                SFSymbol.ventHeatWavesUpward,
+                SFSymbol.visionProBadgeCheckmark,
+                SFSymbol.visionProBadgeCheckmarkFill,
+                SFSymbol.walletSensorTagRadiowavesLeftAndRight,
+                SFSymbol.walletSensorTagRadiowavesLeftAndRightFill,
+                SFSymbol.waveformLow,
+                SFSymbol.waveformMid,
+                SFSymbol.xmarkCircleBadgeAirplane,
+                SFSymbol.xmarkCircleBadgeAirplaneFill
         ])
     }
     
