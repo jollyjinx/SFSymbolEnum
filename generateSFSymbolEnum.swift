@@ -50,7 +50,6 @@ private enum MetadataError: Error, LocalizedError {
 
 private enum OutputMode {
     case swift
-    case swiftResource
     case objectiveCHeader
     case objectiveCImplementation
 }
@@ -69,10 +68,6 @@ private let swiftKeywords: Set<String> = [
 ]
 
 private func parseOutputMode(arguments: [String]) -> OutputMode {
-    if arguments.contains("--resource") {
-        return .swiftResource
-    }
-
     if arguments.contains("--objc-impl") {
         return .objectiveCImplementation
     }
@@ -169,24 +164,45 @@ private func generateSwiftSource(entries: [SymbolEntry], releases: [ReleaseDate:
     }
 
     lines.append("}")
+    lines.append("")
+    lines.append("extension SFSymbol: CaseIterable {")
+    lines.append("    public static var allCases: [SFSymbol] { availableSymbols }")
+    lines.append("")
+    lines.append("    private static let availableSymbols: [SFSymbol] = makeAllCases()")
+    lines.append("")
+    lines.append("    @inline(never)")
+    lines.append("    @_optimize(none)")
+    lines.append("    private static func makeAllCases() -> [SFSymbol] {")
+    lines.append("        var allCases: [SFSymbol] = []")
+    lines.append("        allCases.reserveCapacity(\(entries.count))")
+    lines.append("")
 
-    return lines.joined(separator: "\n")
-}
+    var currentReleaseDate: ReleaseDate?
+    for entry in entries {
+        if entry.releaseDate != currentReleaseDate {
+            if currentReleaseDate != nil {
+                lines.append("        }")
+                lines.append("")
+            }
 
-private func generateSwiftResource(entries: [SymbolEntry], releases: [ReleaseDate: ReleaseVersions]) -> String {
-    entries.map { entry in
-        let versions = releases[entry.releaseDate]!
-        let orderedPlatforms = preferredPlatformOrder.filter { versions[$0] != nil }
-        let remainingPlatforms = versions.keys
-            .filter { !preferredPlatformOrder.contains($0) }
-            .sorted()
-        let fields = [entry.name] + (orderedPlatforms + remainingPlatforms).compactMap { platform in
-            versions[platform].map { "\(platform)=\($0)" }
+            let availability = releaseAvailability(from: releases[entry.releaseDate]!)
+            lines.append("        if #\(availability) {")
+            currentReleaseDate = entry.releaseDate
         }
 
-        return fields.joined(separator: "\t")
+        lines.append("            allCases.append(.\(entry.swiftIdentifier))")
     }
-    .joined(separator: "\n")
+
+    if currentReleaseDate != nil {
+        lines.append("        }")
+    }
+
+    lines.append("")
+    lines.append("        return allCases")
+    lines.append("    }")
+    lines.append("}")
+
+    return lines.joined(separator: "\n")
 }
 
 private func generateObjectiveCHeader(entries: [SymbolEntry], releases: [ReleaseDate: ReleaseVersions]) -> String {
@@ -306,8 +322,6 @@ do {
     switch mode {
     case .swift:
         print(generateSwiftSource(entries: entries, releases: releases))
-    case .swiftResource:
-        print(generateSwiftResource(entries: entries, releases: releases))
     case .objectiveCHeader:
         print(generateObjectiveCHeader(entries: entries, releases: releases))
     case .objectiveCImplementation:

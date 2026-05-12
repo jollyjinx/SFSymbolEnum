@@ -14,7 +14,7 @@ let package = Package(
         .library(name: "SFSymbolEnum", targets: ["SFSymbolEnum"])
     ],
     targets: [
-        .target(name: "SFSymbolEnum", resources: [.process("Resources")]),
+        .target(name: "SFSymbolEnum"),
         .testTarget(
             name: "SFSymbolEnumTests",
             dependencies: ["SFSymbolEnum"]

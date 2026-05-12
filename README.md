@@ -79,4 +79,4 @@ public extension SFSymbol {
 }
 ```
 
-`SFSymbol.allCases` is backed by a generated resource file, so the compiler does not need to type-check a giant array of every symbol.
+`SFSymbol.allCases` is generated as Swift append code instead of a giant enum or array literal, so the compiler does less type-checking work while the package remains fully source-generated.
