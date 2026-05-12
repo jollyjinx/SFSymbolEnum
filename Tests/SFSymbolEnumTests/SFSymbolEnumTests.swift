@@ -7,6 +7,16 @@ final class SFSymbolEnumTests: XCTestCase {
         XCTAssertEqual(SFSymbol.person.name, "person")
     }
 
+    func testRawValueInitializerValidatesKnownSymbols() {
+        XCTAssertEqual(SFSymbol(rawValue: "person"), .person)
+        XCTAssertNil(SFSymbol(rawValue: "not.a.real.symbol"))
+    }
+
+    func testAllCasesContainsAvailableSymbols() {
+        XCTAssertFalse(SFSymbol.allCases.isEmpty)
+        XCTAssertTrue(SFSymbol.allCases.contains(.person))
+    }
+
     @available(iOS 13.0, macOS 11.0, tvOS 13.0, visionOS 1.0, watchOS 6.0, *)
     func testImageConvenienceInitializersCompile() {
         let imageFromSystemName = Image(systemName: .person)

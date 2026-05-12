@@ -50,6 +50,7 @@ private enum MetadataError: Error, LocalizedError {
 
 private enum OutputMode {
     case swift
+    case swiftResource
     case objectiveCHeader
     case objectiveCImplementation
 }
@@ -68,6 +69,10 @@ private let swiftKeywords: Set<String> = [
 ]
 
 private func parseOutputMode(arguments: [String]) -> OutputMode {
+    if arguments.contains("--resource") {
+        return .swiftResource
+    }
+
     if arguments.contains("--objc-impl") {
         return .objectiveCImplementation
     }
@@ -155,51 +160,33 @@ private func generateSwiftSource(entries: [SymbolEntry], releases: [ReleaseDate:
         "// this file has been generated",
         "// you can recreate it using generateSFSymbolEnum.swift script",
         "",
-        "public enum SFSymbol: String, Sendable {"
+        "public extension SFSymbol {"
     ]
 
     for entry in entries {
         let availability = releaseAvailability(from: releases[entry.releaseDate]!)
-        lines.append("    @\(availability) case \(entry.swiftIdentifier) = \"\(entry.name)\"")
+        lines.append("    @\(availability) static let \(entry.swiftIdentifier) = SFSymbol(uncheckedRawValue: \"\(entry.name)\")")
     }
 
-    lines.append("}")
-    lines.append("")
-    lines.append("extension SFSymbol: CaseIterable {")
-    lines.append("    public static let allCases: [SFSymbol] = {")
-    lines.append("        var allCases: [SFSymbol] = []")
-
-    var currentReleaseDate: ReleaseDate?
-    for entry in entries {
-        if entry.releaseDate != currentReleaseDate {
-            if currentReleaseDate != nil {
-                lines.append("            ])")
-                lines.append("        }")
-                lines.append("")
-            }
-
-            let availability = releaseAvailability(from: releases[entry.releaseDate]!)
-            lines.append("        if #\(availability) {")
-            lines.append("            allCases.append(contentsOf: [")
-            lines.append("                .\(entry.swiftIdentifier)")
-            currentReleaseDate = entry.releaseDate
-        } else {
-            lines[lines.endIndex - 1] += ","
-            lines.append("                .\(entry.swiftIdentifier)")
-        }
-    }
-
-    if currentReleaseDate != nil {
-        lines.append("            ])")
-        lines.append("        }")
-    }
-
-    lines.append("")
-    lines.append("        return allCases")
-    lines.append("    }()")
     lines.append("}")
 
     return lines.joined(separator: "\n")
+}
+
+private func generateSwiftResource(entries: [SymbolEntry], releases: [ReleaseDate: ReleaseVersions]) -> String {
+    entries.map { entry in
+        let versions = releases[entry.releaseDate]!
+        let orderedPlatforms = preferredPlatformOrder.filter { versions[$0] != nil }
+        let remainingPlatforms = versions.keys
+            .filter { !preferredPlatformOrder.contains($0) }
+            .sorted()
+        let fields = [entry.name] + (orderedPlatforms + remainingPlatforms).compactMap { platform in
+            versions[platform].map { "\(platform)=\($0)" }
+        }
+
+        return fields.joined(separator: "\t")
+    }
+    .joined(separator: "\n")
 }
 
 private func generateObjectiveCHeader(entries: [SymbolEntry], releases: [ReleaseDate: ReleaseVersions]) -> String {
@@ -319,6 +306,8 @@ do {
     switch mode {
     case .swift:
         print(generateSwiftSource(entries: entries, releases: releases))
+    case .swiftResource:
+        print(generateSwiftResource(entries: entries, releases: releases))
     case .objectiveCHeader:
         print(generateObjectiveCHeader(entries: entries, releases: releases))
     case .objectiveCImplementation:
